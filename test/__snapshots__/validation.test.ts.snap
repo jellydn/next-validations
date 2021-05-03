@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Yoi Validation should create yoi resolve base on schema 1`] = `[Error: Does not support Joi validation yet!]`;
+
+exports[`Yup Validation should create yup resolve base on schema 1`] = `
+Object {
+  "validate": [Function],
+}
+`;
+
+exports[`Yup Validation should return false 1`] = `[ValidationError: age is a required field]`;

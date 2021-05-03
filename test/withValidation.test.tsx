@@ -10,6 +10,7 @@ describe('Custom API page', () => {
     });
 
     render();
+    // FIXME: fix integration test
     expect(screen.getByText('messages')).toBeInTheDocument();
   });
 });

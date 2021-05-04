@@ -6,6 +6,17 @@ Object {
 }
 `;
 
+exports[`FastestValidator Validation should return false 1`] = `
+Array [
+  Object {
+    "actual": undefined,
+    "field": "status",
+    "message": "The 'status' field is required.",
+    "type": "required",
+  },
+]
+`;
+
 exports[`Yoi Validation should create yoi resolve base on schema 1`] = `[Error: Does not support Joi validation yet!]`;
 
 exports[`Yup Validation should create yup resolve base on schema 1`] = `

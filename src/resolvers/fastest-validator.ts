@@ -5,6 +5,13 @@ export function fastestValidatorResolver<T>(schema: T) {
   const check = validator.compile(schema);
 
   return {
-    validate: (data: unknown): true | ValidationError[] => check(data),
+    validate: (data: unknown): true | ValidationError[] => {
+      const result = check(data);
+      if (Array.isArray(result)) {
+        throw result;
+      }
+
+      return result;
+    },
   };
 }

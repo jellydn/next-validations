@@ -24,6 +24,13 @@
 yarn add next-validations
 ```
 
+## Features
+
+- [x] Support [Yup](https://github.com/jquense/yup) validation
+- [ ] Support [Joi](https://github.com/sideway/joi) validation
+- [ ] Support [Fastest-Validator](https://github.com/icebob/fastest-validator) validation
+- ...
+
 ## Usage
 
 ### Validate custom API endpoint with Yup

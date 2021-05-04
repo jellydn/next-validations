@@ -7,9 +7,9 @@
 
 > NextJS API Validations
 
-### 🏠 [Homepage](https://productsway.com/)
+### 🏠 [Homepage](https://next-validations.productsway.com/)
 
-### ✨ [Demo](https://next-validations.productsway.com/)
+### ✨ [Demo](https://next-validations-demo.productsway.com/)
 
 ![https://gyazo.com/bf4582f7b7aa0f0ae67c4cc337c4e974.gif](https://gyazo.com/bf4582f7b7aa0f0ae67c4cc337c4e974.gif)
 
@@ -27,9 +27,9 @@ yarn add next-validations
 ## Features
 
 - [x] Support [Yup](https://github.com/jquense/yup) validation
-- [ ] Support [Joi](https://github.com/sideway/joi) validation
 - [ ] Support [Fastest-Validator](https://github.com/icebob/fastest-validator) validation
-- ...
+- [ ] Support [Joi](https://github.com/sideway/joi) validation
+- [ ] ...
 
 ## Usage
 

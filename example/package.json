@@ -9,9 +9,13 @@
   },
   "dependencies": {
     "next": "10.2.0",
+    "next-validations": "file:..",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "yup": "0.32.9",
-    "next-validations": "file:.."
+    "yup": "0.32.9"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.4",
+    "typescript": "^4.2.4"
   }
 }

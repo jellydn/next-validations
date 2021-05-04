@@ -20,7 +20,7 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "vercel-build": "npx typedoc src/index.ts",
-    "example-build": "cd example && yarn add next-validations && yarn build"
+    "example-build": "cd example && rm -rf cypress && yarn add next-validations && yarn build"
   },
   "peerDependencies": {
     "next": ">=9"

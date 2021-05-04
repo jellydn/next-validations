@@ -1,4 +1,5 @@
 import * as yup from 'yup';
+
 import { createResolver } from '../src/validation';
 
 describe('Yup Validation', () => {
@@ -30,7 +31,7 @@ describe('Yup Validation', () => {
   });
 
   it('should return false', () => {
-    let schema = yup.object().shape({
+    const schema = yup.object().shape({
       name: yup.string().required(),
       age: yup
         .number()
@@ -47,6 +48,45 @@ describe('Yup Validation', () => {
     try {
       resolver.validate({
         name: 'jimmy',
+      });
+    } catch (error) {
+      expect(error).toMatchSnapshot();
+    }
+  });
+});
+
+describe('FastestValidator Validation', () => {
+  it('should create resolve base on schema', () => {
+    const resolver = createResolver('FastestValidator', {});
+    expect(resolver).toMatchSnapshot();
+  });
+
+  it('should return true', () => {
+    const schema = {
+      id: { type: 'number', positive: true, integer: true },
+      name: { type: 'string', min: 3, max: 255 },
+      status: 'boolean', // short-hand def
+    };
+    const resolver = createResolver('FastestValidator', schema);
+    const isValid = resolver.validate({
+      id: 5,
+      name: 'John',
+      status: true,
+    });
+    expect(isValid).toBeTruthy();
+  });
+
+  it('should return false', () => {
+    const schema = {
+      id: { type: 'number', positive: true, integer: true },
+      name: { type: 'string', min: 3, max: 255 },
+      status: 'boolean', // short-hand def
+    };
+    const resolver = createResolver('FastestValidator', schema);
+    try {
+      resolver.validate({
+        id: 2,
+        name: 'Adam',
       });
     } catch (error) {
       expect(error).toMatchSnapshot();

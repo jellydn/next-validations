@@ -55,6 +55,7 @@
     "@types/jest": "26.0.23",
     "@types/react": "17.0.4",
     "@types/react-dom": "17.0.3",
+    "fastest-validator": "^1.10.1",
     "husky": "6.0.0",
     "jest": "26.6.3",
     "next": "10.2.0",

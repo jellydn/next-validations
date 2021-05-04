@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -39,6 +41,12 @@ export default function Home() {
               Discover and deploy boilerplate example next-validation projects.
             </p>
           </a>
+          <Link href="/playground">
+            <a className={styles.card}>
+              <h2>API Playground &rarr;</h2>
+              <p>Swagger UI</p>
+            </a>
+          </Link>
         </div>
       </main>
 

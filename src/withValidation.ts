@@ -15,7 +15,9 @@ export function withValidation({
   schema,
   mode = 'query',
 }: ValidationHoF) {
-  return (handler: (req: NextApiRequest, res: NextApiResponse<any>) => any) => {
+  return (
+    handler?: (req: NextApiRequest, res: NextApiResponse<any>) => any
+  ) => {
     return async (
       req: NextApiRequest,
       res: NextApiResponse,
@@ -30,7 +32,9 @@ export function withValidation({
           return next();
         }
 
-        return handler(req, res);
+        if (handler) return handler(req, res);
+
+        res.status(404).end();
       } catch (error) {
         res.status(400).send(error);
       }

@@ -28,7 +28,7 @@ yarn add next-validations
 
 - [x] Support [Yup](https://github.com/jquense/yup) validation
 - [x] Support [Fastest-Validator](https://github.com/icebob/fastest-validator) validation
-- [ ] Support [Joi](https://github.com/sideway/joi) validation
+- [x] Support [Joi](https://github.com/sideway/joi) validation
 - [ ] ...
 
 ## Usage
@@ -88,6 +88,40 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
 };
 
 export default validate(handler);
+```
+
+### Validate custom API endpoint with joi
+
+```sh
+yarn add joi next-connect next-validations
+```
+
+```typescript
+import { NextApiRequest, NextApiResponse } from 'next';
+
+import Joi from 'joi';
+import connect from 'next-connect';
+import { withValidation } from 'next-validations';
+
+const schema = Joi.object({
+  dob: Joi.date().iso(),
+  email: Joi.string()
+    .email()
+    .required(),
+  name: Joi.string().required(),
+});
+
+const validate = withValidation({
+  schema,
+  type: 'Joi',
+  mode: 'body',
+});
+
+const handler = (req: NextApiRequest, res: NextApiResponse) => {
+  res.status(200).json(req.body);
+};
+
+export default connect().post(validate(), handler);
 ```
 
 ## Run tests

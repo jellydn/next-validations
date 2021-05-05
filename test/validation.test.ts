@@ -1,4 +1,5 @@
 import * as yup from 'yup';
+import Joi from 'joi';
 
 import { createResolver } from '../src/validation';
 
@@ -98,6 +99,40 @@ describe('Yoi Validation', () => {
   it('should create yoi resolve base on schema', () => {
     try {
       createResolver('Joi', {});
+    } catch (error) {
+      expect(error).toMatchSnapshot();
+    }
+  });
+
+  it('should return true', () => {
+    const schema = Joi.object({
+      dob: Joi.date().iso(),
+      email: Joi.string()
+        .email()
+        .required(),
+      name: Joi.string().required(),
+    });
+
+    const resolver = createResolver('Joi', schema);
+    const isValid = resolver.validate({
+      name: 'Huynh Duc Dung',
+      email: 'dung@productsway.com',
+      dob: 1988,
+    });
+    expect(isValid).toBeTruthy();
+  });
+
+  it('should return false', () => {
+    const schema = Joi.object({
+      dob: Joi.date().iso(),
+      email: Joi.string()
+        .email()
+        .required(),
+      name: Joi.string().required(),
+    });
+    const resolver = createResolver('Joi', schema);
+    try {
+      resolver.validate({});
     } catch (error) {
       expect(error).toMatchSnapshot();
     }

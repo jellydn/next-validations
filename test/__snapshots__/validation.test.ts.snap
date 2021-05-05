@@ -17,7 +17,7 @@ Array [
 ]
 `;
 
-exports[`Yoi Validation should create yoi resolve base on schema 1`] = `[Error: Does not support Joi validation yet!]`;
+exports[`Yoi Validation should return false 1`] = `[ValidationError: "email" is required]`;
 
 exports[`Yup Validation should create yup resolve base on schema 1`] = `
 Object {

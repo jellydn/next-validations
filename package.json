@@ -37,7 +37,25 @@
   },
   "name": "next-validations",
   "author": "Huynh Duc Dung",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jellydn/next-validations"
+  },
+  "keywords": [
+    "nextjs",
+    "validation",
+    "next-validation",
+    "yup",
+    "joi",
+    "fastest-validator"
+  ],
   "module": "dist/next-validations.esm.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/next-validations.esm.js"
+    }
+  },
   "size-limit": [
     {
       "path": "dist/next-validations.cjs.production.min.js",
@@ -50,6 +68,7 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "4.10.2",
+    "@skypack/package-check": "^0.2.2",
     "@testing-library/jest-dom": "5.12.0",
     "@testing-library/react": "11.2.6",
     "@types/jest": "26.0.23",

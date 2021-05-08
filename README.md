@@ -1,13 +1,13 @@
 # Welcome to next-validations 👋
 
-![Version](https://img.shields.io/badge/version-0.1.5-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.1.6-blue.svg?cacheSeconds=2592000)
 ![Prerequisite](https://img.shields.io/badge/node-%3E%3D10-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
 > NextJS API Validations
 
-## 🏠 [Homepage](https://next-validations.productsway.com/)
+## 🏠 [Homepage](https://github.com/jellydn/next-validations)
 
 ### ✨ [Demo](https://next-validations-demo.productsway.com/)
 

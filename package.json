@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8-0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -22,10 +22,10 @@
     "vercel-build": "npx typedoc src/index.ts"
   },
   "peerDependencies": {
-    "next": ">=9",
+    "fastest-validator": "*",
     "joi": "*",
-    "yup": "*",
-    "fastest-validator": "*"
+    "next": ">=9",
+    "yup": "*"
   },
   "husky": {
     "hooks": {

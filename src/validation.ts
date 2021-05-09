@@ -17,8 +17,8 @@ export function createResolver(type: SCHEMA_TYPE, schema: any) {
   switch (type) {
     case 'Yup':
       return yupResolver(schema);
-    case 'FastestValidator':
-      return fastestValidatorResolver(schema);
+    // case 'FastestValidator':
+    //   return fastestValidatorResolver(schema);
     case 'Joi':
       return joiResolver(schema);
 

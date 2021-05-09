@@ -22,7 +22,10 @@
     "vercel-build": "npx typedoc src/index.ts"
   },
   "peerDependencies": {
-    "next": ">=9"
+    "next": ">=9",
+    "joi": "*",
+    "yup": "*",
+    "fastest-validator": "*"
   },
   "husky": {
     "hooks": {

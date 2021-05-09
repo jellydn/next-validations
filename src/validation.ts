@@ -1,5 +1,5 @@
 import { yupResolver } from './resolvers/yup';
-// import { fastestValidatorResolver } from './resolvers/fastest-validator';
+import { fastestValidatorResolver } from './resolvers/fastest-validator';
 import { joiResolver } from './resolvers/joi';
 
 export type SCHEMA_TYPE =
@@ -17,8 +17,8 @@ export function createResolver(type: SCHEMA_TYPE, schema: any) {
   switch (type) {
     case 'Yup':
       return yupResolver(schema);
-    // case 'FastestValidator':
-    //   return fastestValidatorResolver(schema);
+    case 'FastestValidator':
+      return fastestValidatorResolver(schema);
     case 'Joi':
       return joiResolver(schema);
 

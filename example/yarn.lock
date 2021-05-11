@@ -1415,10 +1415,10 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fastest-validator@1.10.1:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-1.10.1.tgz#b8cff07f80940206f929f8a0484ecf77d741c4ff"
-  integrity sha512-nhQP8JI16Ltml3kFKCEckKzxmPDYXZw0r+zF83Kf5qcJmA2Hoo4ORSo+SduxNiIbKpSS0i+3mV/UPhu8Po7Qkw==
+fastest-validator@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-1.11.0.tgz#7716f4c47b8c78205ca7dbdacca223c39227261e"
+  integrity sha512-iF4Gj2Viz2T8D3aLcRt5doTDwCJYBe9LgNv36j2lpoGoKvOroGKxG2oOGWcHoxGREsMVlNDrbUQOU9fDMmO7jw==
 
 fault@^1.0.0:
   version "1.0.4"
@@ -2414,7 +2414,7 @@ next-tick@~1.0.0:
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
 "next-validations@file:..":
-  version "0.1.4"
+  version "0.1.8"
 
 next@10.2.0:
   version "10.2.0"

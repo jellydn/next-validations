@@ -11,10 +11,12 @@ context('Hello API Route', () => {
     cy.request({
       method: 'POST',
       url: '/api/user',
+      body: {
+        username: 'jelly',
+      },
       failOnStatusCode: false,
     }).then(response => {
       expect(response.status).equal(400);
-      expect(response.body.message).equal('username is a required field');
     });
   });
 
@@ -22,9 +24,9 @@ context('Hello API Route', () => {
     cy.request({
       method: 'POST',
       url: '/api/user',
-      body: JSON.stringify({
+      body: {
         username: 'jellydn',
-      }),
+      },
     }).then(response => {
       expect(response.status).equal(200);
       expect(response.body.username).equal('jellydn');

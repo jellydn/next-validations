@@ -1,5 +1,6 @@
 import * as yup from 'yup';
 import Joi from 'joi';
+import { z } from 'zod';
 
 import { createResolver } from '../src/validation';
 
@@ -133,6 +134,42 @@ describe('Yoi Validation', () => {
     const resolver = createResolver('Joi', schema);
     try {
       resolver.validate({});
+    } catch (error) {
+      expect(error).toMatchSnapshot();
+    }
+  });
+});
+
+describe('Zod Validation', () => {
+  it('should create zod resolve base on schema', () => {
+    try {
+      createResolver('Zod', {});
+    } catch (error) {
+      expect(error).toMatchSnapshot();
+    }
+  });
+
+  it('should return true', () => {
+    const schema = z.object({
+      username: z.string(),
+    });
+
+    const resolver = createResolver('Zod', schema);
+    const isValid = resolver.validate({
+      username: 'jellydn',
+    });
+    expect(isValid).toBeTruthy();
+  });
+
+  it('should return false', () => {
+    const schema = z.object({
+      username: z.string().min(8),
+    });
+    const resolver = createResolver('Zod', schema);
+    try {
+      resolver.validate({
+        username: 'jellydn',
+      });
     } catch (error) {
       expect(error).toMatchSnapshot();
     }

@@ -1,12 +1,13 @@
 import { yupResolver } from './resolvers/yup';
 import { fastestValidatorResolver } from './resolvers/fastest-validator';
 import { joiResolver } from './resolvers/joi';
+import { zodResolver } from './resolvers/zod';
 
 export type SCHEMA_TYPE =
   | 'Yup'
   | 'FastestValidator'
   | 'Joi'
-  | 'Zod' // TODO add Zod validation
+  | 'Zod'
   | 'SuperStruct' // TODO SuperStruct SuperStruct validation
   | 'Vest' // TODO SuperStruct Zod validation
   | 'ClassValidator' // TODO SuperStruct ClassValidator validation
@@ -21,6 +22,8 @@ export function createResolver(type: SCHEMA_TYPE, schema: any) {
       return fastestValidatorResolver(schema);
     case 'Joi':
       return joiResolver(schema);
+    case 'Zod':
+      return zodResolver(schema);
 
     default:
       throw new Error(`Does not support ${type} validation yet!`);

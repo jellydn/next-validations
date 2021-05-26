@@ -26,3 +26,18 @@ Object {
 `;
 
 exports[`Yup Validation should return false 1`] = `[ValidationError: age is a required field]`;
+
+exports[`Zod Validation should return false 1`] = `
+[Error: [
+  {
+    "code": "too_small",
+    "minimum": 8,
+    "type": "string",
+    "inclusive": true,
+    "message": "Should be at least 8 characters",
+    "path": [
+      "username"
+    ]
+  }
+]]
+`;

@@ -11,7 +11,7 @@
   "dependencies": {
     "fastest-validator": "1.11.0",
     "joi": "17.4.0",
-    "next": "11.0.0",
+    "next": "11.0.1",
     "next-connect": "0.10.1",
     "next-validations": "file:..",
     "react": "17.0.2",

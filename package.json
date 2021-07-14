@@ -85,7 +85,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "size-limit": "5.0.1",
-    "standard-version": "9.3.0",
+    "standard-version": "9.3.1",
     "tsdx": "0.14.1",
     "tslib": "2.3.0",
     "typedoc": "0.21.4",

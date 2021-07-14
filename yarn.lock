@@ -4780,10 +4780,10 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fastest-validator@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-1.11.0.tgz#7716f4c47b8c78205ca7dbdacca223c39227261e"
-  integrity sha512-iF4Gj2Viz2T8D3aLcRt5doTDwCJYBe9LgNv36j2lpoGoKvOroGKxG2oOGWcHoxGREsMVlNDrbUQOU9fDMmO7jw==
+fastest-validator@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/fastest-validator/-/fastest-validator-1.11.1.tgz#c0e158046294981834fcb309a6ef4aa70f521297"
+  integrity sha512-y0pXBCgGfY3mqbBL9sn2LtAxfJICyOr5cuOnCjyiKg4VoXVmDaLBDwnnj4QC1pSY5B4upln5k8RyLszlLXzXlw==
 
 fastq@^1.6.0:
   version "1.11.0"

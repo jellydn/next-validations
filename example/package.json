@@ -9,7 +9,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "fastest-validator": "1.11.0",
+    "fastest-validator": "1.11.1",
     "joi": "17.4.1",
     "next": "11.0.1",
     "next-connect": "0.10.1",

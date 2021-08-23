@@ -11313,7 +11313,7 @@ yup@0.32.9:
     property-expr "^2.0.4"
     toposort "^2.0.2"
 
-zod@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.7.2.tgz#b02505f8314aa99c05ef8a7e55464680f9a515f6"
-  integrity sha512-JhYYcj+TS/a0+3kqxnbmuXMVtA+QkJUPu91beQTo1Y3xA891pHeMPQgVOSu97FdzAd056Yp87lpEi8Xvmd3zhw==
+zod@3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.8.1.tgz#b1173c3b4ac2a9e06d302ff580e3b41902766b9f"
+  integrity sha512-u4Uodl7dLh8nXZwqXL1SM5FAl5b4lXYHOxMUVb9lqhlEAZhA2znX+0oW480m0emGFMxpoRHzUncAqRkc4h8ZJA==

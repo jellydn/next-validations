@@ -77,7 +77,7 @@
     "@types/jest": "27.0.2",
     "@types/react": "17.0.33",
     "@types/react-dom": "17.0.10",
-    "fastest-validator": "1.11.1",
+    "fastest-validator": "1.12.0",
     "husky": "7.0.4",
     "jest": "27.2.5",
     "joi": "17.4.2",

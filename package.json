@@ -84,7 +84,7 @@
     "next": "12.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "size-limit": "6.0.4",
+    "size-limit": "7.0.3",
     "standard-version": "9.3.2",
     "tsdx": "0.14.1",
     "tslib": "2.3.1",

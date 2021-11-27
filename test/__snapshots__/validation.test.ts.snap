@@ -28,7 +28,7 @@ Object {
 exports[`Yup Validation should return false 1`] = `[ValidationError: age is a required field]`;
 
 exports[`Zod Validation should return false 1`] = `
-[Error: [
+[ZodError: [
   {
     "code": "too_small",
     "minimum": 8,

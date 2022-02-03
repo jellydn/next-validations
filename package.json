@@ -67,7 +67,7 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "7.0.5",
+    "@size-limit/preset-small-lib": "7.0.8",
     "@skypack/package-check": "0.2.2",
     "@testing-library/jest-dom": "5.16.2",
     "@testing-library/react": "12.1.2",

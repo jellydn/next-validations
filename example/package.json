@@ -19,7 +19,7 @@
     "qs": "6.10.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "swagger-ui-react": "4.8.1",
+    "swagger-ui-react": "4.10.3",
     "yup": "0.32.11",
     "zod": "3.14.3"
   },

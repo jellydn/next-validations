@@ -21,7 +21,7 @@
     "react-dom": "18.0.0",
     "swagger-ui-react": "4.8.1",
     "yup": "0.32.11",
-    "zod": "3.14.3"
+    "zod": "3.14.4"
   },
   "devDependencies": {
     "@types/cypress": "1.1.3",

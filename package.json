@@ -13,7 +13,7 @@
   "scripts": {
     "start": "tsup --watch",
     "build": "tsup",
-    "test": "vitest --update",
+    "test": "vitest run --update",
     "coverage": "vitest run --coverage",
     "lint": "eslint src/**/*.ts",
     "release": "standard-version",

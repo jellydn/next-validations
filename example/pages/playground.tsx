@@ -12,7 +12,7 @@ const playground = () => {
 };
 
 // TODO: generate swagger API from code
-export const getStaticProps: GetStaticProps = async ctx => {
+export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       data: null,

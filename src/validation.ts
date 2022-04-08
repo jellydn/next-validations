@@ -1,6 +1,6 @@
-import { yupResolver } from './resolvers/yup';
 import { fastestValidatorResolver } from './resolvers/fastest-validator';
 import { joiResolver } from './resolvers/joi';
+import { yupResolver } from './resolvers/yup';
 import { zodResolver } from './resolvers/zod';
 
 export type SCHEMA_TYPE =

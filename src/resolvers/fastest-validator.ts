@@ -7,7 +7,9 @@ export function fastestValidatorResolver<T>(schema: T) {
     validate: (data: unknown): true | any[] => {
       const result = check(data);
       if (Array.isArray(result)) {
-        throw result;
+        throw new Error(result[0], {
+          cause: new Error(result.map(error => error.message).join(',')),
+        });
       }
 
       return result;

@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import { createResolver, SCHEMA_TYPE } from './validation';
+import { SCHEMA_TYPE, createResolver } from './validation';
 
 type NextHandler = (err?: Error) => void;
 

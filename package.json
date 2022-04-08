@@ -8,32 +8,59 @@
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "start": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest --update",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint src/**/*.ts",
     "release": "standard-version",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "vercel-build": "npx typedoc src/index.ts"
   },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "minify": true,
+    "clean": true,
+    "dts": true,
+    "metafile": true,
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "legacyOutput": true
+  },
   "peerDependencies": {
-    "next": ">=9"
+    "next": "*"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "yarn lint"
     }
   },
   "prettier": {
     "printWidth": 80,
     "semi": true,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "es5",
+    "importOrder": [
+      "^@core/(.*)$",
+      "^@server/(.*)$",
+      "^@ui/(.*)$",
+      "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+  },
+  "eslintConfig": {
+    "extends": "productsway"
   },
   "name": "next-validations",
   "author": "Huynh Duc Dung",
@@ -49,20 +76,20 @@
     "joi",
     "fastest-validator"
   ],
-  "module": "dist/next-validations.esm.js",
+  "module": "dist/esm/index.js",
   "exports": {
     ".": {
       "require": "./dist/index.js",
-      "import": "./dist/next-validations.esm.js"
+      "import": "./dist/esm/index.js"
     }
   },
   "size-limit": [
     {
-      "path": "dist/next-validations.cjs.production.min.js",
+      "path": "dist/index.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/next-validations.esm.js",
+      "path": "dist/esm/index.js",
       "limit": "10 KB"
     }
   ],
@@ -71,22 +98,31 @@
     "@skypack/package-check": "0.2.2",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.0.0",
+    "@trivago/prettier-plugin-sort-imports": "3.2.0",
     "@types/jest": "27.4.1",
-    "@types/react": "17.0.43",
+    "@types/react": "18.0.0",
     "@types/react-dom": "18.0.0",
+    "@typescript-eslint/eslint-plugin": "5.18.0",
+    "@typescript-eslint/parser": "5.18.0",
+    "c8": "7.11.0",
+    "eslint": "8.12.0",
+    "eslint-config-productsway": "0.1.13",
     "fastest-validator": "1.12.0",
     "husky": "7.0.4",
     "jest": "27.5.1",
     "joi": "17.6.0",
     "next": "12.1.4",
+    "prettier": "^2.6.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "size-limit": "7.0.8",
     "standard-version": "9.3.2",
-    "tsdx": "0.14.1",
     "tslib": "2.3.1",
+    "tsup": "5.12.4",
     "typedoc": "0.22.14",
     "typescript": "4.6.3",
+    "vite": "2.9.1",
+    "vitest": "0.9.2",
     "yup": "0.32.11",
     "zod": "3.14.4"
   }

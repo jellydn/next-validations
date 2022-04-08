@@ -1,40 +1,31 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`FastestValidator Validation should create resolve base on schema 1`] = `
-Object {
+exports[`FastestValidator Validation > should create resolve base on schema 1`] = `
+{
   "validate": [Function],
 }
 `;
 
-exports[`FastestValidator Validation should return false 1`] = `
-Array [
-  Object {
-    "actual": undefined,
-    "field": "status",
-    "message": "The 'status' field is required.",
-    "type": "required",
-  },
-]
-`;
+exports[`FastestValidator Validation > should return false 1`] = `[Error: [object Object]]`;
 
-exports[`Yoi Validation should return false 1`] = `[ValidationError: "email" is required]`;
+exports[`Yoi Validation > should return false 1`] = `[ValidationError: "email" is required]`;
 
-exports[`Yup Validation should create yup resolve base on schema 1`] = `
-Object {
+exports[`Yup Validation > should create yup resolve base on schema 1`] = `
+{
   "validate": [Function],
 }
 `;
 
-exports[`Yup Validation should return false 1`] = `[ValidationError: age is a required field]`;
+exports[`Yup Validation > should return false 1`] = `[ValidationError: age is a required field]`;
 
-exports[`Zod Validation should return false 1`] = `
+exports[`Zod Validation > should return false 1`] = `
 [ZodError: [
   {
     "code": "too_small",
     "minimum": 8,
     "type": "string",
     "inclusive": true,
-    "message": "Should be at least 8 characters",
+    "message": "String must contain at least 8 character(s)",
     "path": [
       "username"
     ]

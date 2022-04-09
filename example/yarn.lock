@@ -2370,7 +2370,7 @@ next-connect@0.12.2:
   dependencies:
     trouter "^3.2.0"
 
-next-validations@^0.2.0:
+next-validations@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.2.0.tgz#ce3c4bc332b115beda633521fd81e587987864eb"
   integrity sha512-QMF2hRNSSbjeBaCYqpt3mEM9CkXXzaMCWCvPyi5/vKTBjbgkiYtaQnUfjj5eH8dX+ZmRrBYGgN1EKqL7ZnI0wQ==

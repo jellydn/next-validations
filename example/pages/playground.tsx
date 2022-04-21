@@ -1,23 +1,12 @@
-import { GetStaticProps } from 'next';
-
-import SwaggerUI from 'swagger-ui-react';
+import dynamic from 'next/dynamic';
 import 'swagger-ui-react/swagger-ui.css';
 
-const playground = () => {
-  return (
-    <div>
-      <SwaggerUI url="/swagger.json" />
-    </div>
-  );
+const SwaggerUI = dynamic<{ url: string }>(import('swagger-ui-react'), {
+  ssr: false,
+});
+
+const Playground = () => {
+  return <SwaggerUI url="/swagger.json" />;
 };
 
-// TODO: generate swagger API from code
-export const getStaticProps: GetStaticProps = async () => {
-  return {
-    props: {
-      data: null,
-    },
-  };
-};
-
-export default playground;
+export default Playground;

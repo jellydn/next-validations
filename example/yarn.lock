@@ -653,12 +653,7 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-caniuse-lite@1.0.30001335:
-  version "1.0.30001335"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001335.tgz#899254a0b70579e5a957c32dced79f0727c61f2a"
-  integrity sha512-ddP1Tgm7z2iIxu6QTtbZUv6HJxSaV/PZeSrWFZtbY4JZ69tOeNhBCl3HyRQgeNZKE5AOn1kpV7fhljigy0Ty3w==
-
-caniuse-lite@^1.0.30001332:
+caniuse-lite@1.0.30001335, caniuse-lite@^1.0.30001332:
   version "1.0.30001335"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001335.tgz#899254a0b70579e5a957c32dced79f0727c61f2a"
   integrity sha512-ddP1Tgm7z2iIxu6QTtbZUv6HJxSaV/PZeSrWFZtbY4JZ69tOeNhBCl3HyRQgeNZKE5AOn1kpV7fhljigy0Ty3w==
@@ -3204,10 +3199,10 @@ swagger-client@^3.18.4:
     traverse "~0.6.6"
     url "~0.11.0"
 
-swagger-ui-react@4.10.3:
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-4.10.3.tgz#72b7eb432f3e1ad09a81556af75d22ac3a66ae40"
-  integrity sha512-rxLVM8hv6aH+8BEJuyfejt2BweV2TLB8KiifE/8CAk96PoDyQeCTnLgivTdXIuDqdSSSajlzTq0ccw0QMYQbvA==
+swagger-ui-react@4.11.0:
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/swagger-ui-react/-/swagger-ui-react-4.11.0.tgz#995597c050c2c63fafdfd1874661fa3b329008e4"
+  integrity sha512-QAQVoT7a9CfhyxTmy9MrXCL9l4Y2B60QMAthdTsZdHAH3mGsZF0KH18a+gFncGTN4sotuyIDiOgoPRP5idiz6g==
   dependencies:
     "@babel/runtime-corejs3" "^7.16.8"
     "@braintree/sanitize-url" "=6.0.0"

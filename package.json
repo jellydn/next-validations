@@ -70,7 +70,7 @@
     "@types/react-dom": "18.0.4",
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
-    "c8": "7.11.2",
+    "c8": "7.11.3",
     "eslint": "8.15.0",
     "eslint-config-productsway": "0.1.14",
     "fastest-validator": "1.12.0",

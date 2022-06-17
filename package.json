@@ -85,7 +85,7 @@
     "tslib": "2.4.0",
     "tsup": "6.1.2",
     "typedoc": "0.22.17",
-    "typescript": "4.7.3",
+    "typescript": "4.7.4",
     "vite": "2.9.12",
     "vitest": "0.14.2",
     "yup": "0.32.11",

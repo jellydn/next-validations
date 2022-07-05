@@ -67,7 +67,7 @@
     "@testing-library/react": "13.3.0",
     "@trivago/prettier-plugin-sort-imports": "3.2.0",
     "@types/react": "18.0.14",
-    "@types/react-dom": "18.0.5",
+    "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.30.4",
     "@typescript-eslint/parser": "5.30.4",
     "c8": "7.11.3",

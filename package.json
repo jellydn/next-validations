@@ -63,7 +63,7 @@
     "extends": "productsway"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "7.0.8",
+    "@size-limit/preset-small-lib": "8.0.1",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "13.3.0",
     "@trivago/prettier-plugin-sort-imports": "3.3.0",

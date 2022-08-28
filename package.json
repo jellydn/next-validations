@@ -75,7 +75,7 @@
     "c8": "7.12.0",
     "eslint": "8.23.0",
     "eslint-config-productsway": "0.1.15",
-    "fastest-validator": "1.13.0",
+    "fastest-validator": "1.14.0",
     "husky": "8.0.1",
     "joi": "17.6.0",
     "next": "12.2.5",

@@ -856,10 +856,10 @@
     "@typescript-eslint/types" "5.39.0"
     eslint-visitor-keys "^3.3.0"
 
-"@vitest/ui@0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.24.0.tgz#885b9427483d1b0f157f89a44be2333271c13e8b"
-  integrity sha512-E+Pn6YdQFmsM5kv06xyBaH/LW6zDgZueicAYfisQXK4wBU39498nWSK/9seP//ErpKD9OScbvCfIOTyDJHZc3Q==
+"@vitest/ui@0.24.3":
+  version "0.24.3"
+  resolved "https://registry.yarnpkg.com/@vitest/ui/-/ui-0.24.3.tgz#8058e4c9b8a276fbfef1ef0907291f19694a722b"
+  integrity sha512-f5agYA/sdkiipq42TZayJoeUGjWx+opDjIVeNnb1SG2BNxqObFqh6GuJlzpGHerg4a2+ZSoVo4f4p2+dEyXPmg==
   dependencies:
     sirv "^2.0.2"
 

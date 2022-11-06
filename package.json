@@ -73,7 +73,7 @@
     "@typescript-eslint/parser": "5.42.0",
     "@vitest/ui": "0.24.5",
     "c8": "7.12.0",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-config-productsway": "0.1.16",
     "fastest-validator": "1.15.0",
     "husky": "8.0.1",

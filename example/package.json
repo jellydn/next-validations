@@ -13,7 +13,7 @@
     "fastest-validator": "1.15.0",
     "isarray": "2.0.5",
     "joi": "17.7.0",
-    "next": "13.0.4",
+    "next": "13.0.5",
     "next-connect": "0.13.0",
     "next-validations": "0.2.1",
     "qs": "6.11.0",
@@ -27,6 +27,6 @@
     "@types/cypress": "1.1.3",
     "cypress": "11.2.0",
     "eslint": "8.28.0",
-    "eslint-config-next": "13.0.4"
+    "eslint-config-next": "13.0.5"
   }
 }

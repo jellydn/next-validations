@@ -16,7 +16,7 @@
 
 ## Prerequisites
 
-- node >=12
+- node >=14
 - nextjs >= 9
 
 ## Install
@@ -34,6 +34,50 @@ yarn add next-validations
 - [ ] ...
 
 ## Usage
+
+### Validation of multiple modes
+
+```sh
+yarn add yup joi next-validations
+```
+
+```typescript
+import Joi from 'joi';
+import { NextApiRequest, NextApiResponse } from 'next';
+import connect from 'next-connect';
+import { withValidations } from 'next-validations';
+import * as yup from 'yup';
+
+const querySchema = yup.object().shape({
+  type: yup.string().oneOf(['email', 'sms']).required(),
+});
+
+const validateQuery = {
+  schema: querySchema,
+  type: 'Yup',
+  mode: 'query',
+} as const;
+
+const bodySchema = Joi.object({
+  phone: Joi.string().required(),
+  email: Joi.string().email().required(),
+  name: Joi.string().required(),
+});
+
+const validateBody = {
+  schema: bodySchema,
+  type: 'Joi',
+  mode: 'body',
+} as const;
+
+const validate = withValidations([validateQuery, validateBody]);
+
+const handler = (req: NextApiRequest, res: NextApiResponse) => {
+  res.status(200).json({ ...req.body, ...req.query });
+};
+
+export default connect().post(validate(), handler);
+```
 
 ### Validate custom API endpoint with Yup
 
@@ -71,9 +115,8 @@ yarn add zod next-validations
 
 ```typescript
 import { NextApiRequest, NextApiResponse } from 'next';
-
-import { z } from 'zod';
 import { withValidation } from 'next-validations';
+import { z } from 'zod';
 
 const schema = z.object({
   username: z.string().min(6),
@@ -128,17 +171,14 @@ yarn add joi next-connect next-validations
 ```
 
 ```typescript
-import { NextApiRequest, NextApiResponse } from 'next';
-
 import Joi from 'joi';
+import { NextApiRequest, NextApiResponse } from 'next';
 import connect from 'next-connect';
 import { withValidation } from 'next-validations';
 
 const schema = Joi.object({
   dob: Joi.date().iso(),
-  email: Joi.string()
-    .email()
-    .required(),
+  email: Joi.string().email().required(),
   name: Joi.string().required(),
 });
 

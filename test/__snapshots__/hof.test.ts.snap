@@ -1,0 +1,5 @@
+// Vitest Snapshot v1
+
+exports[`withValidation > should return function 1`] = `[Function]`;
+
+exports[`withValidations > should return function 1`] = `[Function]`;

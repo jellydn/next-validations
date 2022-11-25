@@ -1,28 +1,28 @@
-import { fastestValidatorResolver } from './resolvers/fastest-validator';
-import { joiResolver } from './resolvers/joi';
-import { yupResolver } from './resolvers/yup';
-import { zodResolver } from './resolvers/zod';
+/* eslint-disable @typescript-eslint/naming-convention */
+import type { LiteralUnion } from "type-fest";
 
-export type SCHEMA_TYPE =
-  | 'Yup'
-  | 'FastestValidator'
-  | 'Joi'
-  | 'Zod'
-  | 'SuperStruct' // TODO SuperStruct SuperStruct validation
-  | 'Vest' // TODO SuperStruct Zod validation
-  | 'ClassValidator' // TODO SuperStruct ClassValidator validation
-  | 'IoTS' // TODO SuperStruct IoTS validation
-  | 'Nope'; // TODO SuperStruct IoTS validation
+import { fastestValidatorResolver } from "./resolvers/fastest-validator";
+import { joiResolver } from "./resolvers/joi";
+import { yupResolver } from "./resolvers/yup";
+import { zodResolver } from "./resolvers/zod";
+
+export type SCHEMA_TYPE = LiteralUnion<
+  | "Yup"
+  | "FastestValidator"
+  | "Joi"
+  | "Zod",
+  string
+>;
 
 export function createResolver(type: SCHEMA_TYPE, schema: any) {
   switch (type) {
-    case 'Yup':
+    case "Yup":
       return yupResolver(schema);
-    case 'FastestValidator':
+    case "FastestValidator":
       return fastestValidatorResolver(schema);
-    case 'Joi':
+    case "Joi":
       return joiResolver(schema);
-    case 'Zod':
+    case "Zod":
       return zodResolver(schema);
 
     default:

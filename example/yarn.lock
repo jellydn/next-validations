@@ -244,7 +244,7 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/cypress@1.1.3":
+"@types/cypress@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@types/cypress/-/cypress-1.1.3.tgz#0a700c040d53e9e12b5af98e41d4a88c39f39b6a"
   integrity sha512-OXe0Gw8LeCflkG1oPgFpyrYWJmEKqYncBsD/J0r17r0ETx/TnIGDNLwXt/pFYSYuYTpzcq1q3g62M9DrfsBL4g==
@@ -2366,10 +2366,12 @@ next-connect@0.13.0:
   dependencies:
     trouter "^3.2.0"
 
-next-validations@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.2.1.tgz#68010c9b017ba48eec4f404fd42eb9b0c7324737"
-  integrity sha512-92pR14MPTTx0ynlvYH2TwMf7WiGiznNL/l0dtZyKPw3x48rcMhwEZrP1ZmsMJwzp5D+U+sY2deexeLWC8rlNtQ==
+next-validations@0.3.0-0:
+  version "0.3.0-0"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.0-0.tgz#8f4f88d2acf523d3b78dfe4f3a6f6a10f2f8a1be"
+  integrity sha512-L5pFmkUHaqwmswVXXCyo0uB79854YdNPWNZaRstEGcyaAs7gsEG0ehWfiXyvtxiBcK7yB0xQjCz6KHkch4A1aA==
+  dependencies:
+    type-fest "^3.2.0"
 
 next@13.0.5:
   version "13.0.5"
@@ -3452,6 +3454,11 @@ type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
+
+type-fest@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.2.0.tgz#2c8b49e775d9e314a73ea6fcee0b2e8549d5f886"
+  integrity sha512-Il3wdLRzWvbAEtocgxGQA9YOoRVeVUGOMBtel5LdEpNeEAol6GJTLw8GbX6Z8EIMfvfhoOXs2bwOijtAZdK5og==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"

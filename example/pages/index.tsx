@@ -41,11 +41,11 @@ export default function Home() {
               Discover and deploy boilerplate example next-validation projects.
             </p>
           </a>
-          <Link href="/playground">
-            <a className={styles.card}>
-              <h2>API Playground &rarr;</h2>
-              <p>Swagger UI</p>
-            </a>
+          <Link href="/playground" className={styles.card}>
+
+            <h2>API Playground &rarr;</h2>
+            <p>Swagger UI</p>
+
           </Link>
         </div>
       </main>

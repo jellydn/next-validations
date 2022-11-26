@@ -2366,10 +2366,10 @@ next-connect@0.13.0:
   dependencies:
     trouter "^3.2.0"
 
-next-validations@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.0.tgz#be7fa8f8c3c22c06d506c93120371762b755de0c"
-  integrity sha512-hZDv4KjJpDD6a9Axz+XfRhHj4g4bzrTxP7oPteYnSK0F7RbYuuirUMtm8Qj3DvNwb57WwIHhYj0l1cX24ITPwg==
+next-validations@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.1.tgz#0125f3994d482cd8dcacdd9df28a247cb9579a57"
+  integrity sha512-oA75bp4LdKqegjcM2H380Q+ETXjr1ayWi+oUu/miWfvh4Eig1/niTybfEjiigRpn1oElvSgnmUuIyPvFVA11+g==
   dependencies:
     type-fest "3.2.0"
 

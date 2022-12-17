@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "caniuse-lite": "1.0.30001439",
-    "fastest-validator": "1.15.0",
+    "fastest-validator": "1.16.0",
     "isarray": "2.0.5",
     "joi": "17.7.0",
     "next": "13.0.7",

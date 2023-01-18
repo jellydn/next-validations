@@ -63,7 +63,7 @@
     "extends": "productsway"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "8.1.1",
+    "@size-limit/preset-small-lib": "8.1.2",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "13.4.0",
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
@@ -83,7 +83,7 @@
     "prettier": "2.8.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "size-limit": "8.1.1",
+    "size-limit": "8.1.2",
     "standard-version": "9.5.0",
     "tslib": "2.4.1",
     "tsup": "6.5.0",

@@ -70,16 +70,16 @@
     "@types/jest": "29.4.0",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
-    "@typescript-eslint/eslint-plugin": "5.49.0",
-    "@typescript-eslint/parser": "5.49.0",
-    "@vitest/ui": "0.28.2",
+    "@typescript-eslint/eslint-plugin": "5.50.0",
+    "@typescript-eslint/parser": "5.50.0",
+    "@vitest/ui": "0.28.3",
     "c8": "7.12.0",
-    "eslint": "8.32.0",
+    "eslint": "8.33.0",
     "eslint-config-productsway": "0.2.0",
     "fastest-validator": "1.16.0",
     "husky": "8.0.3",
     "joi": "17.7.0",
-    "next": "13.1.5",
+    "next": "13.1.6",
     "prettier": "2.8.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -88,9 +88,9 @@
     "tslib": "2.5.0",
     "tsup": "6.5.0",
     "typedoc": "0.23.24",
-    "typescript": "4.9.4",
+    "typescript": "4.9.5",
     "vite": "4.0.4",
-    "vitest": "0.28.2",
+    "vitest": "0.28.3",
     "yup": "0.32.11",
     "zod": "3.20.2"
   },
@@ -127,6 +127,6 @@
     "legacyOutput": true
   },
   "dependencies": {
-    "type-fest": "3.5.3"
+    "type-fest": "3.5.4"
   }
 }

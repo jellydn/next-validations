@@ -9,24 +9,24 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "caniuse-lite": "1.0.30001473",
-    "fastest-validator": "1.16.0",
+    "caniuse-lite": "1.0.30001497",
+    "fastest-validator": "1.17.0",
     "isarray": "2.0.5",
-    "joi": "17.9.1",
-    "next": "13.2.4",
+    "joi": "17.9.2",
+    "next": "13.4.4",
     "next-connect": "1.0.0",
-    "next-validations": "0.3.1",
-    "qs": "6.11.1",
+    "next-validations": "0.3.2",
+    "qs": "6.11.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "swagger-ui-react": "4.18.2",
-    "yup": "1.0.2",
+    "swagger-ui-react": "4.19.0",
+    "yup": "1.2.0",
     "zod": "3.21.4"
   },
   "devDependencies": {
     "@types/cypress": "1.1.3",
-    "cypress": "12.9.0",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4"
+    "cypress": "12.14.0",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4"
   }
 }

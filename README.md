@@ -44,7 +44,7 @@ yarn add yup joi next-validations
 ```typescript
 import Joi from 'joi';
 import { NextApiRequest, NextApiResponse } from 'next';
-import connect from 'next-connect';
+import { createRouter } from 'next-connect';
 import { withValidations } from 'next-validations';
 import * as yup from 'yup';
 
@@ -104,7 +104,18 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
   res.status(200).json(req.query);
 };
 
-export default validate(handler);
+const router = createRouter();
+
+router.post(validate(), handler);
+
+export default router.handler({
+  onError: (err, _req, _event) => {
+    return new NextResponse('Something broke!', {
+      status: (err as any)?.statusCode ?? 500,
+    });
+  },
+});
+
 ```
 
 ### Validate custom API endpoint with Zod
@@ -173,7 +184,7 @@ yarn add joi next-connect next-validations
 ```typescript
 import Joi from 'joi';
 import { NextApiRequest, NextApiResponse } from 'next';
-import connect from 'next-connect';
+import { createRouter } from 'next-connect';
 import { withValidation } from 'next-validations';
 
 const schema = Joi.object({
@@ -192,7 +203,17 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
   res.status(200).json(req.body);
 };
 
-export default connect().post(validate(), handler);
+const router = createRouter();
+
+router.post(validate(), handler);
+
+export default router.handler({
+  onError: (err, _req, _event) => {
+    return new NextResponse('Something broke!', {
+      status: (err as any)?.statusCode ?? 500,
+    });
+  },
+});
 ```
 
 ## Run tests

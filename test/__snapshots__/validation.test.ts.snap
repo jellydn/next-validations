@@ -1,4 +1,4 @@
-// Vitest Snapshot v1
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`FastestValidator Validation > should create resolve base on schema 1`] = `
 {
@@ -25,6 +25,7 @@ exports[`Zod Validation > should return false 1`] = `
     "minimum": 8,
     "type": "string",
     "inclusive": true,
+    "exact": false,
     "message": "String must contain at least 8 character(s)",
     "path": [
       "username"

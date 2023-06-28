@@ -25,7 +25,8 @@ const router = createRouter();
 router.post(validate(), handler);
 
 export default router.handler({
-  onError: (err, _req, _event) => {
+  // @ts-expect-error  │     Type '(err: unknown) => NextResponse<unknown>' is not assignable to type '(err: unknown, req: IncomingMessage, res: ServerResponse) => ValueOrPromise<void>'.  Type 'NextR typescript (2322) [41, 3]
+  onError: (err) => {
     return new NextResponse('Something broke!', {
       status: (err as any)?.statusCode ?? 500,
     });

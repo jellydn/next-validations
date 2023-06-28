@@ -1010,10 +1010,10 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-caniuse-lite@1.0.30001507:
-  version "1.0.30001507"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001507.tgz#fae53f6286e7564783eadea9b447819410a59534"
-  integrity sha512-SFpUDoSLCaE5XYL2jfqe9ova/pbQHEmbheDf5r4diNwbAgR3qxM9NQtfsiSscjqoya5K7kFcHPUQ+VsUkIJR4A==
+caniuse-lite@1.0.30001509:
+  version "1.0.30001509"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001509.tgz#2b7ad5265392d6d2de25cd8776d1ab3899570d14"
+  integrity sha512-2uDDk+TRiTX5hMcUYT/7CSyzMZxjfGu0vAUjS2g0LSD8UoXOv0LtpH4LxGMemsiPq6LCVIUjNwVM0erkOkGCDA==
 
 caniuse-lite@^1.0.30001406:
   version "1.0.30001446"
@@ -1283,10 +1283,10 @@ cypress@*:
     untildify "^4.0.0"
     yauzl "^2.10.0"
 
-cypress@12.15.0:
-  version "12.15.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.15.0.tgz#06103529583c41f39712c6cfa6d9d09a01731760"
-  integrity sha512-FqGbxsH+QgjStuTO9onXMIeF44eOrgVwPvlcvuzLIaePQMkl72YgBvpuHlBGRcrw3Q4SvqKfajN8iV5XWShAiQ==
+cypress@12.16.0:
+  version "12.16.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.16.0.tgz#d0dcd0725a96497f4c60cf54742242259847924c"
+  integrity sha512-mwv1YNe48hm0LVaPgofEhGCtLwNIQEjmj2dJXnAkY1b4n/NE9OtgPph4TyS+tOtYp5CKtRmDvBzWseUXQTjbTg==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -2980,12 +2980,12 @@ next-connect@1.0.0:
     "@tsconfig/node16" "^1.0.3"
     regexparam "^2.0.1"
 
-next-validations@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.2.tgz#5ed93b553b684139bc068d0cb051180f74847de8"
-  integrity sha512-C3l9baov/Z9skxWsMKFAlOYjN+mVqt2M+Wmvzv/nzCz/glsYN95ot/vi1HBD5GAFiOMW0xIlc64ChYhNLDjy1w==
+next-validations@0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/next-validations/-/next-validations-0.3.3.tgz#9b6ea214fe84ac0c3b06b8d0cabbe1c3beaf3c54"
+  integrity sha512-VtMkFxdK111fXHsdeQxtXyRC0GfpZjQGlfTU+vigRJE11C2m1NFUzJHdreuGbT8TWHYCs6+mGTwl2usRqcVIsA==
   dependencies:
-    type-fest "3.7.2"
+    type-fest "3.12.0"
 
 next@13.4.7:
   version "13.4.7"
@@ -4299,10 +4299,10 @@ type-check@^0.4.0, type-check@~0.4.0:
   dependencies:
     prelude-ls "^1.2.1"
 
-type-fest@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.7.2.tgz#08f83ee3229b63077e95c9035034d32905969457"
-  integrity sha512-f9BHrLjRJ4MYkfOsnC/53PNDzZJcVo14MqLp2+hXE39p5bgwqohxR5hDZztwxlbxmIVuvC2EFAKrAkokq23PLA==
+type-fest@3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.12.0.tgz#4ce26edc1ccc59fc171e495887ef391fe1f5280e"
+  integrity sha512-qj9wWsnFvVEMUDbESiilKeXeHL7FwwiFcogfhfyjmvT968RXSvnl23f1JOClTHYItsi7o501C/7qVllscUP3oA==
 
 type-fest@^0.20.2:
   version "0.20.2"

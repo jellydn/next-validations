@@ -68,10 +68,10 @@
     "@testing-library/react": "14.0.0",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
     "@types/jest": "29.5.3",
-    "@types/react": "18.2.18",
+    "@types/react": "18.2.19",
     "@types/react-dom": "18.2.7",
-    "@typescript-eslint/eslint-plugin": "6.2.1",
-    "@typescript-eslint/parser": "6.2.1",
+    "@typescript-eslint/eslint-plugin": "6.3.0",
+    "@typescript-eslint/parser": "6.3.0",
     "@vitest/ui": "0.34.1",
     "c8": "8.0.1",
     "eslint": "8.46.0",
@@ -79,7 +79,7 @@
     "fastest-validator": "1.17.0",
     "husky": "8.0.3",
     "joi": "17.9.2",
-    "next": "13.4.12",
+    "next": "13.4.13",
     "prettier": "3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -89,7 +89,7 @@
     "tsup": "7.2.0",
     "typedoc": "0.24.8",
     "typescript": "5.1.6",
-    "vite": "4.4.8",
+    "vite": "4.4.9",
     "vitest": "0.34.1",
     "yup": "1.2.0",
     "zod": "3.21.4"
@@ -127,6 +127,6 @@
     "legacyOutput": true
   },
   "dependencies": {
-    "type-fest": "4.1.0"
+    "type-fest": "4.2.0"
   }
 }

@@ -60,7 +60,10 @@
     "trailingComma": "es5"
   },
   "eslintConfig": {
-    "extends": "productsway"
+    "extends": [
+      "productsway/react",
+      "plugin:@next/next/recommended"
+    ]
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "8.2.6",

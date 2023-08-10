@@ -45,14 +45,14 @@ export function withValidations(validations: ValidationHoF[]) {
 
         const isAppRouter = validations.some((validation) => validation.apiType === 'appRoute');
         if (isAppRouter) {
-          // TODO: handle 404
+          res.status(404).send('Route does not exist');
         } else {
           res.status(404).end();
         }
       } catch (error) {
         const isAppRouter = validations.some((validation) => validation.apiType === 'appRoute');
         if (isAppRouter) {
-          // TODO: handle error
+          res.status(400).send(error.message);
         } else {
           res.status(400).send(error);
         }

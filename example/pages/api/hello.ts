@@ -10,6 +10,7 @@ const validate = withValidation({
   schema,
   type: 'Yup',
   mode: 'query',
+  apiType: 'appRoute',
 });
 
 const handler = (req: NextApiRequest, res: NextApiResponse) => {

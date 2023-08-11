@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
+import { NextResponse } from 'next/server';
 
 import { createResolver } from "./validation";
 import type { SCHEMA_TYPE } from "./validation";

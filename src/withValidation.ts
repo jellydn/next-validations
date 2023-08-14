@@ -1,5 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
+import { NextApiRequest, NextApiResponse } from "next";
+
 import { createResolver } from "./validation";
 import type { SCHEMA_TYPE } from "./validation";
 
@@ -9,14 +11,16 @@ type ValidationHoF = {
   type: SCHEMA_TYPE;
   mode?: "body" | "query" | "headers";
   schema: unknown;
+  apiType?: "appRoute" | "pageRoute";
 };
 
 export function withValidation({
   type,
   schema,
   mode = "query",
+  apiType,
 }: ValidationHoF) {
-  return withValidations([{ type, schema, mode }]);
+  return withValidations([{ type, schema, mode, apiType }]);
 }
 
 export function withValidations(validations: ValidationHoF[]) {
@@ -29,10 +33,21 @@ export function withValidations(validations: ValidationHoF[]) {
       next?: NextHandler,
     ) => {
       try {
-        validations.forEach((validation) => {
-          const resolver = createResolver(validation.type, validation.schema);
-          resolver.validate(req[validation.mode || "query"]);
-        });
+        const isAppRouter = validations.some(
+          (validation) => validation.apiType === "appRoute"
+        );
+
+        if (isAppRouter) {
+          // TODO: handle App Router response
+        } else {
+          validations.forEach((validation) => {
+            const resolver = createResolver(
+              validation.type,
+              validation.schema
+            );
+            resolver.validate(req[validation.mode || "query"]);
+          });
+        }
 
         if (!!next) {
           return next();
@@ -42,7 +57,25 @@ export function withValidations(validations: ValidationHoF[]) {
 
         res.status(404).end();
       } catch (error) {
-        res.status(400).send(error);
+        if (isAppRouter) {
+          // TODO: handle App Router error response
+        } else {
+          res.status(400).send(error);
+        }
+      }
+    };
+  };
+}
+
+        if (handler) return handler(req, res);
+
+        res.status(404).end();
+      } catch (error) {
+        if (isAppRouter) {
+          // TODO: handle App Router error response
+        } else {
+          res.status(400).send(error);
+        }
       }
     };
   };

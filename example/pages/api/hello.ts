@@ -10,6 +10,8 @@ const validate = withValidation({
   schema,
   type: 'Yup',
   mode: 'query',
+  apiType: 'pageRoute',
+});
 });
 
 const handler = (req: NextApiRequest, res: NextApiResponse) => {

@@ -73,8 +73,8 @@
     "@types/jest": "29.5.3",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
-    "@typescript-eslint/eslint-plugin": "6.3.0",
-    "@typescript-eslint/parser": "6.3.0",
+    "@typescript-eslint/eslint-plugin": "6.4.0",
+    "@typescript-eslint/parser": "6.4.0",
     "@vitest/ui": "0.34.1",
     "c8": "8.0.1",
     "eslint": "8.47.0",
@@ -82,7 +82,7 @@
     "fastest-validator": "1.17.0",
     "husky": "8.0.3",
     "joi": "17.9.2",
-    "next": "13.4.13",
+    "next": "13.4.16",
     "prettier": "3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -95,7 +95,7 @@
     "vite": "4.4.9",
     "vitest": "0.34.1",
     "yup": "1.2.0",
-    "zod": "3.21.4"
+    "zod": "3.22.0"
   },
   "peerDependencies": {
     "next": "*"

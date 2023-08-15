@@ -95,7 +95,7 @@
     "vite": "4.4.9",
     "vitest": "0.34.1",
     "yup": "1.2.0",
-    "zod": "3.22.0"
+    "zod": "3.22.1"
   },
   "peerDependencies": {
     "next": "*"

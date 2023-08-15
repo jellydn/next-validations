@@ -83,7 +83,7 @@
     "husky": "8.0.3",
     "joi": "17.9.2",
     "next": "13.4.16",
-    "prettier": "3.0.1",
+    "prettier": "3.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "size-limit": "8.2.6",

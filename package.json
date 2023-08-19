@@ -82,7 +82,7 @@
     "fastest-validator": "1.17.0",
     "husky": "8.0.3",
     "joi": "17.9.2",
-    "next": "13.4.18",
+    "next": "13.4.19",
     "prettier": "3.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -95,7 +95,7 @@
     "vite": "4.4.9",
     "vitest": "0.34.2",
     "yup": "1.2.0",
-    "zod": "3.22.1"
+    "zod": "3.22.2"
   },
   "peerDependencies": {
     "next": "*"

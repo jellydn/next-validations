@@ -12,7 +12,6 @@ const validate = withValidation({
   mode: 'query',
   apiType: 'pageRoute',
 });
-});
 
 const handler = (req: NextApiRequest, res: NextApiResponse) => {
   res.status(200).json(req.query);

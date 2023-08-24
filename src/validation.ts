@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 import type { LiteralUnion } from "type-fest";
 
 import { fastestValidatorResolver } from "./resolvers/fastest-validator";

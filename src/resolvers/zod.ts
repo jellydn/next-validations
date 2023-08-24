@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { type z } from 'zod';
 
 export function zodResolver<T extends z.ZodAny>(schema: T) {
   return {

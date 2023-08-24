@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { type NextApiRequest, type NextApiResponse } from "next";
 
 import { createResolver } from "./validation";
 import type { SCHEMA_TYPE } from "./validation";
@@ -21,21 +21,20 @@ export function withValidation({
 
 export function withValidations(validations: ValidationHoF[]) {
   return (
-    handler?: (req: NextApiRequest, res: NextApiResponse<any>) => any,
+    handler?: (req: NextApiRequest, res: NextApiResponse) => any,
+  ) => async (
+    req: NextApiRequest,
+    res: NextApiResponse,
+    next?: NextHandler,
   ) => {
-    return async (
-      req: NextApiRequest,
-      res: NextApiResponse,
-      next?: NextHandler,
-    ) => {
       try {
         validations.forEach((validation) => {
           const resolver = createResolver(validation.type, validation.schema);
-          resolver.validate(req[validation.mode || "query"]);
+          resolver.validate(req[validation.mode ?? "query"]);
         });
 
-        if (!!next) {
-          return next();
+        if (next) {
+          next(); return;
         }
 
         if (handler) return handler(req, res);
@@ -45,5 +44,4 @@ export function withValidations(validations: ValidationHoF[]) {
         res.status(400).send(error);
       }
     };
-  };
 }

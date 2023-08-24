@@ -1,4 +1,4 @@
-import * as Yup from 'yup';
+import type * as Yup from 'yup';
 
 export function yupResolver<T extends Yup.AnyObjectSchema>(schema: T) {
   return {

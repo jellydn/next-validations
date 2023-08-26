@@ -129,6 +129,6 @@
     "legacyOutput": true
   },
   "dependencies": {
-    "type-fest": "4.2.0"
+    "type-fest": "4.3.0"
   }
 }

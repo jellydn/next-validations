@@ -65,7 +65,7 @@
     ]
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "8.2.6",
+    "@size-limit/preset-small-lib": "9.0.0",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "14.0.0",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",

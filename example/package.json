@@ -9,7 +9,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "caniuse-lite": "1.0.30001532",
+    "caniuse-lite": "1.0.30001533",
     "fastest-validator": "1.17.0",
     "isarray": "2.0.5",
     "joi": "17.10.1",

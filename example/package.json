@@ -13,20 +13,20 @@
     "fastest-validator": "1.17.0",
     "isarray": "2.0.5",
     "joi": "17.10.2",
-    "next": "13.5.2",
+    "next": "13.5.3",
     "next-connect": "1.0.0",
     "next-validations": "0.3.3",
     "qs": "6.11.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swagger-ui-react": "5.7.2",
-    "yup": "1.3.0",
+    "yup": "1.3.1",
     "zod": "3.22.2"
   },
   "devDependencies": {
     "@types/cypress": "1.1.3",
     "cypress": "13.2.0",
     "eslint": "8.50.0",
-    "eslint-config-next": "13.5.2"
+    "eslint-config-next": "13.5.3"
   }
 }

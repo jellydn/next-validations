@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   caniuse-lite:
-    specifier: 1.0.30001540
-    version: 1.0.30001540
+    specifier: 1.0.30001541
+    version: 1.0.30001541
   fastest-validator:
     specifier: 1.17.0
     version: 1.17.0
@@ -1103,8 +1103,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001540:
-    resolution: {integrity: sha512-9JL38jscuTJBTcuETxm8QLsFr/F6v0CYYTEU6r5+qSM98P2Q0Hmu0eG1dTG5GBUmywU3UlcVOUSIJYY47rdFSw==}
+  /caniuse-lite@1.0.30001541:
+    resolution: {integrity: sha512-bLOsqxDgTqUBkzxbNlSBt8annkDpQB9NdzdTbO2ooJ+eC/IQcvDspDc058g84ejCelF7vHUx57KIOjEecOHXaw==}
     dev: false
 
   /caseless@0.12.0:
@@ -2922,7 +2922,7 @@ packages:
       '@next/env': 13.5.3
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001540
+      caniuse-lite: 1.0.30001541
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)

@@ -69,7 +69,7 @@
     "@types/react-dom": "18.2.8",
     "@typescript-eslint/eslint-plugin": "6.7.3",
     "@typescript-eslint/parser": "6.7.3",
-    "@vitest/ui": "0.34.5",
+    "@vitest/ui": "0.34.6",
     "c8": "8.0.1",
     "eslint": "8.50.0",
     "eslint-config-productsway": "1.3.0",
@@ -87,7 +87,7 @@
     "typedoc": "0.25.1",
     "typescript": "5.2.2",
     "vite": "4.4.9",
-    "vitest": "0.34.5",
+    "vitest": "0.34.6",
     "yup": "1.3.1",
     "zod": "3.22.2"
   },

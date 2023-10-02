@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   caniuse-lite:
-    specifier: 1.0.30001541
-    version: 1.0.30001541
+    specifier: 1.0.30001542
+    version: 1.0.30001542
   fastest-validator:
     specifier: 1.17.0
     version: 1.17.0
@@ -25,7 +25,7 @@ dependencies:
     version: 1.0.0
   next-validations:
     specifier: 0.3.3
-    version: link:..
+    version: 0.3.3(next@13.5.3)
   qs:
     specifier: 6.11.2
     version: 6.11.2
@@ -1103,8 +1103,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001541:
-    resolution: {integrity: sha512-bLOsqxDgTqUBkzxbNlSBt8annkDpQB9NdzdTbO2ooJ+eC/IQcvDspDc058g84ejCelF7vHUx57KIOjEecOHXaw==}
+  /caniuse-lite@1.0.30001542:
+    resolution: {integrity: sha512-UrtAXVcj1mvPBFQ4sKd38daP8dEcXXr5sQe6QNNinaPd0iA/cxg9/l3VrSdL73jgw5sKyuQ6jNgiKO12W3SsVA==}
     dev: false
 
   /caseless@0.12.0:
@@ -2894,6 +2894,16 @@ packages:
       regexparam: 2.0.1
     dev: false
 
+  /next-validations@0.3.3(next@13.5.3):
+    resolution: {integrity: sha512-VtMkFxdK111fXHsdeQxtXyRC0GfpZjQGlfTU+vigRJE11C2m1NFUzJHdreuGbT8TWHYCs6+mGTwl2usRqcVIsA==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      next: '*'
+    dependencies:
+      next: 13.5.3(react-dom@18.2.0)(react@18.2.0)
+      type-fest: 3.12.0
+    dev: false
+
   /next@13.5.3(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-4Nt4HRLYDW/yRpJ/QR2t1v63UOMS55A38dnWv3UDOWGezuY0ZyFO1ABNbD7mulVzs9qVhgy2+ppjdsANpKP1mg==}
     engines: {node: '>=16.14.0'}
@@ -2912,7 +2922,7 @@ packages:
       '@next/env': 13.5.3
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001541
+      caniuse-lite: 1.0.30001542
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -4144,6 +4154,11 @@ packages:
   /type-fest@2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
+    dev: false
+
+  /type-fest@3.12.0:
+    resolution: {integrity: sha512-qj9wWsnFvVEMUDbESiilKeXeHL7FwwiFcogfhfyjmvT968RXSvnl23f1JOClTHYItsi7o501C/7qVllscUP3oA==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /typed-array-buffer@1.0.0:

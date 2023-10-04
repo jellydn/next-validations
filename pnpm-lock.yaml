@@ -26,11 +26,11 @@ devDependencies:
     specifier: 29.5.5
     version: 29.5.5
   '@types/react':
-    specifier: 18.2.24
-    version: 18.2.24
+    specifier: 18.2.25
+    version: 18.2.25
   '@types/react-dom':
-    specifier: 18.2.9
-    version: 18.2.9
+    specifier: 18.2.10
+    version: 18.2.10
   '@typescript-eslint/eslint-plugin':
     specifier: 6.7.4
     version: 6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.50.0)(typescript@5.2.2)
@@ -98,8 +98,8 @@ devDependencies:
     specifier: 1.3.2
     version: 1.3.2
   zod:
-    specifier: 3.22.3
-    version: 3.22.3
+    specifier: 3.22.4
+    version: 3.22.4
 
 packages:
 
@@ -972,7 +972,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.1
       '@testing-library/dom': 9.3.3
-      '@types/react-dom': 18.2.9
+      '@types/react-dom': 18.2.10
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -1058,14 +1058,14 @@ packages:
     resolution: {integrity: sha512-FbtmBWCcSa2J4zL781Zf1p5YUBXQomPEcep9QZCfRfQgTxz3pJWiDFLebohZ9fFntX5ibzOkSsrJ0TEew8cAog==}
     dev: true
 
-  /@types/react-dom@18.2.9:
-    resolution: {integrity: sha512-6nNhVzZ9joQ6F7lozrASuQKC0Kf6ArYMU+DqA2ZrUbB+d+9lC6ZLn1GxiEBI1edmAwvTULtuJ6uPZpv3XudwUg==}
+  /@types/react-dom@18.2.10:
+    resolution: {integrity: sha512-5VEC5RgXIk1HHdyN1pHlg0cOqnxHzvPGpMMyGAP5qSaDRmyZNDaQ0kkVAkK6NYlDhP6YBID3llaXlmAS/mdgCA==}
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 18.2.25
     dev: true
 
-  /@types/react@18.2.24:
-    resolution: {integrity: sha512-Ee0Jt4sbJxMu1iDcetZEIKQr99J1Zfb6D4F3qfUWoR1JpInkY1Wdg4WwCyBjL257D0+jGqSl1twBjV8iCaC0Aw==}
+  /@types/react@18.2.25:
+    resolution: {integrity: sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==}
     dependencies:
       '@types/prop-types': 15.7.7
       '@types/scheduler': 0.16.4
@@ -5344,6 +5344,6 @@ packages:
       type-fest: 2.19.0
     dev: true
 
-  /zod@3.22.3:
-    resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: true

@@ -147,6 +147,36 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
 export default validate(handler);
 ```
 
+
+### Validate custom API endpoint with Valibot
+
+```sh
+yarn add valibot next-validations
+```
+
+```typescript
+import { NextApiRequest, NextApiResponse } from 'next';
+import { withValidation } from 'next-validations';
+import * as valibot from 'valibot';
+
+const schema = valibot.object({
+  name: valibot.string([valibot.minLength(4)]),
+});
+
+const validate = withValidation({
+  schema,
+  type: 'Valibot',
+  mode: 'query',
+});
+
+const handler = (req: NextApiRequest, res: NextApiResponse) => {
+  res.status(200).json(req.query);
+};
+
+export default validate(handler)
+```
+
+
 ### Validate custom API endpoint with fastest-validator
 
 ```sh

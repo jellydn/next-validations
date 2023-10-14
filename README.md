@@ -16,7 +16,7 @@
 
 ## Prerequisites
 
-- node >=14
+- node >=16
 - nextjs >= 9
 
 ## Install

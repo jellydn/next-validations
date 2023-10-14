@@ -31,6 +31,7 @@ yarn add next-validations
 - [x] Support [Fastest-Validator](https://github.com/icebob/fastest-validator) validation
 - [x] Support [Joi](https://github.com/sideway/joi) validation
 - [x] Support [Zod](https://github.com/colinhacks/zod) validation
+- [x] Support [Valibot](https://github.com/fabian-hiller/valibot) validation
 - [ ] ...
 
 ## Usage

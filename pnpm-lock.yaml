@@ -88,6 +88,9 @@ devDependencies:
   typescript:
     specifier: 5.2.2
     version: 5.2.2
+  valibot:
+    specifier: 0.19.0
+    version: 0.19.0
   vite:
     specifier: 4.4.11
     version: 4.4.11(@types/node@20.7.0)
@@ -5027,6 +5030,10 @@ packages:
       '@jridgewell/trace-mapping': 0.3.19
       '@types/istanbul-lib-coverage': 2.0.4
       convert-source-map: 1.9.0
+    dev: true
+
+  /valibot@0.19.0:
+    resolution: {integrity: sha512-vzeuctzVirzoiDN9BTc4GludHaSgFYoy6AnbHOjfBUbX0DibqKuNCr2Ti4ox8eLdBdDSEZSZ3LwXZgjL6aE4RQ==}
     dev: true
 
   /validate-npm-package-license@3.0.4:

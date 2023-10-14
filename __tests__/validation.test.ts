@@ -1,5 +1,6 @@
-import * as yup from 'yup';
 import Joi from 'joi';
+import * as valibot from 'valibot';
+import * as yup from 'yup';
 import { z } from 'zod';
 
 import { createResolver } from '../src/validation';
@@ -175,3 +176,40 @@ describe('Zod Validation', () => {
     }
   });
 });
+
+describe('Valibot Validation', () => {
+  it('should create zod resolve base on schema', () => {
+    try {
+      createResolver('Valibot', {});
+    } catch (error) {
+      expect(error).toMatchSnapshot();
+    }
+  });
+
+  it('should return true', () => {
+    const schema = valibot.object({
+      username: valibot.string(),
+    });
+
+    const resolver = createResolver('Valibot', schema);
+    const isValid = resolver.validate({
+      username: 'jellydn',
+    });
+    expect(isValid).toBeTruthy();
+  });
+
+  it('should return false', () => {
+    const schema = valibot.object({
+      age: valibot.number()
+    });
+    const resolver = createResolver('Valibot', schema);
+    try {
+      resolver.validate({
+        age: '35',
+      });
+    } catch (error) {
+      expect(error).toMatchSnapshot();
+    }
+  });
+});
+

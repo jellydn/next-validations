@@ -7,7 +7,8 @@
     "next-validation",
     "yup",
     "joi",
-    "fastest-validator"
+    "fastest-validator",
+    "valibot"
   ],
   "repository": {
     "type": "git",
@@ -86,6 +87,7 @@
     "tsup": "7.2.0",
     "typedoc": "0.25.2",
     "typescript": "5.2.2",
+    "valibot": "0.19.0",
     "vite": "4.4.11",
     "vitest": "0.34.6",
     "yup": "1.3.2",

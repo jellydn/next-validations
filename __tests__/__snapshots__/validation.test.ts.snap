@@ -8,6 +8,8 @@ exports[`FastestValidator Validation > should create resolve base on schema 1`] 
 
 exports[`FastestValidator Validation > should return false 1`] = `[Error: Validation failed]`;
 
+exports[`Valibot Validation > should return false 1`] = `[ValiError: Invalid type]`;
+
 exports[`Yoi Validation > should return false 1`] = `[ValidationError: "email" is required]`;
 
 exports[`Yup Validation > should create yup resolve base on schema 1`] = `

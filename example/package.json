@@ -7,7 +7,7 @@
     "cypress:open": "cypress open",
     "dev": "next dev",
     "start": "next start",
-    "test": "npm run dev & npm run test:e2e",
+    "test": "run-p -l -r test:e2e dev",
     "test:e2e": "wait-on http://localhost:3000 && cypress run"
   },
   "dependencies": {
@@ -31,6 +31,7 @@
     "cypress": "13.3.1",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
+    "npm-run-all": "^4.1.5",
     "wait-on": "7.0.1"
   }
 }

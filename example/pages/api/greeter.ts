@@ -3,7 +3,7 @@ import { withValidation } from 'next-validations';
 import * as valibot from 'valibot';
 
 const schema = valibot.object({
-  name: valibot.string(),
+  name: valibot.string([valibot.minLength(4)]),
 });
 
 const validate = withValidation({

@@ -62,7 +62,7 @@ devDependencies:
     specifier: 13.5.4
     version: 13.5.4(eslint@8.51.0)(typescript@5.2.2)
   npm-run-all:
-    specifier: ^4.1.5
+    specifier: 4.1.5
     version: 4.1.5
   wait-on:
     specifier: 7.0.1

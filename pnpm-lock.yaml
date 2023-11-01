@@ -12,7 +12,7 @@ dependencies:
 devDependencies:
   '@size-limit/preset-small-lib':
     specifier: 9.0.0
-    version: 9.0.0(size-limit@9.0.0)
+    version: 9.0.0(size-limit@10.0.2)
   '@skypack/package-check':
     specifier: 0.2.2
     version: 0.2.2
@@ -71,8 +71,8 @@ devDependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   size-limit:
-    specifier: 9.0.0
-    version: 9.0.0
+    specifier: 10.0.2
+    version: 10.0.2
   standard-version:
     specifier: 9.5.0
     version: 9.5.0
@@ -907,7 +907,7 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@size-limit/esbuild@9.0.0(size-limit@9.0.0):
+  /@size-limit/esbuild@9.0.0(size-limit@10.0.2):
     resolution: {integrity: sha512-y3NY0inaFeLqV6SRXNVILhawQdQcODxF30qft6OalsrqtQtBjt++6ZeahYhUbrVexUEWRh6c7yPCe8RvHn8hlA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
@@ -915,27 +915,27 @@ packages:
     dependencies:
       esbuild: 0.19.3
       nanoid: 3.3.6
-      size-limit: 9.0.0
+      size-limit: 10.0.2
     dev: true
 
-  /@size-limit/file@9.0.0(size-limit@9.0.0):
+  /@size-limit/file@9.0.0(size-limit@10.0.2):
     resolution: {integrity: sha512-oM2UaH2FRq4q22k+R+P6xCpzET10T94LFdSjb9svVu/vOD7NaB9LGcG6se8TW1BExXiyXO4GEhLsBt3uMKM3qA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       size-limit: 9.0.0
     dependencies:
       semver: 7.5.4
-      size-limit: 9.0.0
+      size-limit: 10.0.2
     dev: true
 
-  /@size-limit/preset-small-lib@9.0.0(size-limit@9.0.0):
+  /@size-limit/preset-small-lib@9.0.0(size-limit@10.0.2):
     resolution: {integrity: sha512-nkbZxn12pTpABYVyX5nsjQuLFpn8wDmd2XKoq/MiqKOc3ocz5BBwXTruqTL5ZKDW1OxEAWZMQlxf2kg3kY3X1Q==}
     peerDependencies:
       size-limit: 9.0.0
     dependencies:
-      '@size-limit/esbuild': 9.0.0(size-limit@9.0.0)
-      '@size-limit/file': 9.0.0(size-limit@9.0.0)
-      size-limit: 9.0.0
+      '@size-limit/esbuild': 9.0.0(size-limit@10.0.2)
+      '@size-limit/file': 9.0.0(size-limit@10.0.2)
+      size-limit: 10.0.2
     dev: true
 
   /@skypack/package-check@0.2.2:
@@ -2900,6 +2900,17 @@ packages:
       slash: 3.0.0
     dev: true
 
+  /globby@13.2.2:
+    resolution: {integrity: sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      dir-glob: 3.0.1
+      fast-glob: 3.3.1
+      ignore: 5.2.4
+      merge2: 1.4.1
+      slash: 4.0.0
+    dev: true
+
   /gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
     dependencies:
@@ -4451,14 +4462,14 @@ packages:
       totalist: 3.0.1
     dev: true
 
-  /size-limit@9.0.0:
-    resolution: {integrity: sha512-DrA7o2DeRN3s+vwCA9nn7Ck9Y4pn9t0GNUwQRpKqBtBmNkl6LA2s/NlNCdtKHrEkRTeYA1ZQ65mnYveo9rUqgA==}
+  /size-limit@10.0.2:
+    resolution: {integrity: sha512-ULFHMr+OQjuyqdGSqkDGY3XfnGO0l3cIfJaNe6F6ZqO+QzWUYunZh9DYHovNctsN7R9fR9gzzzW4Ze8TiJ060g==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     dependencies:
       bytes-iec: 3.1.1
       chokidar: 3.5.3
-      globby: 11.1.0
+      globby: 13.2.2
       lilconfig: 2.1.0
       nanospinner: 1.1.0
       picocolors: 1.0.0
@@ -4467,6 +4478,11 @@ packages:
   /slash@3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
+    dev: true
+
+  /slash@4.0.0:
+    resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
+    engines: {node: '>=12'}
     dev: true
 
   /source-map-js@1.0.2:

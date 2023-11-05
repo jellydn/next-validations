@@ -24,8 +24,8 @@ dependencies:
     specifier: 1.0.0
     version: 1.0.0
   next-validations:
-    specifier: 0.4.1
-    version: 0.4.1(next@14.0.1)
+    specifier: 0.4.2
+    version: 0.4.2(next@14.0.1)
   qs:
     specifier: 6.11.2
     version: 6.11.2
@@ -3028,14 +3028,14 @@ packages:
       regexparam: 2.0.1
     dev: false
 
-  /next-validations@0.4.1(next@14.0.1):
-    resolution: {integrity: sha512-L81mPy7ERdF2O2awAtHbOKKiX30o4jWdY4h3Hbd2egJcgAHbS5w/49Rot05H4J8kPfFL39A6hLL6+qhq7JH03A==}
+  /next-validations@0.4.2(next@14.0.1):
+    resolution: {integrity: sha512-6XtLuTFuJh4xyRTBbwkzr8A2ApoDazostHM/FGaTGp4fhdFJa+Areqthj069l5KZ+hBbgOgL0+HcrA9UPD3e5g==}
     engines: {node: '>=16'}
     peerDependencies:
       next: '*'
     dependencies:
       next: 14.0.1(react-dom@18.2.0)(react@18.2.0)
-      type-fest: 4.4.0
+      type-fest: 4.6.0
     dev: false
 
   /next@14.0.1(react-dom@18.2.0)(react@18.2.0):
@@ -4417,8 +4417,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: false
 
-  /type-fest@4.4.0:
-    resolution: {integrity: sha512-HT3RRs7sTfY22KuPQJkD/XjbTbxgP2Je5HPt6H6JEGvcjHd5Lqru75EbrP3tb4FYjNJ+DjLp+MNQTFQU0mhXNw==}
+  /type-fest@4.6.0:
+    resolution: {integrity: sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==}
     engines: {node: '>=16'}
     dev: false
 

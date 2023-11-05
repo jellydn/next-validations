@@ -17,7 +17,7 @@
     "joi": "17.11.0",
     "next": "14.0.1",
     "next-connect": "1.0.0",
-    "next-validations": "0.4.1",
+    "next-validations": "0.4.2",
     "qs": "6.11.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",

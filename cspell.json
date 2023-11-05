@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "globRoot": ".",
+  "dictionaryDefinitions": [
+    {
+      "name": "next-validations",
+      "path": "./next-validations.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": [
+    "next-validations"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "build",
+    "/next-validations.txt"
+  ]
+}

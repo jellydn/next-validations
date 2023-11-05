@@ -8,13 +8,23 @@
   "commitConvention": "angular",
   "contributors": [
     {
-      "login": "SferaDev",
+      "login": "jellydn",
+      "name": "Dung Duc Huynh (Kaka)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/870029?v=4",
+      "profile": "https://productsway.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+       "login": "SferaDev",
       "name": "Alexis Rico",
       "avatar_url": "https://avatars.githubusercontent.com/u/2181866?v=4",
       "profile": "http://sferadev.com",
       "contributions": [
         "code"
-      ]
+        ]
     }
   ],
   "contributorsPerLine": 7,

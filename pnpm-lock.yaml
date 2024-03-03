@@ -33,13 +33,13 @@ devDependencies:
     version: 18.2.19
   '@typeschema/joi':
     specifier: ^0.13.3
-    version: 0.13.3(joi@17.11.0)
+    version: 0.13.3(joi@17.12.2)
   '@typeschema/valibot':
     specifier: ^0.13.4
-    version: 0.13.4(valibot@0.21.0)
+    version: 0.13.4(valibot@0.29.0)
   '@typeschema/yup':
     specifier: ^0.13.3
-    version: 0.13.3(yup@1.3.2)
+    version: 0.13.3(yup@1.3.3)
   '@typeschema/zod':
     specifier: ^0.13.3
     version: 0.13.3(zod@3.22.4)
@@ -1056,7 +1056,7 @@ packages:
       '@types/json-schema':
         optional: true
 
-  /@typeschema/joi@0.13.3(joi@17.11.0):
+  /@typeschema/joi@0.13.3(joi@17.12.2):
     resolution: {integrity: sha512-8uLPw0qOqwNLm+mm3eVeYSZ6j0Hfs9gpTEa7Af03j4M+XqAPu4Zy9ziHUZordTPCa8+oMZVyi8ENsTcRnmgvdA==}
     peerDependencies:
       joi: ^17.12.2
@@ -1068,7 +1068,7 @@ packages:
         optional: true
     dependencies:
       '@typeschema/core': 0.13.2
-      joi: 17.11.0
+      joi: 17.12.2
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -1129,15 +1129,15 @@ packages:
         optional: true
     dependencies:
       '@typeschema/core': 0.13.2
-      '@typeschema/joi': 0.13.3(joi@17.11.0)
-      '@typeschema/valibot': 0.13.4(valibot@0.21.0)
-      '@typeschema/yup': 0.13.3(yup@1.3.2)
+      '@typeschema/joi': 0.13.3(joi@17.12.2)
+      '@typeschema/valibot': 0.13.4(valibot@0.29.0)
+      '@typeschema/yup': 0.13.3(yup@1.3.3)
       '@typeschema/zod': 0.13.3(zod@3.22.4)
     transitivePeerDependencies:
       - '@types/json-schema'
     dev: false
 
-  /@typeschema/valibot@0.13.4(valibot@0.21.0):
+  /@typeschema/valibot@0.13.4(valibot@0.29.0):
     resolution: {integrity: sha512-DU095eQ3gy5AS4HGTzWWOmGNMZuAMkV9QQe+TtA6a4rdGzBS7c2KPG4IKcs14yIJ/PsSHHrEdODpRms6qF1vJQ==}
     peerDependencies:
       '@gcornut/valibot-json-schema': ^0.0.25
@@ -1149,11 +1149,11 @@ packages:
         optional: true
     dependencies:
       '@typeschema/core': 0.13.2
-      valibot: 0.21.0
+      valibot: 0.29.0
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  /@typeschema/yup@0.13.3(yup@1.3.2):
+  /@typeschema/yup@0.13.3(yup@1.3.3):
     resolution: {integrity: sha512-Z+MtVn/ypL3CISknBuAmdt2xvMM0Q/ZmfjV+2xk4O26dL+Sx3fu9h1X3ANX6n/3uTfS1C4RbT4HzlK9DX4Tdxg==}
     peerDependencies:
       '@sodaru/yup-to-json-schema': ^2.0.1
@@ -1165,7 +1165,7 @@ packages:
         optional: true
     dependencies:
       '@typeschema/core': 0.13.2
-      yup: 1.3.2
+      yup: 1.3.3
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -5230,12 +5230,6 @@ packages:
   /type-fest@2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
-    dev: true
-
-  /type-fest@4.10.3:
-    resolution: {integrity: sha512-JLXyjizi072smKGGcZiAJDCNweT8J+AuRxmPZ1aG7TERg4ijx9REl8CNhbr36RV4qXqL1gO1FF9HL8OkVmmrsA==}
-    engines: {node: '>=16'}
-    dev: false
 
   /typed-array-buffer@1.0.1:
     resolution: {integrity: sha512-RSqu1UEuSlrBhHTWC8O9FnPjOduNs4M7rJ4pRKoEjtx1zUNOPN2sSXHLDX+Y2WPbHIxbvg4JFo2DNAEfPIKWoQ==}
@@ -5351,7 +5345,6 @@ packages:
 
   /valibot@0.29.0:
     resolution: {integrity: sha512-JhZn08lwZPhAamOCfBwBkv/btQt4KeQhekULPH8crH053zUCLSOGEF2zKExu3bFf245tsj6J1dY0ysd/jUiMIQ==}
-    dev: true
 
   /validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}

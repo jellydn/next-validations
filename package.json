@@ -62,7 +62,7 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "@typeschema/main": "^0.13.7"
+    "@typeschema/main": "0.13.7"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "11.0.2",
@@ -72,10 +72,10 @@
     "@types/jest": "29.5.12",
     "@types/react": "18.2.61",
     "@types/react-dom": "18.2.19",
-    "@typeschema/joi": "^0.13.3",
-    "@typeschema/valibot": "^0.13.4",
-    "@typeschema/yup": "^0.13.3",
-    "@typeschema/zod": "^0.13.3",
+    "@typeschema/joi": "0.13.3",
+    "@typeschema/valibot": "0.13.4",
+    "@typeschema/yup": "0.13.3",
+    "@typeschema/zod": "0.13.3",
     "@typescript-eslint/eslint-plugin": "7.1.0",
     "@typescript-eslint/parser": "7.1.0",
     "@vitest/ui": "1.3.1",

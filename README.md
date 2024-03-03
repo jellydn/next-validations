@@ -1,6 +1,9 @@
 # Welcome to next-validations 👋
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Version](https://img.shields.io/npm/v/next-validations.svg)](https://npmjs.org/package/next-validations)
@@ -119,7 +122,6 @@ export default router.handler({
     });
   },
 });
-
 ```
 
 ### Validate custom API endpoint with Zod
@@ -150,7 +152,6 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
 export default validate(handler);
 ```
 
-
 ### Validate custom API endpoint with Valibot
 
 ```sh
@@ -176,9 +177,8 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
   res.status(200).json(req.query);
 };
 
-export default validate(handler)
+export default validate(handler);
 ```
-
 
 ### Validate custom API endpoint with fastest-validator
 
@@ -264,10 +264,6 @@ yarn test
 - Twitter: [@jellydn](https://twitter.com/jellydn)
 - Github: [@jellydn](https://github.com/jellydn)
 
-## Stargazers
-
-[![Stargazers repo roster for @jellydn/next-validations](https://reporoster.com/stars/jellydn/next-validations)](https://github.com/jellydn/next-validations/stargazers)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
@@ -276,6 +272,9 @@ Give a ⭐️ if this project helped you!
 [![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
 [![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jellydn/next-validations&type=Date)](https://star-history.com/#jellydn/next-validations&Date)
 
 ## Contributors ✨
 
@@ -300,3 +299,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+

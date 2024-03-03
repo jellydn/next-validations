@@ -18,13 +18,22 @@
       ]
     },
     {
-       "login": "SferaDev",
+      "login": "SferaDev",
       "name": "Alexis Rico",
       "avatar_url": "https://avatars.githubusercontent.com/u/2181866?v=4",
       "profile": "http://sferadev.com",
       "contributions": [
         "code"
-        ]
+      ]
+    },
+    {
+      "login": "decs",
+      "name": "André Costa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/601381?v=4",
+      "profile": "https://github.com/decs",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

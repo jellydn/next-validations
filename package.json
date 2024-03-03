@@ -62,7 +62,7 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "type-fest": "4.8.2"
+    "@typeschema/main": "^0.13.7"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "11.0.0",
@@ -72,6 +72,10 @@
     "@types/jest": "29.5.10",
     "@types/react": "18.2.40",
     "@types/react-dom": "18.2.17",
+    "@typeschema/joi": "^0.13.3",
+    "@typeschema/valibot": "^0.13.4",
+    "@typeschema/yup": "^0.13.3",
+    "@typeschema/zod": "^0.13.3",
     "@typescript-eslint/eslint-plugin": "7.0.1",
     "@typescript-eslint/parser": "7.0.1",
     "@vitest/ui": "1.1.1",

@@ -1,40 +1,32 @@
-import { type NextApiRequest, type NextApiResponse } from "next";
-
-import { createResolver } from "./validation";
-import type { SCHEMA_TYPE } from "./validation";
+import { type Schema } from '@typeschema/main';
+import { type NextApiRequest, type NextApiResponse } from 'next';
+import { typeschemaResolver } from './resolver';
 
 type NextHandler = (err?: Error) => void;
 
 type ValidationHoF = {
-  type: SCHEMA_TYPE;
-  mode?: "body" | "query" | "headers";
-  schema: unknown;
+  mode?: 'body' | 'query' | 'headers';
+  schema: Schema;
 };
 
-export function withValidation({
-  type,
-  schema,
-  mode = "query",
-}: ValidationHoF) {
-  return withValidations([{ type, schema, mode }]);
+export function withValidation({ schema, mode = 'query' }: ValidationHoF) {
+  return withValidations([{ schema, mode }]);
 }
 
 export function withValidations(validations: ValidationHoF[]) {
-  return (
-    handler?: (req: NextApiRequest, res: NextApiResponse) => any,
-  ) => async (
-    req: NextApiRequest,
-    res: NextApiResponse,
-    next?: NextHandler,
-  ) => {
+  return (handler?: (req: NextApiRequest, res: NextApiResponse) => any) =>
+    async (req: NextApiRequest, res: NextApiResponse, next?: NextHandler) => {
       try {
-        validations.forEach((validation) => {
-          const resolver = createResolver(validation.type, validation.schema);
-          resolver.validate(req[validation.mode ?? "query"]);
-        });
+        await Promise.all(
+          validations.map(async (validation) => {
+            const resolver = typeschemaResolver(validation.schema);
+            await resolver.validate(req[validation.mode ?? 'query']);
+          })
+        );
 
         if (next) {
-          next(); return;
+          next();
+          return;
         }
 
         if (handler) return handler(req, res);

@@ -1,6 +1,6 @@
 # Welcome to next-validations 👋
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Version](https://img.shields.io/npm/v/next-validations.svg)](https://npmjs.org/package/next-validations)
@@ -289,6 +289,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://productsway.com/"><img src="https://avatars.githubusercontent.com/u/870029?v=4?s=100" width="100px;" alt="Dung Duc Huynh (Kaka)"/><br /><sub><b>Dung Duc Huynh (Kaka)</b></sub></a><br /><a href="https://github.com/jellydn/next-validations/commits?author=jellydn" title="Code">💻</a> <a href="https://github.com/jellydn/next-validations/commits?author=jellydn" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://sferadev.com"><img src="https://avatars.githubusercontent.com/u/2181866?v=4?s=100" width="100px;" alt="Alexis Rico"/><br /><sub><b>Alexis Rico</b></sub></a><br /><a href="https://github.com/jellydn/next-validations/commits?author=SferaDev" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/decs"><img src="https://avatars.githubusercontent.com/u/601381?v=4?s=100" width="100px;" alt="André Costa"/><br /><sub><b>André Costa</b></sub></a><br /><a href="https://github.com/jellydn/next-validations/commits?author=decs" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

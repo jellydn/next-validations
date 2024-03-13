@@ -24,8 +24,8 @@ dependencies:
     specifier: 1.0.0
     version: 1.0.0
   next-validations:
-    specifier: 0.4.2
-    version: 0.4.2(next@14.1.3)
+    specifier: next
+    version: 1.0.0-0(next@14.1.3)
   qs:
     specifier: 6.12.0
     version: 6.12.0
@@ -49,9 +49,6 @@ dependencies:
     version: 3.22.4
 
 devDependencies:
-  '@types/cypress':
-    specifier: 1.1.3
-    version: 1.1.3
   '@types/react':
     specifier: 18.2.65
     version: 18.2.65
@@ -766,13 +763,6 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: false
 
-  /@types/cypress@1.1.3:
-    resolution: {integrity: sha512-OXe0Gw8LeCflkG1oPgFpyrYWJmEKqYncBsD/J0r17r0ETx/TnIGDNLwXt/pFYSYuYTpzcq1q3g62M9DrfsBL4g==}
-    deprecated: This is a stub types definition for cypress (https://cypress.io). cypress provides its own type definitions, so you don't need @types/cypress installed!
-    dependencies:
-      cypress: 13.6.6
-    dev: true
-
   /@types/hast@2.3.10:
     resolution: {integrity: sha512-McWspRw8xx8J9HurkVBfYj0xKoE25tOFlHGdx4MJ5xORQrMGZNqJhVQWaIbm6Oyla5kYOXtDiopzKRJzEOkwJw==}
     dependencies:
@@ -833,6 +823,76 @@ packages:
       '@types/node': 20.11.26
     dev: true
     optional: true
+
+  /@typeschema/core@0.13.2:
+    resolution: {integrity: sha512-pAt0MK249/9szYaoPuvzhSfOd3smrLhhwCCpUNB4onX32mRx5F3lzDIveIYGQkLYRq58xOX5sjoW+n72f/MLLw==}
+    peerDependencies:
+      '@types/json-schema': ^7.0.15
+    peerDependenciesMeta:
+      '@types/json-schema':
+        optional: true
+    dev: false
+
+  /@typeschema/main@0.13.7:
+    resolution: {integrity: sha512-i6ag0uXU21AaReSfXYkTfkqcEMDhbmFUtbgWu6AEcMLcMKpdQ2o3+lXbks9ZkN+93bo5Ie3xr9Ot5K2Md7iyRQ==}
+    peerDependencies:
+      '@typeschema/arktype': 0.13.2
+      '@typeschema/class-validator': 0.1.2
+      '@typeschema/deepkit': 0.13.4
+      '@typeschema/effect': 0.13.4
+      '@typeschema/function': 0.13.2
+      '@typeschema/io-ts': 0.13.3
+      '@typeschema/joi': 0.13.3
+      '@typeschema/json': 0.13.3
+      '@typeschema/ow': 0.13.3
+      '@typeschema/runtypes': 0.13.2
+      '@typeschema/superstruct': 0.13.2
+      '@typeschema/suretype': 0.1.0
+      '@typeschema/typebox': 0.13.4
+      '@typeschema/valibot': 0.13.4
+      '@typeschema/valita': 0.1.0
+      '@typeschema/yup': 0.13.3
+      '@typeschema/zod': 0.13.3
+    peerDependenciesMeta:
+      '@typeschema/arktype':
+        optional: true
+      '@typeschema/class-validator':
+        optional: true
+      '@typeschema/deepkit':
+        optional: true
+      '@typeschema/effect':
+        optional: true
+      '@typeschema/function':
+        optional: true
+      '@typeschema/io-ts':
+        optional: true
+      '@typeschema/joi':
+        optional: true
+      '@typeschema/json':
+        optional: true
+      '@typeschema/ow':
+        optional: true
+      '@typeschema/runtypes':
+        optional: true
+      '@typeschema/superstruct':
+        optional: true
+      '@typeschema/suretype':
+        optional: true
+      '@typeschema/typebox':
+        optional: true
+      '@typeschema/valibot':
+        optional: true
+      '@typeschema/valita':
+        optional: true
+      '@typeschema/yup':
+        optional: true
+      '@typeschema/zod':
+        optional: true
+    dependencies:
+      '@typeschema/core': 0.13.2
+    transitivePeerDependencies:
+      - '@types/json-schema'
+    dev: false
 
   /@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.4.2):
     resolution: {integrity: sha512-tbsV1jPne5CkFQCgPBcDOt30ItF7aJoZL997JSF7MhGQqOeT3svWRYxiqlfA5RUdlHN6Fi+EI9bxqbdyAUZjYQ==}
@@ -3117,14 +3177,33 @@ packages:
       regexparam: 2.0.2
     dev: false
 
-  /next-validations@0.4.2(next@14.1.3):
-    resolution: {integrity: sha512-6XtLuTFuJh4xyRTBbwkzr8A2ApoDazostHM/FGaTGp4fhdFJa+Areqthj069l5KZ+hBbgOgL0+HcrA9UPD3e5g==}
-    engines: {node: '>=16'}
+  /next-validations@1.0.0-0(next@14.1.3):
+    resolution: {integrity: sha512-adXAmtEHNxB+Tppc8+NDkSyexIAZaR66Tcj75GwuxLTBCPWFWFrNZlweI0IVvDTykbeOTFMAYle0H4Rz3ioeUg==}
+    engines: {node: '>=18'}
     peerDependencies:
       next: '*'
     dependencies:
+      '@typeschema/main': 0.13.7
       next: 14.1.3(react-dom@18.2.0)(react@18.2.0)
-      type-fest: 4.6.0
+    transitivePeerDependencies:
+      - '@types/json-schema'
+      - '@typeschema/arktype'
+      - '@typeschema/class-validator'
+      - '@typeschema/deepkit'
+      - '@typeschema/effect'
+      - '@typeschema/function'
+      - '@typeschema/io-ts'
+      - '@typeschema/joi'
+      - '@typeschema/json'
+      - '@typeschema/ow'
+      - '@typeschema/runtypes'
+      - '@typeschema/superstruct'
+      - '@typeschema/suretype'
+      - '@typeschema/typebox'
+      - '@typeschema/valibot'
+      - '@typeschema/valita'
+      - '@typeschema/yup'
+      - '@typeschema/zod'
     dev: false
 
   /next@14.1.3(react-dom@18.2.0)(react@18.2.0):
@@ -4449,11 +4528,6 @@ packages:
   /type-fest@2.19.0:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
-    dev: false
-
-  /type-fest@4.6.0:
-    resolution: {integrity: sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==}
-    engines: {node: '>=16'}
     dev: false
 
   /typed-array-buffer@1.0.2:

@@ -1,5 +1,5 @@
-import { type Schema } from '@typeschema/main';
-import { type NextApiRequest, type NextApiResponse } from 'next';
+import type { Schema } from '@typeschema/main';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { typeschemaResolver } from './resolver';
 
 type NextHandler = (err?: Error) => void;

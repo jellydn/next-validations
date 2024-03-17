@@ -21,7 +21,6 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: next-validations
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v4
         with:
@@ -36,3 +35,14 @@ jobs:
           git push origin :stable || true
           git tag -a stable -m "Last Stable Release"
           git push origin stable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          registry-url: "https://registry.npmjs.org"
+        if: ${{ steps.release.outputs.release_created }}
+      - run: corepack enable && corepack use pnpm@latest && pnpm install
+        if: ${{ steps.release.outputs.release_created }}
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}

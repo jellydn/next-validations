@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@typeschema/fastest-validator':
-    specifier: ^0.1.0
+    specifier: 0.1.0
     version: 0.1.0(fastest-validator@1.17.0)
   '@typeschema/joi':
     specifier: 0.13.3

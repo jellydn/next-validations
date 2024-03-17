@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   '@typeschema/joi':
-    specifier: ^0.13.3
+    specifier: 0.13.3
     version: 0.13.3(joi@17.12.2)
   '@typeschema/valibot':
-    specifier: ^0.13.4
+    specifier: 0.13.4
     version: 0.13.4(valibot@0.30.0)
   '@typeschema/yup':
-    specifier: ^0.13.3
+    specifier: 0.13.3
     version: 0.13.3(yup@1.4.0)
   '@typeschema/zod':
-    specifier: ^0.13.3
+    specifier: 0.13.3
     version: 0.13.3(zod@3.22.4)
   caniuse-lite:
     specifier: 1.0.30001597

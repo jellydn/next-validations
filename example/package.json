@@ -12,7 +12,7 @@
     "test:e2e": "wait-on http://localhost:3000 && cypress run"
   },
   "dependencies": {
-    "@typeschema/fastest-validator": "^0.1.0",
+    "@typeschema/fastest-validator": "0.1.0",
     "@typeschema/joi": "0.13.3",
     "@typeschema/valibot": "0.13.4",
     "@typeschema/yup": "0.13.3",

@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { withValidation } from 'next-validations';
 
+// This is fastest-validator schema
 const schema = {
   name: { type: 'string', min: 3, max: 255 },
   email: { type: 'email' },

@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@typeschema/fastest-validator':
+    specifier: ^0.1.0
+    version: 0.1.0(fastest-validator@1.17.0)
   '@typeschema/joi':
     specifier: 0.13.3
     version: 0.13.3(joi@17.12.2)
@@ -36,8 +39,8 @@ dependencies:
     specifier: 1.0.0
     version: 1.0.0
   next-validations:
-    specifier: next
-    version: 1.0.0-0(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)(next@14.1.3)
+    specifier: 1.0.0-1
+    version: 1.0.0-1(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)(next@14.1.3)
   qs:
     specifier: 6.12.0
     version: 6.12.0
@@ -845,6 +848,20 @@ packages:
         optional: true
     dev: false
 
+  /@typeschema/fastest-validator@0.1.0(fastest-validator@1.17.0):
+    resolution: {integrity: sha512-D0kLQWM7driMeDP97zyK2wSU+RA+br7Iw5PL3l3Ykw72ALv61hbA+icJ0r0XFiF4YTxvmccYcOVBlSgAAKzRFQ==}
+    peerDependencies:
+      fastest-validator: ^1.17.0
+    peerDependenciesMeta:
+      fastest-validator:
+        optional: true
+    dependencies:
+      '@typeschema/core': 0.13.2
+      fastest-validator: 1.17.0
+    transitivePeerDependencies:
+      - '@types/json-schema'
+    dev: false
+
   /@typeschema/joi@0.13.3(joi@17.12.2):
     resolution: {integrity: sha512-8uLPw0qOqwNLm+mm3eVeYSZ6j0Hfs9gpTEa7Af03j4M+XqAPu4Zy9ziHUZordTPCa8+oMZVyi8ENsTcRnmgvdA==}
     peerDependencies:
@@ -862,13 +879,14 @@ packages:
       - '@types/json-schema'
     dev: false
 
-  /@typeschema/main@0.13.7(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3):
-    resolution: {integrity: sha512-i6ag0uXU21AaReSfXYkTfkqcEMDhbmFUtbgWu6AEcMLcMKpdQ2o3+lXbks9ZkN+93bo5Ie3xr9Ot5K2Md7iyRQ==}
+  /@typeschema/main@0.13.8(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3):
+    resolution: {integrity: sha512-EgGI8MxtN0F22MfPNp3cVxDhHodoDw4rLXxY5UDDfAqVZLMNXPJGtoW8SeT60RUANednmVmqbGkMCU4+p0xdaw==}
     peerDependencies:
       '@typeschema/arktype': 0.13.2
       '@typeschema/class-validator': 0.1.2
       '@typeschema/deepkit': 0.13.4
       '@typeschema/effect': 0.13.4
+      '@typeschema/fastest-validator': 0.1.0
       '@typeschema/function': 0.13.2
       '@typeschema/io-ts': 0.13.3
       '@typeschema/joi': 0.13.3
@@ -890,6 +908,8 @@ packages:
       '@typeschema/deepkit':
         optional: true
       '@typeschema/effect':
+        optional: true
+      '@typeschema/fastest-validator':
         optional: true
       '@typeschema/function':
         optional: true
@@ -919,6 +939,7 @@ packages:
         optional: true
     dependencies:
       '@typeschema/core': 0.13.2
+      '@typeschema/fastest-validator': 0.1.0(fastest-validator@1.17.0)
       '@typeschema/joi': 0.13.3(joi@17.12.2)
       '@typeschema/valibot': 0.13.4(valibot@0.30.0)
       '@typeschema/yup': 0.13.3(yup@1.4.0)
@@ -3261,13 +3282,13 @@ packages:
       regexparam: 2.0.2
     dev: false
 
-  /next-validations@1.0.0-0(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)(next@14.1.3):
-    resolution: {integrity: sha512-adXAmtEHNxB+Tppc8+NDkSyexIAZaR66Tcj75GwuxLTBCPWFWFrNZlweI0IVvDTykbeOTFMAYle0H4Rz3ioeUg==}
+  /next-validations@1.0.0-1(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)(next@14.1.3):
+    resolution: {integrity: sha512-FL2Q6FsJA/NtOMHbB4mGrdIzjS2dHTaXY21yoyOXPn+Zy1nHu2wzlbetEq4XRyeTScjwvOpEiN4iF+ZJOth7Nw==}
     engines: {node: '>=18'}
     peerDependencies:
       next: '*'
     dependencies:
-      '@typeschema/main': 0.13.7(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)
+      '@typeschema/main': 0.13.8(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)
       next: 14.1.3(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -3275,6 +3296,7 @@ packages:
       - '@typeschema/class-validator'
       - '@typeschema/deepkit'
       - '@typeschema/effect'
+      - '@typeschema/fastest-validator'
       - '@typeschema/function'
       - '@typeschema/io-ts'
       - '@typeschema/joi'

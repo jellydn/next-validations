@@ -8,7 +8,6 @@ const schema = valibot.object({
 
 const validate = withValidation({
   schema,
-  type: 'Valibot',
   mode: 'query',
 });
 

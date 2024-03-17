@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { withValidation } from 'next-validations';
 
 const schema = {
@@ -9,7 +9,6 @@ const schema = {
 
 const validate = withValidation({
   schema,
-  type: 'FastestValidator',
   mode: 'body',
 });
 

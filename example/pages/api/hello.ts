@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { withValidation } from 'next-validations';
 import * as yup from 'yup';
 
@@ -8,7 +8,6 @@ const schema = yup.object().shape({
 
 const validate = withValidation({
   schema,
-  type: 'Yup',
   mode: 'query',
 });
 

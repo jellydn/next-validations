@@ -1,5 +1,5 @@
 import Joi from 'joi';
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { createRouter } from 'next-connect';
 import { withValidation } from 'next-validations';
 import { NextResponse } from 'next/server';
@@ -12,7 +12,6 @@ const schema = Joi.object({
 
 const validate = withValidation({
   schema,
-  type: 'Joi',
   mode: 'body',
 });
 

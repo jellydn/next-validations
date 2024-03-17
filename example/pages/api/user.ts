@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
 import { z } from 'zod';
 import { withValidation } from 'next-validations';
@@ -9,7 +9,6 @@ const schema = z.object({
 
 const validate = withValidation({
   schema,
-  type: 'Zod',
   mode: 'body',
 });
 

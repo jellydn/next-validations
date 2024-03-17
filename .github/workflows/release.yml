@@ -20,7 +20,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v4
         id: release
         with:
-          release-type: simple
+          release-type: node
           package-name: next-validations
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v4

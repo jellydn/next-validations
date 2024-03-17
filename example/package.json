@@ -12,10 +12,10 @@
     "test:e2e": "wait-on http://localhost:3000 && cypress run"
   },
   "dependencies": {
-    "@typeschema/joi": "^0.13.3",
-    "@typeschema/valibot": "^0.13.4",
-    "@typeschema/yup": "^0.13.3",
-    "@typeschema/zod": "^0.13.3",
+    "@typeschema/joi": "0.13.3",
+    "@typeschema/valibot": "0.13.4",
+    "@typeschema/yup": "0.13.3",
+    "@typeschema/zod": "0.13.3",
     "caniuse-lite": "1.0.30001597",
     "fastest-validator": "1.17.0",
     "isarray": "2.0.5",

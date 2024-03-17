@@ -22,7 +22,7 @@
 
 ## Prerequisites
 
-- node >=16
+- node >=18
 - nextjs >= 9
 
 ## Install
@@ -33,19 +33,16 @@ yarn add next-validations
 
 ## Features
 
-- [x] Support [Yup](https://github.com/jquense/yup) validation
-- [x] Support [Fastest-Validator](https://github.com/icebob/fastest-validator) validation
-- [x] Support [Joi](https://github.com/sideway/joi) validation
-- [x] Support [Zod](https://github.com/colinhacks/zod) validation
-- [x] Support [Valibot](https://github.com/fabian-hiller/valibot) validation
-- [ ] ...
+- **Support for Multiple Validation Libraries**: This package is designed to work seamlessly with a variety of popular validation libraries. These include [Yup](https://github.com/jquense/yup), [Fastest-Validator](https://github.com/icebob/fastest-validator), [Joi](https://github.com/sideway/joi), [Zod](https://github.com/colinhacks/zod), and [Valibot](https://github.com/fabian-hiller/valibot). This means you can choose the library that best suits your project's needs.
+
+- **Integration with TypeSchema**: `next-validations` integrates with [TypeSchema - Universal adapter for TypeScript schema validation](https://typeschema.com/). This allows for even more flexibility and compatibility with additional validation libraries.
 
 ## Usage
 
 ### Validation of multiple modes
 
 ```sh
-yarn add yup joi next-validations
+yarn add yup joi next-validations @typeschema/yup @typeschema/yoi
 ```
 
 ```typescript
@@ -89,7 +86,7 @@ export default connect().post(validate(), handler);
 ### Validate custom API endpoint with Yup
 
 ```sh
-yarn add yup next-validations
+yarn add yup next-validations @typeschema/yup
 ```
 
 ```typescript
@@ -127,7 +124,7 @@ export default router.handler({
 ### Validate custom API endpoint with Zod
 
 ```sh
-yarn add zod next-validations
+yarn add zod next-validations @typeschema/zod
 ```
 
 ```typescript
@@ -155,7 +152,7 @@ export default validate(handler);
 ### Validate custom API endpoint with Valibot
 
 ```sh
-yarn add valibot next-validations
+yarn add valibot next-validations @typeschema/valibot
 ```
 
 ```typescript
@@ -183,7 +180,7 @@ export default validate(handler);
 ### Validate custom API endpoint with fastest-validator
 
 ```sh
-yarn add fastest-validator next-validations
+yarn add fastest-validator next-validations @typeschema/fastest-validator
 ```
 
 ```typescript
@@ -212,7 +209,7 @@ export default validate(handler);
 ### Validate custom API endpoint with joi
 
 ```sh
-yarn add joi next-connect next-validations
+yarn add joi next-connect next-validations @typeschema/joi
 ```
 
 ```typescript
@@ -299,4 +296,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-

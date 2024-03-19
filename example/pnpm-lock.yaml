@@ -40,7 +40,7 @@ dependencies:
     version: 1.0.0
   next-validations:
     specifier: 1.0.0-1
-    version: 1.0.0-1(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)(next@14.1.3)
+    version: link:..
   qs:
     specifier: 6.12.0
     version: 6.12.0
@@ -52,7 +52,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   swagger-ui-react:
     specifier: 5.12.0
-    version: 5.12.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0)
+    version: 5.12.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0)
   valibot:
     specifier: 0.30.0
     version: 0.30.0
@@ -65,8 +65,8 @@ dependencies:
 
 devDependencies:
   '@types/react':
-    specifier: 18.2.66
-    version: 18.2.66
+    specifier: 18.2.67
+    version: 18.2.67
   cypress:
     specifier: 13.7.0
     version: 13.7.0
@@ -804,8 +804,8 @@ packages:
       types-ramda: 0.29.9
     dev: false
 
-  /@types/react@18.2.66:
-    resolution: {integrity: sha512-OYTmMI4UigXeFMF/j4uv0lBBEbongSgptPrHBxqME44h9+yNov+oL6Z3ocJKo0WyXR84sQUNeyIp9MRfckvZpg==}
+  /@types/react@18.2.67:
+    resolution: {integrity: sha512-vkIE2vTIMHQ/xL0rgmuoECBCkZFZeHr49HeWSc24AptMbNRo7pwSBvj73rlJJs9fGKj0koS+V7kQB1jHS0uCgw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -874,75 +874,6 @@ packages:
     dependencies:
       '@typeschema/core': 0.13.2
       joi: 17.12.2
-    transitivePeerDependencies:
-      - '@types/json-schema'
-    dev: false
-
-  /@typeschema/main@0.13.8(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3):
-    resolution: {integrity: sha512-EgGI8MxtN0F22MfPNp3cVxDhHodoDw4rLXxY5UDDfAqVZLMNXPJGtoW8SeT60RUANednmVmqbGkMCU4+p0xdaw==}
-    peerDependencies:
-      '@typeschema/arktype': 0.13.2
-      '@typeschema/class-validator': 0.1.2
-      '@typeschema/deepkit': 0.13.4
-      '@typeschema/effect': 0.13.4
-      '@typeschema/fastest-validator': 0.1.0
-      '@typeschema/function': 0.13.2
-      '@typeschema/io-ts': 0.13.3
-      '@typeschema/joi': 0.13.3
-      '@typeschema/json': 0.13.3
-      '@typeschema/ow': 0.13.3
-      '@typeschema/runtypes': 0.13.2
-      '@typeschema/superstruct': 0.13.2
-      '@typeschema/suretype': 0.1.0
-      '@typeschema/typebox': 0.13.4
-      '@typeschema/valibot': 0.13.4
-      '@typeschema/valita': 0.1.0
-      '@typeschema/yup': 0.13.3
-      '@typeschema/zod': 0.13.3
-    peerDependenciesMeta:
-      '@typeschema/arktype':
-        optional: true
-      '@typeschema/class-validator':
-        optional: true
-      '@typeschema/deepkit':
-        optional: true
-      '@typeschema/effect':
-        optional: true
-      '@typeschema/fastest-validator':
-        optional: true
-      '@typeschema/function':
-        optional: true
-      '@typeschema/io-ts':
-        optional: true
-      '@typeschema/joi':
-        optional: true
-      '@typeschema/json':
-        optional: true
-      '@typeschema/ow':
-        optional: true
-      '@typeschema/runtypes':
-        optional: true
-      '@typeschema/superstruct':
-        optional: true
-      '@typeschema/suretype':
-        optional: true
-      '@typeschema/typebox':
-        optional: true
-      '@typeschema/valibot':
-        optional: true
-      '@typeschema/valita':
-        optional: true
-      '@typeschema/yup':
-        optional: true
-      '@typeschema/zod':
-        optional: true
-    dependencies:
-      '@typeschema/core': 0.13.2
-      '@typeschema/fastest-validator': 0.1.0(fastest-validator@1.17.0)
-      '@typeschema/joi': 0.13.3(joi@17.12.2)
-      '@typeschema/valibot': 0.13.4(valibot@0.30.0)
-      '@typeschema/yup': 0.13.3(yup@1.4.0)
-      '@typeschema/zod': 0.13.3(zod@3.22.4)
     transitivePeerDependencies:
       - '@types/json-schema'
     dev: false
@@ -3367,36 +3298,6 @@ packages:
       regexparam: 2.0.2
     dev: false
 
-  /next-validations@1.0.0-1(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)(next@14.1.3):
-    resolution: {integrity: sha512-FL2Q6FsJA/NtOMHbB4mGrdIzjS2dHTaXY21yoyOXPn+Zy1nHu2wzlbetEq4XRyeTScjwvOpEiN4iF+ZJOth7Nw==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      next: '*'
-    dependencies:
-      '@typeschema/main': 0.13.8(@typeschema/fastest-validator@0.1.0)(@typeschema/joi@0.13.3)(@typeschema/valibot@0.13.4)(@typeschema/yup@0.13.3)(@typeschema/zod@0.13.3)
-      next: 14.1.3(react-dom@18.2.0)(react@18.2.0)
-    transitivePeerDependencies:
-      - '@types/json-schema'
-      - '@typeschema/arktype'
-      - '@typeschema/class-validator'
-      - '@typeschema/deepkit'
-      - '@typeschema/effect'
-      - '@typeschema/fastest-validator'
-      - '@typeschema/function'
-      - '@typeschema/io-ts'
-      - '@typeschema/joi'
-      - '@typeschema/json'
-      - '@typeschema/ow'
-      - '@typeschema/runtypes'
-      - '@typeschema/superstruct'
-      - '@typeschema/suretype'
-      - '@typeschema/typebox'
-      - '@typeschema/valibot'
-      - '@typeschema/valita'
-      - '@typeschema/yup'
-      - '@typeschema/zod'
-    dev: false
-
   /next@14.1.3(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-oexgMV2MapI0UIWiXKkixF8J8ORxpy64OuJ/J9oVUmIthXOUCcuVEZX+dtpgq7wIfIqtBwQsKEDXejcjTsan9g==}
     engines: {node: '>=18.17.0'}
@@ -3932,7 +3833,7 @@ packages:
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-redux@9.1.0(@types/react@18.2.66)(react@18.2.0)(redux@5.0.1):
+  /react-redux@9.1.0(@types/react@18.2.67)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-6qoDzIO+gbrza8h3hjMA9aq4nwVFCKFtY2iLxCtVT38Swyy2C/dJCGBXHeHLtx6qlg/8qzc2MrhOeduf5K32wQ==}
     peerDependencies:
       '@types/react': ^18.2.25
@@ -3947,7 +3848,7 @@ packages:
       redux:
         optional: true
     dependencies:
-      '@types/react': 18.2.66
+      '@types/react': 18.2.67
       '@types/use-sync-external-store': 0.0.3
       react: 18.2.0
       redux: 5.0.1
@@ -4504,7 +4405,7 @@ packages:
       - debug
     dev: false
 
-  /swagger-ui-react@5.12.0(@types/react@18.2.66)(react-dom@18.2.0)(react@18.2.0):
+  /swagger-ui-react@5.12.0(@types/react@18.2.67)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-9QHLaGuo1x8jyGjGQMPOtcDFYH4lFb7L+FIYtplldUzo/JFgwfgUnpnUWadnhkVRJEGsHJqoy7IWJ4dK7WaPRQ==}
     peerDependencies:
       react: '>=16.8.0 <19'
@@ -4533,7 +4434,7 @@ packages:
       react-immutable-proptypes: 2.2.0(immutable@3.8.2)
       react-immutable-pure-component: 2.2.2(immutable@3.8.2)(react-dom@18.2.0)(react@18.2.0)
       react-inspector: 6.0.2(react@18.2.0)
-      react-redux: 9.1.0(@types/react@18.2.66)(react@18.2.0)(redux@5.0.1)
+      react-redux: 9.1.0(@types/react@18.2.67)(react@18.2.0)(redux@5.0.1)
       react-syntax-highlighter: 15.5.0(react@18.2.0)
       redux: 5.0.1
       redux-immutable: 4.0.0(immutable@3.8.2)

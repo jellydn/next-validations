@@ -30,7 +30,7 @@
     "swagger-ui-react": "5.17.2",
     "valibot": "0.30.0",
     "yup": "1.4.0",
-    "zod": "3.23.4"
+    "zod": "3.23.5"
   },
   "devDependencies": {
     "@types/react": "18.3.1",

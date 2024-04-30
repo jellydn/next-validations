@@ -22,7 +22,7 @@ importers:
         version: 0.13.3(yup@1.4.0)
       '@typeschema/zod':
         specifier: 0.13.3
-        version: 0.13.3(zod@3.23.4)
+        version: 0.13.3(zod@3.23.5)
       caniuse-lite:
         specifier: 1.0.30001614
         version: 1.0.30001614
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.0.0-1
-        version: 1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.4))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       qs:
         specifier: 6.12.1
         version: 6.12.1
@@ -63,8 +63,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       zod:
-        specifier: 3.23.4
-        version: 3.23.4
+        specifier: 3.23.5
+        version: 3.23.5
     devDependencies:
       '@types/react':
         specifier: 18.3.1
@@ -2598,8 +2598,8 @@ packages:
   zenscroll@4.0.2:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
 
-  zod@3.23.4:
-    resolution: {integrity: sha512-/AtWOKbBgjzEYYQRNfoGKHObgfAZag6qUJX1VbHo2PRBgS+wfWagEY2mizjfyAPcGesrJOcx/wcl0L9WnVrHFw==}
+  zod@3.23.5:
+    resolution: {integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==}
 
 snapshots:
 
@@ -3147,7 +3147,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.4))':
+  '@typeschema/main@0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
@@ -3155,7 +3155,7 @@ snapshots:
       '@typeschema/joi': 0.13.3(joi@17.13.0)
       '@typeschema/valibot': 0.13.4(valibot@0.30.0)
       '@typeschema/yup': 0.13.3(yup@1.4.0)
-      '@typeschema/zod': 0.13.3(zod@3.23.4)
+      '@typeschema/zod': 0.13.3(zod@3.23.5)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3175,11 +3175,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.13.3(zod@3.23.4)':
+  '@typeschema/zod@0.13.3(zod@3.23.5)':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
-      zod: 3.23.4
+      zod: 3.23.5
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -4632,9 +4632,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.4))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+  next-validations@1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
-      '@typeschema/main': 0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.4))
+      '@typeschema/main': 0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))
       next: 14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -5661,4 +5661,4 @@ snapshots:
 
   zenscroll@4.0.2: {}
 
-  zod@3.23.4: {}
+  zod@3.23.5: {}

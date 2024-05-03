@@ -17,10 +17,10 @@
     "@typeschema/valibot": "0.13.4",
     "@typeschema/yup": "0.13.3",
     "@typeschema/zod": "0.13.3",
-    "caniuse-lite": "1.0.30001614",
+    "caniuse-lite": "1.0.30001615",
     "fastest-validator": "1.18.0",
     "isarray": "2.0.5",
-    "joi": "17.13.0",
+    "joi": "17.13.1",
     "next": "14.2.3",
     "next-connect": "1.0.0",
     "next-validations": "1.0.0-1",
@@ -30,7 +30,7 @@
     "swagger-ui-react": "5.17.2",
     "valibot": "0.30.0",
     "yup": "1.4.0",
-    "zod": "3.23.5"
+    "zod": "3.23.6"
   },
   "devDependencies": {
     "@types/react": "18.3.1",

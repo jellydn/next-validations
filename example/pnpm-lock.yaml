@@ -13,7 +13,7 @@ importers:
         version: 0.1.0(fastest-validator@1.18.0)
       '@typeschema/joi':
         specifier: 0.13.3
-        version: 0.13.3(joi@17.13.0)
+        version: 0.13.3(joi@17.13.1)
       '@typeschema/valibot':
         specifier: 0.13.4
         version: 0.13.4(valibot@0.30.0)
@@ -22,10 +22,10 @@ importers:
         version: 0.13.3(yup@1.4.0)
       '@typeschema/zod':
         specifier: 0.13.3
-        version: 0.13.3(zod@3.23.5)
+        version: 0.13.3(zod@3.23.6)
       caniuse-lite:
-        specifier: 1.0.30001614
-        version: 1.0.30001614
+        specifier: 1.0.30001615
+        version: 1.0.30001615
       fastest-validator:
         specifier: 1.18.0
         version: 1.18.0
@@ -33,8 +33,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       joi:
-        specifier: 17.13.0
-        version: 17.13.0
+        specifier: 17.13.1
+        version: 17.13.1
       next:
         specifier: 14.2.3
         version: 14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.0.0-1
-        version: 1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.1))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.6))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       qs:
         specifier: 6.12.1
         version: 6.12.1
@@ -63,8 +63,8 @@ importers:
         specifier: 1.4.0
         version: 1.4.0
       zod:
-        specifier: 3.23.5
-        version: 3.23.5
+        specifier: 3.23.6
+        version: 3.23.6
     devDependencies:
       '@types/react':
         specifier: 18.3.1
@@ -706,8 +706,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001614:
-    resolution: {integrity: sha512-jmZQ1VpmlRwHgdP1/uiKzgiAuGOfLEJsYFP4+GBou/QQ4U6IOJCB4NP1c+1p9RGLpwObcT94jA5/uO+F1vBbog==}
+  caniuse-lite@1.0.30001615:
+    resolution: {integrity: sha512-1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==}
 
   caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
@@ -1517,8 +1517,8 @@ packages:
     resolution: {integrity: sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==}
     engines: {node: '>=14'}
 
-  joi@17.13.0:
-    resolution: {integrity: sha512-9qcrTyoBmFZRNHeVP4edKqIUEgFzq7MHvTNSDuHSqkpOPtiBkgNgcmTSqmiw1kw9tdKaiddvIDv/eCJDxmqWCA==}
+  joi@17.13.1:
+    resolution: {integrity: sha512-vaBlIKCyo4FCUtCm7Eu4QZd/q02bWcxfUO6YSXAZOWF6gzcLBeba8kwotUdYJjDLW8Cz8RywsSOqiNJZW0mNvg==}
 
   js-file-download@0.4.12:
     resolution: {integrity: sha512-rML+NkoD08p5Dllpjo0ffy4jRHeY6Zsapvr/W86N7E0yuzAO6qa5X9+xog6zQNlH102J7IXljNY2FtS6Lj3ucg==}
@@ -2598,8 +2598,8 @@ packages:
   zenscroll@4.0.2:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
 
-  zod@3.23.5:
-    resolution: {integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==}
+  zod@3.23.6:
+    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
 
 snapshots:
 
@@ -3139,23 +3139,23 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/joi@0.13.3(joi@17.13.0)':
+  '@typeschema/joi@0.13.3(joi@17.13.1)':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
-      joi: 17.13.0
+      joi: 17.13.1
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))':
+  '@typeschema/main@0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.1))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.6))':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
       '@typeschema/fastest-validator': 0.1.0(fastest-validator@1.18.0)
-      '@typeschema/joi': 0.13.3(joi@17.13.0)
+      '@typeschema/joi': 0.13.3(joi@17.13.1)
       '@typeschema/valibot': 0.13.4(valibot@0.30.0)
       '@typeschema/yup': 0.13.3(yup@1.4.0)
-      '@typeschema/zod': 0.13.3(zod@3.23.5)
+      '@typeschema/zod': 0.13.3(zod@3.23.6)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3175,11 +3175,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.13.3(zod@3.23.5)':
+  '@typeschema/zod@0.13.3(zod@3.23.6)':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
-      zod: 3.23.5
+      zod: 3.23.6
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3444,7 +3444,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001614: {}
+  caniuse-lite@1.0.30001615: {}
 
   caseless@0.12.0: {}
 
@@ -4429,7 +4429,7 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  joi@17.13.0:
+  joi@17.13.1:
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0
@@ -4633,9 +4633,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
+  next-validations@1.0.0-1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.1))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.6))(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)):
     dependencies:
-      '@typeschema/main': 0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.0))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.5))
+      '@typeschema/main': 0.13.8(@typeschema/fastest-validator@0.1.0(fastest-validator@1.18.0))(@typeschema/joi@0.13.3(joi@17.13.1))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.6))
       next: 14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -4663,7 +4663,7 @@ snapshots:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001614
+      caniuse-lite: 1.0.30001615
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
@@ -5558,7 +5558,7 @@ snapshots:
   wait-on@7.2.0:
     dependencies:
       axios: 1.6.8
-      joi: 17.13.0
+      joi: 17.13.1
       lodash: 4.17.21
       minimist: 1.2.8
       rxjs: 7.8.1
@@ -5662,4 +5662,4 @@ snapshots:
 
   zenscroll@4.0.2: {}
 
-  zod@3.23.5: {}
+  zod@3.23.6: {}

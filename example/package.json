@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/react": "18.3.1",
     "cypress": "13.8.1",
-    "eslint": "8.57.0",
+    "eslint": "9.2.0",
     "eslint-config-next": "14.2.3",
     "npm-run-all2": "6.1.2",
     "wait-on": "7.2.0"

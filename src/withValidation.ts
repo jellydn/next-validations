@@ -29,7 +29,9 @@ export function withValidations(validations: ValidationHoF[]) {
           return;
         }
 
-        if (handler) return handler(req, res);
+        if (handler) {
+          return handler(req, res);
+        }
 
         res.status(404).end();
       } catch (error) {

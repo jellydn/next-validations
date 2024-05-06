@@ -50,7 +50,7 @@
     "@typeschema/main": "0.13.9"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.2",
+    "@biomejs/biome": "1.7.3",
     "@size-limit/preset-small-lib": "11.1.2",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "14.3.1",
@@ -84,7 +84,7 @@
   "peerDependencies": {
     "next": "*"
   },
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.0",
   "engines": {
     "node": ">=18"
   },

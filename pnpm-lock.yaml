@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@typeschema/main':
         specifier: 0.13.9
-        version: 0.13.9(@types/json-schema@7.0.15)(@typeschema/joi@0.13.3(@types/json-schema@7.0.15)(joi@17.13.1))(@typeschema/valibot@0.13.4(@types/json-schema@7.0.15)(valibot@0.30.0))(@typeschema/yup@0.13.3(@types/json-schema@7.0.15)(yup@1.4.0))(@typeschema/zod@0.13.3(@types/json-schema@7.0.15)(zod@3.23.6))
+        version: 0.13.9(@typeschema/joi@0.13.3(joi@17.13.1))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.6))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.7.2
@@ -35,16 +35,16 @@ importers:
         version: 18.3.0
       '@typeschema/joi':
         specifier: 0.13.3
-        version: 0.13.3(@types/json-schema@7.0.15)(joi@17.13.1)
+        version: 0.13.3(joi@17.13.1)
       '@typeschema/valibot':
         specifier: 0.13.4
-        version: 0.13.4(@types/json-schema@7.0.15)(valibot@0.30.0)
+        version: 0.13.4(valibot@0.30.0)
       '@typeschema/yup':
         specifier: 0.13.3
-        version: 0.13.3(@types/json-schema@7.0.15)(yup@1.4.0)
+        version: 0.13.3(yup@1.4.0)
       '@typeschema/zod':
         specifier: 0.13.3
-        version: 0.13.3(@types/json-schema@7.0.15)(zod@3.23.6)
+        version: 0.13.3(zod@3.23.6)
       '@vitest/ui':
         specifier: 1.6.0
         version: 1.6.0(vitest@1.6.0)
@@ -92,10 +92,10 @@ importers:
         version: 0.30.0
       vite:
         specifier: 5.2.11
-        version: 5.2.11(@types/node@20.12.7)
+        version: 5.2.11(@types/node@20.12.8)
       vitest:
         specifier: 1.6.0
-        version: 1.6.0(@types/node@20.12.7)(@vitest/ui@1.6.0)
+        version: 1.6.0(@types/node@20.12.8)(@vitest/ui@1.6.0)
       yup:
         specifier: 1.4.0
         version: 1.4.0
@@ -729,14 +729,11 @@ packages:
   '@types/jest@29.5.12':
     resolution: {integrity: sha512-eDC8bTvT/QhYdxJAulQikueigY5AsdBRH2yDKW3yveW7svY3+DzN84/2NUgkw10RTiJbWqZrTtoGVdYlvFJdLw==}
 
-  '@types/json-schema@7.0.15':
-    resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
-
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@20.12.7':
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+  '@types/node@20.12.8':
+    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -988,8 +985,8 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
-  bundle-require@4.0.3:
-    resolution: {integrity: sha512-2iscZ3fcthP2vka4Y7j277YJevwmsby/FpFDwjgw34Nl7dtCpt7zz/4TexmHMzY6KZEih7En9ImlbbgUNNQGtA==}
+  bundle-require@4.1.0:
+    resolution: {integrity: sha512-FeArRFM+ziGkRViKRnSTbHZc35dgmR9yNog05Kn0+ItI59pOAISGvnnIwW1WgFZQW59IxD9QpJnUPkdIPfZuXg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.17'
@@ -1023,8 +1020,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001614:
-    resolution: {integrity: sha512-jmZQ1VpmlRwHgdP1/uiKzgiAuGOfLEJsYFP4+GBou/QQ4U6IOJCB4NP1c+1p9RGLpwObcT94jA5/uO+F1vBbog==}
+  caniuse-lite@1.0.30001616:
+    resolution: {integrity: sha512-RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw==}
 
   chai@4.4.1:
     resolution: {integrity: sha512-13sOfMv2+DWduEU+/xbun3LScLoqN17nBeTLUsmDfKdoiC1fr0n9PU4guu4AhRcOVFk/sW8LyZWHuhWtQZiF+g==}
@@ -1828,12 +1825,12 @@ packages:
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
-  minipass@7.0.4:
-    resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
+  minipass@7.1.0:
+    resolution: {integrity: sha512-oGZRv2OT1lO2UF1zUcwdTb3wqUwI0kBGTgt/T7OdSj6M6N5m3o5uPf0AIW6lVxGGoiWUR7e2AwTE+xiwK8WQig==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  mlly@1.6.1:
-    resolution: {integrity: sha512-vLgaHvaeunuOXHSmEbZ9izxPx3USsk8KCQ8iC+aTlp5sKRSoZvwhHh5L9VbKSaVC6sJDqbyohIS76E2VmHIPAA==}
+  mlly@1.7.0:
+    resolution: {integrity: sha512-U9SDaXGEREBYQgfejV97coK0UL1r+qnF2SyO9A3qcI8MzKnsIFKHNVEkrDyNncQTKQQumsasmeq84eNMdBfsNQ==}
 
   modify-values@1.0.1:
     resolution: {integrity: sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==}
@@ -2903,7 +2900,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -3096,12 +3093,9 @@ snapshots:
       expect: 29.7.0
       pretty-format: 29.7.0
 
-  '@types/json-schema@7.0.15':
-    optional: true
-
   '@types/minimist@1.2.5': {}
 
-  '@types/node@20.12.7':
+  '@types/node@20.12.8':
     dependencies:
       undici-types: 5.26.5
 
@@ -3126,48 +3120,46 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@typeschema/core@0.13.2(@types/json-schema@7.0.15)':
-    optionalDependencies:
-      '@types/json-schema': 7.0.15
+  '@typeschema/core@0.13.2': {}
 
-  '@typeschema/joi@0.13.3(@types/json-schema@7.0.15)(joi@17.13.1)':
+  '@typeschema/joi@0.13.3(joi@17.13.1)':
     dependencies:
-      '@typeschema/core': 0.13.2(@types/json-schema@7.0.15)
+      '@typeschema/core': 0.13.2
     optionalDependencies:
       joi: 17.13.1
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.13.9(@types/json-schema@7.0.15)(@typeschema/joi@0.13.3(@types/json-schema@7.0.15)(joi@17.13.1))(@typeschema/valibot@0.13.4(@types/json-schema@7.0.15)(valibot@0.30.0))(@typeschema/yup@0.13.3(@types/json-schema@7.0.15)(yup@1.4.0))(@typeschema/zod@0.13.3(@types/json-schema@7.0.15)(zod@3.23.6))':
+  '@typeschema/main@0.13.9(@typeschema/joi@0.13.3(joi@17.13.1))(@typeschema/valibot@0.13.4(valibot@0.30.0))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.6))':
     dependencies:
-      '@typeschema/core': 0.13.2(@types/json-schema@7.0.15)
+      '@typeschema/core': 0.13.2
     optionalDependencies:
-      '@typeschema/joi': 0.13.3(@types/json-schema@7.0.15)(joi@17.13.1)
-      '@typeschema/valibot': 0.13.4(@types/json-schema@7.0.15)(valibot@0.30.0)
-      '@typeschema/yup': 0.13.3(@types/json-schema@7.0.15)(yup@1.4.0)
-      '@typeschema/zod': 0.13.3(@types/json-schema@7.0.15)(zod@3.23.6)
+      '@typeschema/joi': 0.13.3(joi@17.13.1)
+      '@typeschema/valibot': 0.13.4(valibot@0.30.0)
+      '@typeschema/yup': 0.13.3(yup@1.4.0)
+      '@typeschema/zod': 0.13.3(zod@3.23.6)
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/valibot@0.13.4(@types/json-schema@7.0.15)(valibot@0.30.0)':
+  '@typeschema/valibot@0.13.4(valibot@0.30.0)':
     dependencies:
-      '@typeschema/core': 0.13.2(@types/json-schema@7.0.15)
+      '@typeschema/core': 0.13.2
     optionalDependencies:
       valibot: 0.30.0
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/yup@0.13.3(@types/json-schema@7.0.15)(yup@1.4.0)':
+  '@typeschema/yup@0.13.3(yup@1.4.0)':
     dependencies:
-      '@typeschema/core': 0.13.2(@types/json-schema@7.0.15)
+      '@typeschema/core': 0.13.2
     optionalDependencies:
       yup: 1.4.0
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.13.3(@types/json-schema@7.0.15)(zod@3.23.6)':
+  '@typeschema/zod@0.13.3(zod@3.23.6)':
     dependencies:
-      '@typeschema/core': 0.13.2(@types/json-schema@7.0.15)
+      '@typeschema/core': 0.13.2
     optionalDependencies:
       zod: 3.23.6
     transitivePeerDependencies:
@@ -3204,7 +3196,7 @@ snapshots:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.6.0(@types/node@20.12.7)(@vitest/ui@1.6.0)
+      vitest: 1.6.0(@types/node@20.12.8)(@vitest/ui@1.6.0)
 
   '@vitest/utils@1.6.0':
     dependencies:
@@ -3289,7 +3281,7 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  bundle-require@4.0.3(esbuild@0.19.12):
+  bundle-require@4.1.0(esbuild@0.19.12):
     dependencies:
       esbuild: 0.19.12
       load-tsconfig: 0.2.5
@@ -3332,7 +3324,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001614: {}
+  caniuse-lite@1.0.30001616: {}
 
   chai@4.4.1:
     dependencies:
@@ -3852,7 +3844,7 @@ snapshots:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
       minimatch: 9.0.4
-      minipass: 7.0.4
+      minipass: 7.1.0
       path-scurry: 1.10.2
 
   glob@7.2.3:
@@ -4099,7 +4091,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -4150,7 +4142,7 @@ snapshots:
 
   local-pkg@0.5.0:
     dependencies:
-      mlly: 1.6.1
+      mlly: 1.7.0
       pkg-types: 1.1.0
 
   locate-path@2.0.0:
@@ -4254,9 +4246,9 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  minipass@7.0.4: {}
+  minipass@7.1.0: {}
 
-  mlly@1.6.1:
+  mlly@1.7.0:
     dependencies:
       acorn: 8.11.3
       pathe: 1.1.2
@@ -4290,7 +4282,7 @@ snapshots:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001614
+      caniuse-lite: 1.0.30001616
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
@@ -4427,7 +4419,7 @@ snapshots:
   path-scurry@1.10.2:
     dependencies:
       lru-cache: 10.2.2
-      minipass: 7.0.4
+      minipass: 7.1.0
 
   path-type@3.0.0:
     dependencies:
@@ -4454,7 +4446,7 @@ snapshots:
   pkg-types@1.1.0:
     dependencies:
       confbox: 0.1.7
-      mlly: 1.6.1
+      mlly: 1.7.0
       pathe: 1.1.2
 
   possible-typed-array-names@1.0.0: {}
@@ -4877,7 +4869,7 @@ snapshots:
 
   tsup@8.0.2(postcss@8.4.38)(typescript@5.4.5):
     dependencies:
-      bundle-require: 4.0.3(esbuild@0.19.12)
+      bundle-require: 4.1.0(esbuild@0.19.12)
       cac: 6.7.14
       chokidar: 3.6.0
       debug: 4.3.4
@@ -4944,13 +4936,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@1.6.0(@types/node@20.12.7):
+  vite-node@1.6.0(@types/node@20.12.8):
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.11(@types/node@20.12.7)
+      vite: 5.2.11(@types/node@20.12.8)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4961,16 +4953,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.2.11(@types/node@20.12.7):
+  vite@5.2.11(@types/node@20.12.8):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       fsevents: 2.3.3
 
-  vitest@1.6.0(@types/node@20.12.7)(@vitest/ui@1.6.0):
+  vitest@1.6.0(@types/node@20.12.8)(@vitest/ui@1.6.0):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -4989,11 +4981,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.11(@types/node@20.12.7)
-      vite-node: 1.6.0(@types/node@20.12.7)
+      vite: 5.2.11(@types/node@20.12.8)
+      vite-node: 1.6.0(@types/node@20.12.8)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@vitest/ui': 1.6.0(vitest@1.6.0)
     transitivePeerDependencies:
       - less

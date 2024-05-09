@@ -54,8 +54,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
       swagger-ui-react:
-        specifier: 5.17.6
-        version: 5.17.6(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 5.17.7
+        version: 5.17.7(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       valibot:
         specifier: 0.30.0
         version: 0.30.0
@@ -2293,8 +2293,8 @@ packages:
   swagger-client@3.27.3:
     resolution: {integrity: sha512-hkm+F67b1xjfAKdeRILsF/vg7mfEcAKAf96/BOcJzu532FlhOhH8umWmJ46ipmOJ8fLPM0eY+NqA0G1E6xZb5A==}
 
-  swagger-ui-react@5.17.6:
-    resolution: {integrity: sha512-R9GXQAoswjp4NOF2wV7ma2LqNG2bB3lgZwU207Pioz+ZTPXI3utIY554sbXKKoSb/f1ofyuHfaEU5ImwuPeMKw==}
+  swagger-ui-react@5.17.7:
+    resolution: {integrity: sha512-9pO9Z307dAdcYrkGpllQQPRIFHSSZcmWBUYdEdGDB8o13zZijONyMR5EVfiD/zOss4sAFIBz+cgmRnPIQh+o4w==}
     peerDependencies:
       react: '>=16.8.0 <19'
       react-dom: '>=16.8.0 <19'
@@ -5217,7 +5217,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  swagger-ui-react@5.17.6(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  swagger-ui-react@5.17.7(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime-corejs3': 7.24.5
       '@braintree/sanitize-url': 7.0.1

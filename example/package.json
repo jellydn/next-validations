@@ -17,7 +17,7 @@
     "@typeschema/valibot": "0.13.4",
     "@typeschema/yup": "0.13.3",
     "@typeschema/zod": "0.13.3",
-    "caniuse-lite": "1.0.30001616",
+    "caniuse-lite": "1.0.30001617",
     "fastest-validator": "1.18.0",
     "isarray": "2.0.5",
     "joi": "17.13.1",

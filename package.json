@@ -47,10 +47,10 @@
     }
   },
   "dependencies": {
-    "@typeschema/main": "0.13.9"
+    "@typeschema/main": "0.13.10"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
+    "@biomejs/biome": "1.8.3",
     "@size-limit/preset-small-lib": "11.1.4",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "15.0.7",
@@ -58,25 +58,25 @@
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typeschema/joi": "0.13.3",
-    "@typeschema/valibot": "0.13.4",
+    "@typeschema/valibot": "0.13.5",
     "@typeschema/yup": "0.13.3",
     "@typeschema/zod": "0.13.3",
     "@vitest/ui": "1.6.0",
     "c8": "9.1.0",
     "fastest-validator": "1.18.0",
     "husky": "9.0.11",
-    "joi": "17.13.1",
-    "next": "14.2.3",
+    "joi": "17.13.3",
+    "next": "14.2.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "size-limit": "11.1.4",
     "standard-version": "9.5.0",
-    "tslib": "2.6.2",
-    "tsup": "8.0.2",
-    "typedoc": "0.25.13",
-    "typescript": "5.4.5",
-    "valibot": "0.30.0",
-    "vite": "5.2.12",
+    "tslib": "2.6.3",
+    "tsup": "8.1.0",
+    "typedoc": "0.26.3",
+    "typescript": "5.5.3",
+    "valibot": "0.35.0",
+    "vite": "5.3.2",
     "vitest": "1.6.0",
     "yup": "1.4.0",
     "zod": "3.23.8"
@@ -84,7 +84,7 @@
   "peerDependencies": {
     "next": "*"
   },
-  "packageManager": "pnpm@9.1.3",
+  "packageManager": "pnpm@9.4.0",
   "engines": {
     "node": ">=18"
   },

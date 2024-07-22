@@ -1,5 +1,5 @@
 import Joi from 'joi';
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { createRouter } from 'next-connect';
 import { withValidations } from 'next-validations';
 import { NextResponse } from 'next/server';

@@ -42,10 +42,8 @@ export default function Home() {
             </p>
           </a>
           <Link href="/playground" className={styles.card}>
-
             <h2>API Playground &rarr;</h2>
             <p>Swagger UI</p>
-
           </Link>
         </div>
       </main>

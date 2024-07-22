@@ -1,9 +1,9 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { withValidation } from 'next-validations';
 import * as valibot from 'valibot';
 
 const schema = valibot.object({
-  name: valibot.string([valibot.minLength(4)]),
+  name: valibot.pipe(valibot.string(), valibot.minLength(4)),
 });
 
 const validate = withValidation({

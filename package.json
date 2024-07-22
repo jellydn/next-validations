@@ -1,6 +1,6 @@
 {
   "name": "next-validations",
-  "version": "1.0.0-1",
+  "version": "1.0.1-0",
   "keywords": [
     "nextjs",
     "validation",
@@ -26,7 +26,10 @@
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/index.d.ts",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "analyze": "size-limit --why",
     "build": "tsup",
@@ -99,14 +102,19 @@
     }
   ],
   "tsup": {
-    "entry": ["src/index.ts"],
+    "entry": [
+      "src/index.ts"
+    ],
     "splitting": false,
     "sourcemap": true,
     "minify": true,
     "clean": true,
     "dts": true,
     "metafile": true,
-    "format": ["esm", "cjs"],
+    "format": [
+      "esm",
+      "cjs"
+    ],
     "legacyOutput": true
   }
 }

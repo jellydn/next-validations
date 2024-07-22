@@ -6,3 +6,4 @@ dist
 docs
 .vercel
 coverage
+example/cypress/screenshots

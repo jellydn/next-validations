@@ -80,13 +80,13 @@ importers:
         version: 2.6.3
       tsup:
         specifier: 8.2.2
-        version: 8.2.2(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.3)(yaml@2.4.5)
+        version: 8.2.2(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.4)(yaml@2.4.5)
       typedoc:
         specifier: 0.26.5
-        version: 0.26.5(typescript@5.5.3)
+        version: 0.26.5(typescript@5.5.4)
       typescript:
-        specifier: 5.5.3
-        version: 5.5.3
+        specifier: 5.5.4
+        version: 5.5.4
       valibot:
         specifier: 0.36.0
         version: 0.36.0
@@ -2039,6 +2039,10 @@ packages:
   q@1.5.1:
     resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    deprecated: |-
+      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -2421,8 +2425,8 @@ packages:
     peerDependencies:
       typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x
 
-  typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -4613,7 +4617,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  tsup@8.2.2(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.3)(yaml@2.4.5):
+  tsup@8.2.2(jiti@1.21.0)(postcss@8.4.39)(typescript@5.5.4)(yaml@2.4.5):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.0)
       cac: 6.7.14
@@ -4633,7 +4637,7 @@ snapshots:
       tree-kill: 1.2.2
     optionalDependencies:
       postcss: 8.4.39
-      typescript: 5.5.3
+      typescript: 5.5.4
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -4650,16 +4654,16 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typedoc@0.26.5(typescript@5.5.3):
+  typedoc@0.26.5(typescript@5.5.4):
     dependencies:
       lunr: 2.3.9
       markdown-it: 14.1.0
       minimatch: 9.0.5
       shiki: 1.11.0
-      typescript: 5.5.3
+      typescript: 5.5.4
       yaml: 2.4.5
 
-  typescript@5.5.3: {}
+  typescript@5.5.4: {}
 
   uc.micro@2.1.0: {}
 

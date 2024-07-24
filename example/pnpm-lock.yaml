@@ -76,7 +76,7 @@ importers:
         specifier: 6.2.2
         version: 6.2.2
       typescript:
-        specifier: ^5.5.3
+        specifier: 5.5.3
         version: 5.5.3
       wait-on:
         specifier: 7.2.0

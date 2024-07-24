@@ -36,7 +36,7 @@
     "@types/react": "18.3.3",
     "cypress": "13.13.1",
     "npm-run-all2": "6.2.2",
-    "typescript": "^5.5.3",
+    "typescript": "5.5.3",
     "wait-on": "7.2.0"
   },
   "packageManager": "pnpm@9.6.0"

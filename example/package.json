@@ -18,7 +18,7 @@
     "@typeschema/yup": "0.13.3",
     "@typeschema/zod": "0.13.3",
     "caniuse-lite": "1.0.30001643",
-    "fastest-validator": "1.18.0",
+    "fastest-validator": "1.19.0",
     "isarray": "2.0.5",
     "joi": "17.13.3",
     "next": "14.2.5",
@@ -36,7 +36,7 @@
     "@types/react": "18.3.3",
     "cypress": "13.13.1",
     "npm-run-all2": "6.2.2",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "wait-on": "7.2.0"
   },
   "packageManager": "pnpm@9.6.0"

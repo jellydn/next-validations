@@ -45,8 +45,8 @@ importers:
         specifier: 1.0.1
         version: 1.0.1(@typeschema/fastest-validator@0.1.0(fastest-validator@1.19.0))(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.37.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       qs:
-        specifier: 6.12.3
-        version: 6.12.3
+        specifier: 6.13.0
+        version: 6.13.0
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -1221,8 +1221,8 @@ packages:
     resolution: {integrity: sha512-OQiU+C+Ds5qiH91qh/mg0w+8nwQuLjM4F4M/PbmhDOoYehPh+Fb0bDjtR1sOvy7YKxvj28Y/M0PhP5uVX0kB+g==}
     engines: {node: '>=0.6'}
 
-  qs@6.12.3:
-    resolution: {integrity: sha512-AWJm14H1vVaO/iNZ4/hO+HyaTehuy9nRqVdkTqlJt0HWvBiBIEXFmb4C0DGeYo3Xes9rrEW+TxHsaigCbN5ICQ==}
+  qs@6.13.0:
+    resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
     engines: {node: '>=0.6'}
 
   querystringify@2.2.0:
@@ -2991,7 +2991,7 @@ snapshots:
     dependencies:
       side-channel: 1.0.6
 
-  qs@6.12.3:
+  qs@6.13.0:
     dependencies:
       side-channel: 1.0.6
 
@@ -3271,7 +3271,7 @@ snapshots:
       node-fetch-commonjs: 3.3.2
       openapi-path-templating: 1.6.0
       openapi-server-url-templating: 1.1.0
-      qs: 6.12.3
+      qs: 6.13.0
       ramda-adjunct: 5.0.1(ramda@0.30.1)
       traverse: 0.6.8
     transitivePeerDependencies:

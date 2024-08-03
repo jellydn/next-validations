@@ -75,7 +75,7 @@
     "size-limit": "11.1.4",
     "standard-version": "9.5.0",
     "tslib": "2.6.3",
-    "tsup": "8.2.3",
+    "tsup": "8.2.4",
     "typedoc": "0.26.5",
     "typescript": "5.5.4",
     "valibot": "0.37.0",

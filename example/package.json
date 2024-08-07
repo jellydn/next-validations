@@ -39,5 +39,5 @@
     "typescript": "5.5.4",
     "wait-on": "7.2.0"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@9.7.0"
 }

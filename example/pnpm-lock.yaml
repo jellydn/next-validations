@@ -55,7 +55,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       swagger-ui-react:
         specifier: 5.17.14
-        version: 5.17.14(@types/react@18.3.3)(ramda@0.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.17.14(@types/react@18.3.4)(ramda@0.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       valibot:
         specifier: 0.38.0
         version: 0.38.0(typescript@5.5.4)
@@ -67,8 +67,8 @@ importers:
         version: 3.23.8
     devDependencies:
       '@types/react':
-        specifier: 18.3.3
-        version: 18.3.3
+        specifier: 18.3.4
+        version: 18.3.4
       cypress:
         specifier: 13.13.3
         version: 13.13.3
@@ -283,8 +283,8 @@ packages:
   '@types/ramda@0.30.1':
     resolution: {integrity: sha512-aoyF/ADPL6N+/NXXfhPWF+Qj6w1Cql59m9wX0Gi15uyF+bpzXeLd63HPdiTDE2bmLXfNcVufsDPKmbfOrOzTBA==}
 
-  '@types/react@18.3.3':
-    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
+  '@types/react@18.3.4':
+    resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
 
   '@types/sinonjs__fake-timers@8.1.1':
     resolution: {integrity: sha512-0kSuKjAS0TrGLJ0M/+8MaFkGsQhZpB6pxOmvS3K8FYI72K//YmdfoW9X2qPsAKh1mkwxGD5zib9s1FIFed6E8g==}
@@ -2108,7 +2108,7 @@ snapshots:
     dependencies:
       types-ramda: 0.30.1
 
-  '@types/react@18.3.3':
+  '@types/react@18.3.4':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -3057,13 +3057,13 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-redux@9.1.2(@types/react@18.3.3)(react@18.3.1)(redux@5.0.1):
+  react-redux@9.1.2(@types/react@18.3.4)(react@18.3.1)(redux@5.0.1):
     dependencies:
       '@types/use-sync-external-store': 0.0.3
       react: 18.3.1
       use-sync-external-store: 1.2.2(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.3
+      '@types/react': 18.3.4
       redux: 5.0.1
 
   react-syntax-highlighter@15.5.0(react@18.3.1):
@@ -3279,7 +3279,7 @@ snapshots:
       - debug
       - ramda
 
-  swagger-ui-react@5.17.14(@types/react@18.3.3)(ramda@0.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  swagger-ui-react@5.17.14(@types/react@18.3.4)(ramda@0.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime-corejs3': 7.25.0
       '@braintree/sanitize-url': 7.0.2
@@ -3303,7 +3303,7 @@ snapshots:
       react-immutable-proptypes: 2.2.0(immutable@3.8.2)
       react-immutable-pure-component: 2.2.2(immutable@3.8.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-inspector: 6.0.2(react@18.3.1)
-      react-redux: 9.1.2(@types/react@18.3.3)(react@18.3.1)(redux@5.0.1)
+      react-redux: 9.1.2(@types/react@18.3.4)(react@18.3.1)(redux@5.0.1)
       react-syntax-highlighter: 15.5.0(react@18.3.1)
       redux: 5.0.1
       redux-immutable: 4.0.0(immutable@3.8.2)

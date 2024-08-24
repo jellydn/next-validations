@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@typeschema/main':
         specifier: 0.13.10
-        version: 0.13.10(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.38.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))
+        version: 0.13.10(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.39.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.8.3
@@ -38,7 +38,7 @@ importers:
         version: 0.13.3(joi@17.13.3)
       '@typeschema/valibot':
         specifier: 0.13.5
-        version: 0.13.5(valibot@0.38.0(typescript@5.5.4))
+        version: 0.13.5(valibot@0.39.0(typescript@5.5.4))
       '@typeschema/yup':
         specifier: 0.13.3
         version: 0.13.3(yup@1.4.0)
@@ -88,8 +88,8 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
       valibot:
-        specifier: 0.38.0
-        version: 0.38.0(typescript@5.5.4)
+        specifier: 0.39.0
+        version: 0.39.0(typescript@5.5.4)
       vite:
         specifier: 5.4.2
         version: 5.4.2(@types/node@22.4.1)
@@ -2364,8 +2364,8 @@ packages:
     resolution: {integrity: sha512-kiGUalWN+rgBJ/1OHZsBtU4rXZOfj/7rKQxULKlIzwzQSvMJUUNgPwJEEh7gU6xEVxC0ahoOBvN2YI8GH6FNgA==}
     engines: {node: '>=10.12.0'}
 
-  valibot@0.38.0:
-    resolution: {integrity: sha512-RCJa0fetnzp+h+KN9BdgYOgtsMAG9bfoJ9JSjIhFHobKWVWyzM3jjaeNTdpFK9tQtf3q1sguXeERJ/LcmdFE7w==}
+  valibot@0.39.0:
+    resolution: {integrity: sha512-d+vE8SDRNy9zKg6No5MHz2tdz8H6CW8X3OdqYdmlhnoqQmEoM6Hu0hJUrZv3tPSVrzZkIIMCtdCQtMzcM6NCWw==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -2982,22 +2982,22 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.13.10(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.38.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))':
+  '@typeschema/main@0.13.10(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.39.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
       '@typeschema/joi': 0.13.3(joi@17.13.3)
-      '@typeschema/valibot': 0.13.5(valibot@0.38.0(typescript@5.5.4))
+      '@typeschema/valibot': 0.13.5(valibot@0.39.0(typescript@5.5.4))
       '@typeschema/yup': 0.13.3(yup@1.4.0)
       '@typeschema/zod': 0.13.3(zod@3.23.8)
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/valibot@0.13.5(valibot@0.38.0(typescript@5.5.4))':
+  '@typeschema/valibot@0.13.5(valibot@0.39.0(typescript@5.5.4))':
     dependencies:
       '@typeschema/core': 0.13.2
     optionalDependencies:
-      valibot: 0.38.0(typescript@5.5.4)
+      valibot: 0.39.0(typescript@5.5.4)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -4531,7 +4531,7 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  valibot@0.38.0(typescript@5.5.4):
+  valibot@0.39.0(typescript@5.5.4):
     optionalDependencies:
       typescript: 5.5.4
 

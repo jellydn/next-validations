@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "@typeschema/main": "0.13.10"
+    "@typeschema/main": "0.14.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
@@ -60,10 +60,10 @@
     "@types/jest": "29.5.12",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
-    "@typeschema/joi": "0.13.3",
-    "@typeschema/valibot": "0.13.5",
-    "@typeschema/yup": "0.13.3",
-    "@typeschema/zod": "0.13.3",
+    "@typeschema/joi": "0.14.0",
+    "@typeschema/valibot": "0.14.0",
+    "@typeschema/yup": "0.14.0",
+    "@typeschema/zod": "0.14.0",
     "@vitest/ui": "2.0.5",
     "c8": "10.1.2",
     "fastest-validator": "1.19.0",

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@typeschema/main':
-        specifier: 0.13.10
-        version: 0.13.10(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.39.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))
+        specifier: 0.14.0
+        version: 0.14.0(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.39.0(typescript@5.5.4)))(@typeschema/yup@0.14.0(yup@1.4.0))(@typeschema/zod@0.14.0(zod@3.23.8))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.8.3
@@ -34,17 +34,17 @@ importers:
         specifier: 18.3.0
         version: 18.3.0
       '@typeschema/joi':
-        specifier: 0.13.3
-        version: 0.13.3(joi@17.13.3)
+        specifier: 0.14.0
+        version: 0.14.0(joi@17.13.3)
       '@typeschema/valibot':
-        specifier: 0.13.5
-        version: 0.13.5(valibot@0.39.0(typescript@5.5.4))
+        specifier: 0.14.0
+        version: 0.14.0(valibot@0.39.0(typescript@5.5.4))
       '@typeschema/yup':
-        specifier: 0.13.3
-        version: 0.13.3(yup@1.4.0)
+        specifier: 0.14.0
+        version: 0.14.0(yup@1.4.0)
       '@typeschema/zod':
-        specifier: 0.13.3
-        version: 0.13.3(zod@3.23.8)
+        specifier: 0.14.0
+        version: 0.14.0(zod@3.23.8)
       '@vitest/ui':
         specifier: 2.0.5
         version: 2.0.5(vitest@2.0.5)
@@ -783,47 +783,47 @@ packages:
   '@types/yargs@17.0.33':
     resolution: {integrity: sha512-WpxBCKWPLr4xSsHgz511rFJAM+wS28w2zEO1QDNY5zM/S8ok70NNfztH0xwhqKyaK0OHCbN98LDAZuy1ctxDkA==}
 
-  '@typeschema/core@0.13.2':
-    resolution: {integrity: sha512-pAt0MK249/9szYaoPuvzhSfOd3smrLhhwCCpUNB4onX32mRx5F3lzDIveIYGQkLYRq58xOX5sjoW+n72f/MLLw==}
+  '@typeschema/core@0.14.0':
+    resolution: {integrity: sha512-Ia6PtZHcL3KqsAWXjMi5xIyZ7XMH4aSnOQes8mfMLx+wGFGtGRNlwe6Y7cYvX+WfNK67OL0/HSe9t8QDygV0/w==}
     peerDependencies:
       '@types/json-schema': ^7.0.15
     peerDependenciesMeta:
       '@types/json-schema':
         optional: true
 
-  '@typeschema/joi@0.13.3':
-    resolution: {integrity: sha512-8uLPw0qOqwNLm+mm3eVeYSZ6j0Hfs9gpTEa7Af03j4M+XqAPu4Zy9ziHUZordTPCa8+oMZVyi8ENsTcRnmgvdA==}
+  '@typeschema/joi@0.14.0':
+    resolution: {integrity: sha512-rnudk6lJ3aZyXlz3/GPKbdmL50O7l2MTHEhDTcynAUowdiU2nVpVpAXUGufxrRlsGLuwu7y0yb4o6pQy8o/FyQ==}
     peerDependencies:
-      joi: ^17.12.2
-      joi-to-json: ^4.2.1
+      joi: ^17.13.3
+      joi-to-json: ^4.3.0
     peerDependenciesMeta:
       joi:
         optional: true
       joi-to-json:
         optional: true
 
-  '@typeschema/main@0.13.10':
-    resolution: {integrity: sha512-ArdFC4GbgdVWWgPKg2tymxx2KHMus3xZ8I2kHwqw/0P4FtWBXCmSNAiBqDtpoXXF8h9cbcm7fVpcs5ftoWT9+A==}
+  '@typeschema/main@0.14.0':
+    resolution: {integrity: sha512-oBKHx/sq4tgRQkmj5YRNsK+mU2oD7g2ldsEGqKncJ+DzG45MXTC254q/dvW/nsAWfFe6hfUm071fcD5FcfDQtA==}
     peerDependencies:
-      '@typeschema/arktype': 0.13.2
-      '@typeschema/class-validator': 0.1.2
-      '@typeschema/deepkit': 0.13.4
-      '@typeschema/effect': 0.13.4
-      '@typeschema/fastest-validator': 0.1.0
-      '@typeschema/function': 0.13.2
-      '@typeschema/io-ts': 0.13.3
-      '@typeschema/joi': 0.13.3
-      '@typeschema/json': 0.13.3
-      '@typeschema/ow': 0.13.3
-      '@typeschema/runtypes': 0.13.2
-      '@typeschema/superstruct': 0.13.2
-      '@typeschema/suretype': 0.1.0
-      '@typeschema/typebox': 0.13.4
-      '@typeschema/valibot': 0.13.5
-      '@typeschema/valita': 0.1.0
-      '@typeschema/vine': 0.1.0
-      '@typeschema/yup': 0.13.3
-      '@typeschema/zod': 0.13.3
+      '@typeschema/arktype': 0.14.0
+      '@typeschema/class-validator': 0.2.0
+      '@typeschema/deepkit': 0.14.0
+      '@typeschema/effect': 0.14.0
+      '@typeschema/fastest-validator': 0.2.0
+      '@typeschema/function': 0.14.0
+      '@typeschema/io-ts': 0.14.0
+      '@typeschema/joi': 0.14.0
+      '@typeschema/json': 0.14.0
+      '@typeschema/ow': 0.14.0
+      '@typeschema/runtypes': 0.14.0
+      '@typeschema/superstruct': 0.14.0
+      '@typeschema/suretype': 0.2.0
+      '@typeschema/typebox': 0.14.0
+      '@typeschema/valibot': 0.14.0
+      '@typeschema/valita': 0.2.0
+      '@typeschema/vine': 0.2.0
+      '@typeschema/yup': 0.14.0
+      '@typeschema/zod': 0.14.0
     peerDependenciesMeta:
       '@typeschema/arktype':
         optional: true
@@ -864,33 +864,33 @@ packages:
       '@typeschema/zod':
         optional: true
 
-  '@typeschema/valibot@0.13.5':
-    resolution: {integrity: sha512-9S3daaU7ShC1aRkZVmsW5N8uTPE7l4Af/c+rWTyFZi2/yp4Iiped8947WGX03lMd3UW6/UdbfOaiOh7HByQPiw==}
+  '@typeschema/valibot@0.14.0':
+    resolution: {integrity: sha512-Q2HTTSfXoEgo+55Nx0iprlpGolXgDbnGss6avLlXNtjvTNx606VDnLkpSyA6u/MS2mOIUO7GVGdCF6LLbLcqlg==}
     peerDependencies:
-      '@gcornut/valibot-json-schema': ^0.31.0
-      valibot: ^0.31.0
+      '@gcornut/valibot-json-schema': ^0.37.0
+      valibot: ^0.39.0
     peerDependenciesMeta:
       '@gcornut/valibot-json-schema':
         optional: true
       valibot:
         optional: true
 
-  '@typeschema/yup@0.13.3':
-    resolution: {integrity: sha512-Z+MtVn/ypL3CISknBuAmdt2xvMM0Q/ZmfjV+2xk4O26dL+Sx3fu9h1X3ANX6n/3uTfS1C4RbT4HzlK9DX4Tdxg==}
+  '@typeschema/yup@0.14.0':
+    resolution: {integrity: sha512-KBki4UPDwnKKBtLDKGPLXZXUm6cV9+zLLWgbt2kSaZV4VonrDciuCq4h6P1opguEU2UsQiXuTcdVeqlTS3tA0g==}
     peerDependencies:
       '@sodaru/yup-to-json-schema': ^2.0.1
-      yup: ^1.3.3
+      yup: ^1.4.0
     peerDependenciesMeta:
       '@sodaru/yup-to-json-schema':
         optional: true
       yup:
         optional: true
 
-  '@typeschema/zod@0.13.3':
-    resolution: {integrity: sha512-p5Hs22WIKkM/vZTAvw5QOLSA0EJ6QBUsQMGUrXlYnTAE2LSR/F5MLsDUb18O6S5VxGjrzU7x3VIznD5qOafJRw==}
+  '@typeschema/zod@0.14.0':
+    resolution: {integrity: sha512-oEX3lQFVKyGCmAV3KtVS290WpFukg/ZBXMOYpLFH/POlCaU8ojCJu5ehYvNDPZNK/f1KK9Vqlo28f7YX2g3O5w==}
     peerDependencies:
-      zod: ^3.22.4
-      zod-to-json-schema: ^3.22.4
+      zod: ^3.23.8
+      zod-to-json-schema: ^3.23.2
     peerDependenciesMeta:
       zod:
         optional: true
@@ -2972,46 +2972,46 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@typeschema/core@0.13.2': {}
+  '@typeschema/core@0.14.0': {}
 
-  '@typeschema/joi@0.13.3(joi@17.13.3)':
+  '@typeschema/joi@0.14.0(joi@17.13.3)':
     dependencies:
-      '@typeschema/core': 0.13.2
+      '@typeschema/core': 0.14.0
     optionalDependencies:
       joi: 17.13.3
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.13.10(@typeschema/joi@0.13.3(joi@17.13.3))(@typeschema/valibot@0.13.5(valibot@0.39.0(typescript@5.5.4)))(@typeschema/yup@0.13.3(yup@1.4.0))(@typeschema/zod@0.13.3(zod@3.23.8))':
+  '@typeschema/main@0.14.0(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.39.0(typescript@5.5.4)))(@typeschema/yup@0.14.0(yup@1.4.0))(@typeschema/zod@0.14.0(zod@3.23.8))':
     dependencies:
-      '@typeschema/core': 0.13.2
+      '@typeschema/core': 0.14.0
     optionalDependencies:
-      '@typeschema/joi': 0.13.3(joi@17.13.3)
-      '@typeschema/valibot': 0.13.5(valibot@0.39.0(typescript@5.5.4))
-      '@typeschema/yup': 0.13.3(yup@1.4.0)
-      '@typeschema/zod': 0.13.3(zod@3.23.8)
+      '@typeschema/joi': 0.14.0(joi@17.13.3)
+      '@typeschema/valibot': 0.14.0(valibot@0.39.0(typescript@5.5.4))
+      '@typeschema/yup': 0.14.0(yup@1.4.0)
+      '@typeschema/zod': 0.14.0(zod@3.23.8)
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/valibot@0.13.5(valibot@0.39.0(typescript@5.5.4))':
+  '@typeschema/valibot@0.14.0(valibot@0.39.0(typescript@5.5.4))':
     dependencies:
-      '@typeschema/core': 0.13.2
+      '@typeschema/core': 0.14.0
     optionalDependencies:
       valibot: 0.39.0(typescript@5.5.4)
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/yup@0.13.3(yup@1.4.0)':
+  '@typeschema/yup@0.14.0(yup@1.4.0)':
     dependencies:
-      '@typeschema/core': 0.13.2
+      '@typeschema/core': 0.14.0
     optionalDependencies:
       yup: 1.4.0
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.13.3(zod@3.23.8)':
+  '@typeschema/zod@0.14.0(zod@3.23.8)':
     dependencies:
-      '@typeschema/core': 0.13.2
+      '@typeschema/core': 0.14.0
     optionalDependencies:
       zod: 3.23.8
     transitivePeerDependencies:

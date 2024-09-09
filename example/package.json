@@ -37,7 +37,7 @@
     "cypress": "13.14.2",
     "npm-run-all2": "6.2.2",
     "typescript": "5.5.4",
-    "wait-on": "7.2.0"
+    "wait-on": "8.0.0"
   },
   "packageManager": "pnpm@9.9.0"
 }

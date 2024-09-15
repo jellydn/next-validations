@@ -28,7 +28,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "swagger-ui-react": "5.17.14",
-    "valibot": "0.41.0",
+    "valibot": "0.42.0",
     "yup": "1.4.0",
     "zod": "3.23.8"
   },

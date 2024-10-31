@@ -9,7 +9,8 @@ const schema = {
 };
 
 const validate = withValidation({
-  schema,
+  // This is fastest-validator schema, the type is not working nicely with TypeScript
+  schema: schema as any,
   mode: 'body',
 });
 

@@ -58,7 +58,6 @@ const querySchema = yup.object().shape({
 
 const validateQuery = {
   schema: querySchema,
-  type: 'Yup',
   mode: 'query',
 } as const;
 
@@ -70,7 +69,6 @@ const bodySchema = Joi.object({
 
 const validateBody = {
   schema: bodySchema,
-  type: 'Joi',
   mode: 'body',
 } as const;
 
@@ -100,7 +98,6 @@ const schema = yup.object().shape({
 
 const validate = withValidation({
   schema,
-  type: 'Yup',
   mode: 'query',
 });
 
@@ -138,7 +135,6 @@ const schema = z.object({
 
 const validate = withValidation({
   schema,
-  type: 'Zod',
   mode: 'body',
 });
 
@@ -166,7 +162,6 @@ const schema = valibot.object({
 
 const validate = withValidation({
   schema,
-  type: 'Valibot',
   mode: 'query',
 });
 
@@ -194,8 +189,8 @@ const schema = {
 };
 
 const validate = withValidation({
-  schema,
-  type: 'FastestValidator',
+  // This is fastest-validator schema, the type is not working nicely with TypeScript
+  schema: schema as any,
   mode: 'body',
 });
 
@@ -226,7 +221,6 @@ const schema = Joi.object({
 
 const validate = withValidation({
   schema,
-  type: 'Joi',
   mode: 'body',
 });
 

@@ -27,14 +27,14 @@
     "qs": "6.13.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "swagger-ui-react": "5.18.0",
+    "swagger-ui-react": "5.18.1",
     "valibot": "0.42.1",
     "yup": "1.4.0",
     "zod": "3.23.8"
   },
   "devDependencies": {
     "@types/react": "18.3.12",
-    "cypress": "13.15.1",
+    "cypress": "13.15.2",
     "npm-run-all2": "7.0.1",
     "typescript": "5.6.3",
     "wait-on": "8.0.1"

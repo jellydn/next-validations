@@ -45,8 +45,8 @@ importers:
         specifier: 1.0.3
         version: 1.0.3(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.0))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.6.3)))(@typeschema/yup@0.14.0(yup@1.4.0))(@typeschema/zod@0.14.0(zod@3.23.8))(next@15.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       qs:
-        specifier: 6.13.0
-        version: 6.13.0
+        specifier: 6.13.1
+        version: 6.13.1
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -1330,6 +1330,10 @@ packages:
 
   qs@6.13.0:
     resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
+    engines: {node: '>=0.6'}
+
+  qs@6.13.1:
+    resolution: {integrity: sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==}
     engines: {node: '>=0.6'}
 
   querystringify@2.2.0:
@@ -3195,6 +3199,10 @@ snapshots:
       once: 1.4.0
 
   qs@6.13.0:
+    dependencies:
+      side-channel: 1.0.6
+
+  qs@6.13.1:
     dependencies:
       side-channel: 1.0.6
 

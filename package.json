@@ -57,7 +57,7 @@
     "@size-limit/preset-small-lib": "11.1.6",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "16.0.1",
-    "@types/react": "18.3.12",
+    "@types/react": "18.3.13",
     "@types/react-dom": "18.3.1",
     "@typeschema/joi": "0.14.0",
     "@typeschema/valibot": "0.14.0",

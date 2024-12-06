@@ -21,7 +21,7 @@
     "fastest-validator": "1.19.0",
     "isarray": "2.0.5",
     "joi": "17.13.3",
-    "next": "15.0.3",
+    "next": "15.0.4",
     "next-connect": "1.0.0",
     "next-validations": "1.0.3",
     "qs": "6.13.1",
@@ -33,7 +33,7 @@
     "zod": "3.23.8"
   },
   "devDependencies": {
-    "@types/react": "18.3.13",
+    "@types/react": "18.3.14",
     "cypress": "13.16.1",
     "npm-run-all2": "7.0.1",
     "typescript": "5.7.2",

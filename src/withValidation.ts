@@ -4,6 +4,12 @@ import { typeschemaResolver } from './resolver';
 
 type NextHandler = (err?: Error) => void;
 
+interface NextApiRequestWithHeaders extends NextApiRequest {
+  headers: {
+    [key: string]: string | string[] | undefined;
+  };
+}
+
 type ValidationHoF = {
   mode?: 'body' | 'query' | 'headers';
   schema: Schema;
@@ -20,7 +26,15 @@ export function withValidations(validations: ValidationHoF[]) {
         await Promise.all(
           validations.map(async (validation) => {
             const resolver = typeschemaResolver(validation.schema);
-            await resolver.validate(req[validation.mode ?? 'query']);
+            const mode = validation.mode ?? 'query';
+
+            if (mode === 'query') {
+              await resolver.validate(req.query);
+            } else if (mode === 'body') {
+              await resolver.validate(req.body);
+            } else if (mode === 'headers') {
+              await resolver.validate((req as NextApiRequestWithHeaders).headers);
+            }
           })
         );
 

@@ -21,7 +21,7 @@
     "fastest-validator": "1.19.0",
     "isarray": "2.0.5",
     "joi": "17.13.3",
-    "next": "15.2.1",
+    "next": "15.2.2",
     "next-connect": "1.0.0",
     "next-validations": "1.0.3",
     "qs": "6.14.0",
@@ -37,7 +37,7 @@
     "cypress": "14.1.0",
     "npm-run-all2": "7.0.2",
     "typescript": "5.8.2",
-    "wait-on": "8.0.2"
+    "wait-on": "8.0.3"
   },
   "packageManager": "pnpm@10.6.2"
 }

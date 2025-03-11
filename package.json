@@ -68,7 +68,7 @@
     "fastest-validator": "1.19.0",
     "husky": "9.1.7",
     "joi": "17.13.3",
-    "next": "15.2.1",
+    "next": "15.2.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "size-limit": "11.2.0",

@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@typeschema/main':
         specifier: 0.14.1
-        version: 0.14.1(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.8.2)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.24.2))
+        version: 0.14.1(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.24.2))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -35,7 +35,7 @@ importers:
         version: 0.14.0(joi@17.13.3)
       '@typeschema/valibot':
         specifier: 0.14.0
-        version: 0.14.0(valibot@0.42.1(typescript@5.8.2))
+        version: 0.14.0(valibot@0.42.1(typescript@5.8.3))
       '@typeschema/yup':
         specifier: 0.14.0
         version: 0.14.0(yup@1.6.1)
@@ -77,16 +77,16 @@ importers:
         version: 2.8.1
       tsup:
         specifier: 8.4.0
-        version: 8.4.0(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.2)(yaml@2.7.1)
+        version: 8.4.0(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.1)
       typedoc:
         specifier: 0.28.1
-        version: 0.28.1(typescript@5.8.2)
+        version: 0.28.1(typescript@5.8.3)
       typescript:
-        specifier: 5.8.2
-        version: 5.8.2
+        specifier: 5.8.3
+        version: 5.8.3
       valibot:
         specifier: 0.42.1
-        version: 0.42.1(typescript@5.8.2)
+        version: 0.42.1(typescript@5.8.3)
       vite:
         specifier: 6.2.5
         version: 6.2.5(jiti@2.4.2)(yaml@2.7.1)
@@ -2090,8 +2090,8 @@ packages:
     peerDependencies:
       typescript: 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x || 5.6.x || 5.7.x || 5.8.x
 
-  typescript@5.8.2:
-    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2704,22 +2704,22 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.8.2)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.24.2))':
+  '@typeschema/main@0.14.1(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.24.2))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
       '@typeschema/joi': 0.14.0(joi@17.13.3)
-      '@typeschema/valibot': 0.14.0(valibot@0.42.1(typescript@5.8.2))
+      '@typeschema/valibot': 0.14.0(valibot@0.42.1(typescript@5.8.3))
       '@typeschema/yup': 0.14.0(yup@1.6.1)
       '@typeschema/zod': 0.14.0(zod@3.24.2)
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.8.2))':
+  '@typeschema/valibot@0.14.0(valibot@0.42.1(typescript@5.8.3))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      valibot: 0.42.1(typescript@5.8.2)
+      valibot: 0.42.1(typescript@5.8.3)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3984,7 +3984,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.4.0(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.2)(yaml@2.7.1):
+  tsup@8.4.0(jiti@2.4.2)(postcss@8.5.3)(typescript@5.8.3)(yaml@2.7.1):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.2)
       cac: 6.7.14
@@ -4004,7 +4004,7 @@ snapshots:
       tree-kill: 1.2.2
     optionalDependencies:
       postcss: 8.5.3
-      typescript: 5.8.2
+      typescript: 5.8.3
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -4021,16 +4021,16 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typedoc@0.28.1(typescript@5.8.2):
+  typedoc@0.28.1(typescript@5.8.3):
     dependencies:
       '@gerrit0/mini-shiki': 3.2.1
       lunr: 2.3.9
       markdown-it: 14.1.0
       minimatch: 9.0.5
-      typescript: 5.8.2
+      typescript: 5.8.3
       yaml: 2.7.1
 
-  typescript@5.8.2: {}
+  typescript@5.8.3: {}
 
   uc.micro@2.1.0: {}
 
@@ -4045,9 +4045,9 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  valibot@0.42.1(typescript@5.8.2):
+  valibot@0.42.1(typescript@5.8.3):
     optionalDependencies:
-      typescript: 5.8.2
+      typescript: 5.8.3
 
   validate-npm-package-license@3.0.4:
     dependencies:

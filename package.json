@@ -58,7 +58,7 @@
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "16.3.0",
     "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
+    "@types/react-dom": "19.1.2",
     "@typeschema/joi": "0.14.0",
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",

@@ -63,7 +63,7 @@
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",
     "@typeschema/zod": "0.14.0",
-    "@vitest/ui": "3.1.1",
+    "@vitest/ui": "3.1.2",
     "c8": "10.1.3",
     "fastest-validator": "1.19.0",
     "husky": "9.1.7",
@@ -79,14 +79,14 @@
     "typescript": "5.8.3",
     "valibot": "0.42.1",
     "vite": "6.3.2",
-    "vitest": "3.1.1",
+    "vitest": "3.1.2",
     "yup": "1.6.1",
     "zod": "3.24.3"
   },
   "peerDependencies": {
     "next": "*"
   },
-  "packageManager": "pnpm@10.8.1",
+  "packageManager": "pnpm@10.9.0",
   "engines": {
     "node": ">=18"
   },

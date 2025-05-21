@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/react": "19.1.4",
     "cypress": "14.4.0",
-    "npm-run-all2": "7.0.2",
+    "npm-run-all2": "8.0.3",
     "typescript": "5.8.3",
     "wait-on": "8.0.3"
   },

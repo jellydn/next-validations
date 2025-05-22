@@ -27,13 +27,13 @@
     "qs": "6.14.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "swagger-ui-react": "5.21.0",
+    "swagger-ui-react": "5.22.0",
     "valibot": "0.42.1",
     "yup": "1.6.1",
-    "zod": "3.25.9"
+    "zod": "3.25.20"
   },
   "devDependencies": {
-    "@types/react": "19.1.4",
+    "@types/react": "19.1.5",
     "cypress": "14.4.0",
     "npm-run-all2": "7.0.2",
     "typescript": "5.8.3",

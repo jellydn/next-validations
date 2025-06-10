@@ -27,10 +27,10 @@
     "qs": "6.14.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "swagger-ui-react": "5.24.0",
+    "swagger-ui-react": "5.24.1",
     "valibot": "1.1.0",
     "yup": "1.6.1",
-    "zod": "3.25.56"
+    "zod": "3.25.57"
   },
   "devDependencies": {
     "@types/react": "19.1.7",

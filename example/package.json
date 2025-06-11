@@ -17,7 +17,7 @@
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",
     "@typeschema/zod": "0.14.0",
-    "caniuse-lite": "1.0.30001721",
+    "caniuse-lite": "1.0.30001722",
     "fastest-validator": "1.19.1",
     "isarray": "2.0.5",
     "joi": "17.13.3",
@@ -30,10 +30,10 @@
     "swagger-ui-react": "5.24.1",
     "valibot": "1.1.0",
     "yup": "1.6.1",
-    "zod": "3.25.58"
+    "zod": "3.25.61"
   },
   "devDependencies": {
-    "@types/react": "19.1.7",
+    "@types/react": "19.1.8",
     "cypress": "14.4.1",
     "npm-run-all2": "8.0.4",
     "typescript": "5.8.3",

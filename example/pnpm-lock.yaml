@@ -22,10 +22,10 @@ importers:
         version: 0.14.0(yup@1.6.1)
       '@typeschema/zod':
         specifier: 0.14.0
-        version: 0.14.0(zod@3.25.58)
+        version: 0.14.0(zod@3.25.61)
       caniuse-lite:
-        specifier: 1.0.30001721
-        version: 1.0.30001721
+        specifier: 1.0.30001722
+        version: 1.0.30001722
       fastest-validator:
         specifier: 1.19.1
         version: 1.19.1
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.1.0
-        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.58))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.61))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       qs:
         specifier: 6.14.0
         version: 6.14.0
@@ -55,7 +55,7 @@ importers:
         version: 19.1.0(react@19.1.0)
       swagger-ui-react:
         specifier: 5.24.1
-        version: 5.24.1(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 5.24.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       valibot:
         specifier: 1.1.0
         version: 1.1.0(typescript@5.8.3)
@@ -63,12 +63,12 @@ importers:
         specifier: 1.6.1
         version: 1.6.1
       zod:
-        specifier: 3.25.58
-        version: 3.25.58
+        specifier: 3.25.61
+        version: 3.25.61
     devDependencies:
       '@types/react':
-        specifier: 19.1.7
-        version: 19.1.7
+        specifier: 19.1.8
+        version: 19.1.8
       cypress:
         specifier: 14.4.1
         version: 14.4.1
@@ -411,8 +411,8 @@ packages:
   '@types/ramda@0.30.2':
     resolution: {integrity: sha512-PyzHvjCalm2BRYjAU6nIB3TprYwMNOUY/7P/N8bSzp9W/yM2YrtGtAnnVtaCNSeOZ8DzKyFDvaqQs7LnWwwmBA==}
 
-  '@types/react@19.1.7':
-    resolution: {integrity: sha512-BnsPLV43ddr05N71gaGzyZ5hzkCmGwhMvYc8zmvI8Ci1bRkkDSzDDVfAXfN2tk748OwI7ediiPX6PfT9p0QGVg==}
+  '@types/react@19.1.8':
+    resolution: {integrity: sha512-AwAfQ2Wa5bCx9WP8nZL2uMZWod7J7/JSplxbTmBQ5ms6QpqNYm672H0Vu9ZVKVngQ+ii4R/byguVEUZQyeg44g==}
 
   '@types/sinonjs__fake-timers@8.1.1':
     resolution: {integrity: sha512-0kSuKjAS0TrGLJ0M/+8MaFkGsQhZpB6pxOmvS3K8FYI72K//YmdfoW9X2qPsAKh1mkwxGD5zib9s1FIFed6E8g==}
@@ -663,8 +663,8 @@ packages:
     resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001721:
-    resolution: {integrity: sha512-cOuvmUVtKrtEaoKiO0rSc29jcjwMwX5tOHDy4MgVFEWiUXj4uBMJkwI8MDySkgXidpMiHUcviogAvFi4pA2hDQ==}
+  caniuse-lite@1.0.30001722:
+    resolution: {integrity: sha512-DCQHBBZtiK6JVkAGw7drvAMK0Q0POD/xZvEmDp6baiMMP6QXXk9HpD6mNYBZWhOPG6LvIDb82ITqtWjhDckHCA==}
 
   caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
@@ -1769,8 +1769,8 @@ packages:
   zenscroll@4.0.2:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
 
-  zod@3.25.58:
-    resolution: {integrity: sha512-DVLmMQzSZwNYzQoMaM3MQWnxr2eq+AtM9Hx3w1/Yl0pH8sLTSjN4jGP7w6f7uand6Hw44tsnSu1hz1AOA6qI2Q==}
+  zod@3.25.61:
+    resolution: {integrity: sha512-fzfJgUw78LTNnHujj9re1Ov/JJQkRZZGDMcYqSx7Hp4rPOkKywaFHq0S6GoHeXs0wGNE/sIOutkXgnwzrVOGCQ==}
 
 snapshots:
 
@@ -2324,7 +2324,7 @@ snapshots:
     dependencies:
       types-ramda: 0.30.1
 
-  '@types/react@19.1.7':
+  '@types/react@19.1.8':
     dependencies:
       csstype: 3.1.3
 
@@ -2362,7 +2362,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.58))':
+  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.61))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
@@ -2370,7 +2370,7 @@ snapshots:
       '@typeschema/joi': 0.14.0(joi@17.13.3)
       '@typeschema/valibot': 0.14.0(valibot@1.1.0(typescript@5.8.3))
       '@typeschema/yup': 0.14.0(yup@1.6.1)
-      '@typeschema/zod': 0.14.0(zod@3.25.58)
+      '@typeschema/zod': 0.14.0(zod@3.25.61)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -2390,11 +2390,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.14.0(zod@3.25.58)':
+  '@typeschema/zod@0.14.0(zod@3.25.61)':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      zod: 3.25.58
+      zod: 3.25.61
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -2496,7 +2496,7 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
-  caniuse-lite@1.0.30001721: {}
+  caniuse-lite@1.0.30001722: {}
 
   caseless@0.12.0: {}
 
@@ -3012,9 +3012,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.58))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.61))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
     dependencies:
-      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.58))
+      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.61))
       next: 15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -3044,7 +3044,7 @@ snapshots:
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.15
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001721
+      caniuse-lite: 1.0.30001722
       postcss: 8.4.31
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
@@ -3234,13 +3234,13 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-redux@9.2.0(@types/react@19.1.7)(react@19.1.0)(redux@5.0.1):
+  react-redux@9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1):
     dependencies:
       '@types/use-sync-external-store': 0.0.6
       react: 19.1.0
       use-sync-external-store: 1.5.0(react@19.1.0)
     optionalDependencies:
-      '@types/react': 19.1.7
+      '@types/react': 19.1.8
       redux: 5.0.1
 
   react-syntax-highlighter@15.6.1(react@19.1.0):
@@ -3473,7 +3473,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  swagger-ui-react@5.24.1(@types/react@19.1.7)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  swagger-ui-react@5.24.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/runtime-corejs3': 7.27.4
       '@scarf/scarf': 1.4.0
@@ -3497,7 +3497,7 @@ snapshots:
       react-immutable-proptypes: 2.2.0(immutable@3.8.2)
       react-immutable-pure-component: 2.2.2(immutable@3.8.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-inspector: 6.0.2(react@19.1.0)
-      react-redux: 9.2.0(@types/react@19.1.7)(react@19.1.0)(redux@5.0.1)
+      react-redux: 9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1)
       react-syntax-highlighter: 15.6.1(react@19.1.0)
       redux: 5.0.1
       redux-immutable: 4.0.0(immutable@3.8.2)
@@ -3665,4 +3665,4 @@ snapshots:
 
   zenscroll@4.0.2: {}
 
-  zod@3.25.58: {}
+  zod@3.25.61: {}

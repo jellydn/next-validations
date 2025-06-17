@@ -22,7 +22,7 @@ importers:
         version: 0.14.0(yup@1.6.1)
       '@typeschema/zod':
         specifier: 0.14.0
-        version: 0.14.0(zod@3.25.64)
+        version: 0.14.0(zod@3.25.67)
       caniuse-lite:
         specifier: 1.0.30001723
         version: 1.0.30001723
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.1.0
-        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.64))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       qs:
         specifier: 6.14.0
         version: 6.14.0
@@ -54,8 +54,8 @@ importers:
         specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       swagger-ui-react:
-        specifier: 5.24.1
-        version: 5.24.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 5.24.2
+        version: 5.24.2(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       valibot:
         specifier: 1.1.0
         version: 1.1.0(typescript@5.8.3)
@@ -63,8 +63,8 @@ importers:
         specifier: 1.6.1
         version: 1.6.1
       zod:
-        specifier: 3.25.64
-        version: 3.25.64
+        specifier: 3.25.67
+        version: 3.25.67
     devDependencies:
       '@types/react':
         specifier: 19.1.8
@@ -1593,8 +1593,8 @@ packages:
   swagger-client@3.35.5:
     resolution: {integrity: sha512-ayCrpDAgm5jIdq1kmcVWJRfp27cqU9tSRiAfKg3BKeplOmvu3+lKTPPtz4x1uI8v5l5/92Aopvq0EzRkXEr7Rw==}
 
-  swagger-ui-react@5.24.1:
-    resolution: {integrity: sha512-maqFHClB/srDyaJZfHVkj/uyfMeWxkBwPJjKfJCqbnoan6JUrbRtoyO9xuYYvVn9aLtvRKkvLV6BaXcR/Ql7YQ==}
+  swagger-ui-react@5.24.2:
+    resolution: {integrity: sha512-kFRucpd5ik01ScVNEToiJAWuh16ah2U34SfhnjEUR/KQaA0S0iFbSTkaylBRwsMIfXxW8tDYpOsBKW3SKWPRTw==}
     peerDependencies:
       react: '>=16.8.0 <19'
       react-dom: '>=16.8.0 <19'
@@ -1772,8 +1772,8 @@ packages:
   zenscroll@4.0.2:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
 
-  zod@3.25.64:
-    resolution: {integrity: sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==}
+  zod@3.25.67:
+    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
 
 snapshots:
 
@@ -2365,7 +2365,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.64))':
+  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
@@ -2373,7 +2373,7 @@ snapshots:
       '@typeschema/joi': 0.14.0(joi@17.13.3)
       '@typeschema/valibot': 0.14.0(valibot@1.1.0(typescript@5.8.3))
       '@typeschema/yup': 0.14.0(yup@1.6.1)
-      '@typeschema/zod': 0.14.0(zod@3.25.64)
+      '@typeschema/zod': 0.14.0(zod@3.25.67)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -2393,11 +2393,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.14.0(zod@3.25.64)':
+  '@typeschema/zod@0.14.0(zod@3.25.67)':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      zod: 3.25.64
+      zod: 3.25.67
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3016,9 +3016,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.64))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
     dependencies:
-      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.64))
+      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))
       next: 15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -3477,7 +3477,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  swagger-ui-react@5.24.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  swagger-ui-react@5.24.2(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/runtime-corejs3': 7.27.6
       '@scarf/scarf': 1.4.0
@@ -3675,4 +3675,4 @@ snapshots:
 
   zenscroll@4.0.2: {}
 
-  zod@3.25.64: {}
+  zod@3.25.67: {}

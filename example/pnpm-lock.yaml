@@ -405,8 +405,8 @@ packages:
   '@types/hast@2.3.10':
     resolution: {integrity: sha512-McWspRw8xx8J9HurkVBfYj0xKoE25tOFlHGdx4MJ5xORQrMGZNqJhVQWaIbm6Oyla5kYOXtDiopzKRJzEOkwJw==}
 
-  '@types/node@24.0.1':
-    resolution: {integrity: sha512-MX4Zioh39chHlDJbKmEgydJDS3tspMP/lnQC67G3SWsTnb9NeYVWOjkxpOSy4oMfPs4StcWHwBrvUb4ybfnuaw==}
+  '@types/node@24.0.7':
+    resolution: {integrity: sha512-YIEUUr4yf8q8oQoXPpSlnvKNVKDQlPMWrmOcgzoduo7kvA2UF0/BwJ/eMKFTiTtkNL17I0M6Xe2tvwFU7be6iw==}
 
   '@types/ramda@0.30.2':
     resolution: {integrity: sha512-PyzHvjCalm2BRYjAU6nIB3TprYwMNOUY/7P/N8bSzp9W/yM2YrtGtAnnVtaCNSeOZ8DzKyFDvaqQs7LnWwwmBA==}
@@ -829,8 +829,8 @@ packages:
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
-  end-of-stream@1.4.4:
-    resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
+  end-of-stream@1.4.5:
+    resolution: {integrity: sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==}
 
   enquirer@2.4.1:
     resolution: {integrity: sha512-rRqJg/6gd538VHvR3PSrdRBb/1Vy2YfzHqzvbhGIQpDRKIa4FgV/54b5Q1xYSxOOwKvjXweS26E0Q+nAMwp2pQ==}
@@ -1337,8 +1337,8 @@ packages:
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
-  pump@3.0.2:
-    resolution: {integrity: sha512-tUPXtzlGM8FE3P0ZL6DVs/3P58k9nk8/jZeQCurTJylQA8qFYzHFfhBJkuqyE0FifOsQ0uKWekiZ5g8wtr28cw==}
+  pump@3.0.3:
+    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
 
   qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
@@ -1594,8 +1594,8 @@ packages:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
     engines: {node: '>=10'}
 
-  swagger-client@3.35.5:
-    resolution: {integrity: sha512-ayCrpDAgm5jIdq1kmcVWJRfp27cqU9tSRiAfKg3BKeplOmvu3+lKTPPtz4x1uI8v5l5/92Aopvq0EzRkXEr7Rw==}
+  swagger-client@3.35.6:
+    resolution: {integrity: sha512-OgwNneIdC45KXwOfwrlkwgWPeAKiV4K75mOnZioTddo1mpp9dTboCDVJas7185Ww1ziBwzShBqXpNGmyha9ZQg==}
 
   swagger-ui-react@5.25.3:
     resolution: {integrity: sha512-R9nVMbwH3J/on8ZEctHlN86l6QucaOy6wUnm7npIwTJOgv+qnJ/t+VkSW1NW6l7a9uDg+PxkbDC0jo9YI9MCEA==}
@@ -2326,7 +2326,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.11
 
-  '@types/node@24.0.1':
+  '@types/node@24.0.7':
     dependencies:
       undici-types: 7.8.0
     optional: true
@@ -2352,7 +2352,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.0.1
+      '@types/node': 24.0.7
     optional: true
 
   '@typeschema/core@0.14.0': {}
@@ -2691,7 +2691,7 @@ snapshots:
 
   emoji-regex@8.0.0: {}
 
-  end-of-stream@1.4.4:
+  end-of-stream@1.4.5:
     dependencies:
       once: 1.4.0
 
@@ -2808,7 +2808,7 @@ snapshots:
 
   get-stream@5.2.0:
     dependencies:
-      pump: 3.0.2
+      pump: 3.0.3
 
   getos@3.2.1:
     dependencies:
@@ -3192,9 +3192,9 @@ snapshots:
 
   proxy-from-env@1.1.0: {}
 
-  pump@3.0.2:
+  pump@3.0.3:
     dependencies:
-      end-of-stream: 1.4.4
+      end-of-stream: 1.4.5
       once: 1.4.0
 
   qs@6.14.0:
@@ -3468,7 +3468,7 @@ snapshots:
     dependencies:
       has-flag: 4.0.0
 
-  swagger-client@3.35.5:
+  swagger-client@3.35.6:
     dependencies:
       '@babel/runtime-corejs3': 7.27.6
       '@scarf/scarf': 1.4.0
@@ -3523,7 +3523,7 @@ snapshots:
       reselect: 5.1.1
       serialize-error: 8.1.0
       sha.js: 2.4.11
-      swagger-client: 3.35.5
+      swagger-client: 3.35.6
       url-parse: 1.5.10
       xml: 1.0.1
       xml-but-prettier: 1.0.1

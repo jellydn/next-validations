@@ -22,7 +22,7 @@ importers:
         version: 0.14.0(yup@1.6.1)
       '@typeschema/zod':
         specifier: 0.14.0
-        version: 0.14.0(zod@3.25.67)
+        version: 0.14.0(zod@3.25.71)
       caniuse-lite:
         specifier: 1.0.30001726
         version: 1.0.30001726
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.1.0
-        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.71))(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       qs:
         specifier: 6.14.0
         version: 6.14.0
@@ -54,8 +54,8 @@ importers:
         specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
       swagger-ui-react:
-        specifier: 5.25.3
-        version: 5.25.3(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 5.26.0
+        version: 5.26.0(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       valibot:
         specifier: 1.1.0
         version: 1.1.0(typescript@5.8.3)
@@ -63,15 +63,15 @@ importers:
         specifier: 1.6.1
         version: 1.6.1
       zod:
-        specifier: 3.25.67
-        version: 3.25.67
+        specifier: 3.25.71
+        version: 3.25.71
     devDependencies:
       '@types/react':
         specifier: 19.1.8
         version: 19.1.8
       cypress:
-        specifier: 14.5.0
-        version: 14.5.0
+        specifier: 14.5.1
+        version: 14.5.1
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -767,8 +767,8 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  cypress@14.5.0:
-    resolution: {integrity: sha512-1HOnKvWep0LkWuFwPeWkZ0TDl7ivi2/Mz+WNU4dfkeLJaFndS3Ow6TXT7YjuTqLFI2peJKzPKljVUFdymI2K5g==}
+  cypress@14.5.1:
+    resolution: {integrity: sha512-vYBeZKW3UAtxwv5mFuSlOBCYhyO0H86TeDKRJ7TgARyHiREIaiDjeHtqjzrXRFrdz9KnNavqlm+z+hklC7v8XQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
@@ -1597,8 +1597,8 @@ packages:
   swagger-client@3.35.6:
     resolution: {integrity: sha512-OgwNneIdC45KXwOfwrlkwgWPeAKiV4K75mOnZioTddo1mpp9dTboCDVJas7185Ww1ziBwzShBqXpNGmyha9ZQg==}
 
-  swagger-ui-react@5.25.3:
-    resolution: {integrity: sha512-R9nVMbwH3J/on8ZEctHlN86l6QucaOy6wUnm7npIwTJOgv+qnJ/t+VkSW1NW6l7a9uDg+PxkbDC0jo9YI9MCEA==}
+  swagger-ui-react@5.26.0:
+    resolution: {integrity: sha512-4e6bP9bdJyh+SqQW0lxulPn/SDno4+oWrKXsuon5Z9kjtV0zeoWEJ1c70Qxp8kN/c3caFwec8OyxDNhvo14pkw==}
     peerDependencies:
       react: '>=16.8.0 <19'
       react-dom: '>=16.8.0 <19'
@@ -1780,8 +1780,8 @@ packages:
   zenscroll@4.0.2:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
 
-  zod@3.25.67:
-    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
+  zod@3.25.71:
+    resolution: {integrity: sha512-BsBc/NPk7h8WsUWYWYL+BajcJPY8YhjelaWu2NMLuzgraKAz4Lb4/6K11g9jpuDetjMiqhZ6YaexFLOC0Ogi3Q==}
 
 snapshots:
 
@@ -2373,7 +2373,7 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))':
+  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.71))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
@@ -2381,7 +2381,7 @@ snapshots:
       '@typeschema/joi': 0.14.0(joi@17.13.3)
       '@typeschema/valibot': 0.14.0(valibot@1.1.0(typescript@5.8.3))
       '@typeschema/yup': 0.14.0(yup@1.6.1)
-      '@typeschema/zod': 0.14.0(zod@3.25.67)
+      '@typeschema/zod': 0.14.0(zod@3.25.71)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -2401,11 +2401,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.14.0(zod@3.25.67)':
+  '@typeschema/zod@0.14.0(zod@3.25.71)':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      zod: 3.25.67
+      zod: 3.25.71
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -2598,7 +2598,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  cypress@14.5.0:
+  cypress@14.5.1:
     dependencies:
       '@cypress/request': 3.0.8
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
@@ -3030,9 +3030,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.71))(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
     dependencies:
-      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.67))
+      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.8.3)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.71))
       next: 15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -3491,7 +3491,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  swagger-ui-react@5.25.3(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  swagger-ui-react@5.26.0(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/runtime-corejs3': 7.27.6
       '@scarf/scarf': 1.4.0
@@ -3691,4 +3691,4 @@ snapshots:
 
   zenscroll@4.0.2: {}
 
-  zod@3.25.67: {}
+  zod@3.25.71: {}

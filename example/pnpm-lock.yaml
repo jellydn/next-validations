@@ -19,7 +19,7 @@ importers:
         version: 0.14.0(valibot@1.1.0(typescript@5.9.2))
       '@typeschema/yup':
         specifier: 0.14.0
-        version: 0.14.0(yup@1.6.1)
+        version: 0.14.0(yup@1.7.0)
       '@typeschema/zod':
         specifier: 0.14.0
         version: 0.14.0(zod@3.25.76)
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.1.0
-        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1))
+        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.7.0))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1))
       qs:
         specifier: 6.14.0
         version: 6.14.0
@@ -60,8 +60,8 @@ importers:
         specifier: 1.1.0
         version: 1.1.0(typescript@5.9.2)
       yup:
-        specifier: 1.6.1
-        version: 1.6.1
+        specifier: 1.7.0
+        version: 1.7.0
       zod:
         specifier: 3.25.76
         version: 3.25.76
@@ -1817,8 +1817,8 @@ packages:
   yauzl@2.10.0:
     resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
 
-  yup@1.6.1:
-    resolution: {integrity: sha512-JED8pB50qbA4FOkDol0bYF/p60qSEDQqBD0/qeIrUCG1KbPBIQ776fCUNb9ldbPcSTxA69g/47XTo4TqWiuXOA==}
+  yup@1.7.0:
+    resolution: {integrity: sha512-VJce62dBd+JQvoc+fCVq+KZfPHr+hXaxCcVgotfwWvlR0Ja3ffYKaJBT8rptPOSKOGJDCUnW2C2JWpud7aRP6Q==}
 
   zenscroll@4.0.2:
     resolution: {integrity: sha512-jEA1znR7b4C/NnaycInCU6h/d15ZzCd1jmsruqOKnZP6WXQSMH3W2GL+OXbkruslU4h+Tzuos0HdswzRUk/Vgg==}
@@ -2419,14 +2419,14 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.76))':
+  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.7.0))(@typeschema/zod@0.14.0(zod@3.25.76))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
       '@typeschema/fastest-validator': 0.2.0(fastest-validator@1.19.1)
       '@typeschema/joi': 0.14.0(joi@17.13.3)
       '@typeschema/valibot': 0.14.0(valibot@1.1.0(typescript@5.9.2))
-      '@typeschema/yup': 0.14.0(yup@1.6.1)
+      '@typeschema/yup': 0.14.0(yup@1.7.0)
       '@typeschema/zod': 0.14.0(zod@3.25.76)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -2439,11 +2439,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/yup@0.14.0(yup@1.6.1)':
+  '@typeschema/yup@0.14.0(yup@1.7.0)':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      yup: 1.6.1
+      yup: 1.7.0
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3103,9 +3103,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1)):
+  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.7.0))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1)):
     dependencies:
-      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.6.1))(@typeschema/zod@0.14.0(zod@3.25.76))
+      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.3))(@typeschema/valibot@0.14.0(valibot@1.1.0(typescript@5.9.2)))(@typeschema/yup@0.14.0(yup@1.7.0))(@typeschema/zod@0.14.0(zod@3.25.76))
       next: 15.4.5(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -3786,7 +3786,7 @@ snapshots:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
 
-  yup@1.6.1:
+  yup@1.7.0:
     dependencies:
       property-expr: 2.0.6
       tiny-case: 1.0.3

@@ -37,7 +37,7 @@ jobs:
           git push origin stable
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 18.20.8
           registry-url: "https://registry.npmjs.org"
         if: ${{ steps.release.outputs.release_created }}
       - run: corepack enable && corepack use pnpm@latest && pnpm install

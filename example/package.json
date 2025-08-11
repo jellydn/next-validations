@@ -17,7 +17,7 @@
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",
     "@typeschema/zod": "0.14.0",
-    "caniuse-lite": "1.0.30001733",
+    "caniuse-lite": "1.0.30001734",
     "fastest-validator": "1.19.1",
     "isarray": "2.0.5",
     "joi": "17.13.3",
@@ -33,7 +33,7 @@
     "zod": "3.25.76"
   },
   "devDependencies": {
-    "@types/react": "19.1.9",
+    "@types/react": "19.1.10",
     "cypress": "14.5.4",
     "npm-run-all2": "8.0.4",
     "typescript": "5.9.2",

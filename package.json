@@ -68,7 +68,7 @@
     "fastest-validator": "1.19.1",
     "husky": "9.1.7",
     "joi": "17.13.3",
-    "next": "15.4.7",
+    "next": "15.5.0",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "size-limit": "11.2.0",
@@ -86,7 +86,7 @@
   "peerDependencies": {
     "next": "*"
   },
-  "packageManager": "pnpm@10.14.0",
+  "packageManager": "pnpm@10.15.0",
   "engines": {
     "node": ">=18"
   },

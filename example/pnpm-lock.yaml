@@ -54,8 +54,8 @@ importers:
         specifier: 19.1.1
         version: 19.1.1(react@19.1.1)
       swagger-ui-react:
-        specifier: 5.28.0
-        version: 5.28.0(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 5.28.1
+        version: 5.28.1(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       valibot:
         specifier: 1.1.0
         version: 1.1.0(typescript@5.9.2)
@@ -653,6 +653,9 @@ packages:
 
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
+
+  buffer@6.0.3:
+    resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
 
   cachedir@2.4.0:
     resolution: {integrity: sha512-9EtFOZR8g22CL7BWjJ9BUx1+A/djkofnyW3aOXZORNW2kxoUpx2h+uN2cOqwPmFhnpVmxg+KW2OjOSgChTEvsQ==}
@@ -1628,8 +1631,8 @@ packages:
   swagger-client@3.35.6:
     resolution: {integrity: sha512-OgwNneIdC45KXwOfwrlkwgWPeAKiV4K75mOnZioTddo1mpp9dTboCDVJas7185Ww1ziBwzShBqXpNGmyha9ZQg==}
 
-  swagger-ui-react@5.28.0:
-    resolution: {integrity: sha512-zQoBUosRhRJZL5EZgYUkGfSH4vbqIFs49tgJBj7SeuZN+RXtV+maDFslA/RpHVwrFpN6Qiq7YhwGJi6gtLY69A==}
+  swagger-ui-react@5.28.1:
+    resolution: {integrity: sha512-JfLZvbCpsjwUnYKx+Q1YfkrgM7gD6Zb7HnO8/DwFNo5xppwC3MbL27/5MhPkmDyMZ669r6CNiJ0SALiivs7iQg==}
     peerDependencies:
       react: '>=16.8.0 <20'
       react-dom: '>=16.8.0 <20'
@@ -2537,6 +2540,11 @@ snapshots:
   buffer-crc32@0.2.13: {}
 
   buffer@5.7.1:
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
+
+  buffer@6.0.3:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
@@ -3573,11 +3581,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  swagger-ui-react@5.28.0(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  swagger-ui-react@5.28.1(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       '@babel/runtime-corejs3': 7.28.3
       '@scarf/scarf': 1.4.0
       base64-js: 1.5.1
+      buffer: 6.0.3
       classnames: 2.5.1
       css.escape: 1.5.1
       deep-extend: 0.6.0

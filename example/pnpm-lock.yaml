@@ -54,8 +54,8 @@ importers:
         specifier: 19.1.1
         version: 19.1.1(react@19.1.1)
       swagger-ui-react:
-        specifier: 5.28.1
-        version: 5.28.1(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 5.29.0
+        version: 5.29.0(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       valibot:
         specifier: 1.1.0
         version: 1.1.0(typescript@5.9.2)
@@ -1631,8 +1631,8 @@ packages:
   swagger-client@3.35.6:
     resolution: {integrity: sha512-OgwNneIdC45KXwOfwrlkwgWPeAKiV4K75mOnZioTddo1mpp9dTboCDVJas7185Ww1ziBwzShBqXpNGmyha9ZQg==}
 
-  swagger-ui-react@5.28.1:
-    resolution: {integrity: sha512-JfLZvbCpsjwUnYKx+Q1YfkrgM7gD6Zb7HnO8/DwFNo5xppwC3MbL27/5MhPkmDyMZ669r6CNiJ0SALiivs7iQg==}
+  swagger-ui-react@5.29.0:
+    resolution: {integrity: sha512-dEDqs3et9cnflzwog0oBMjkrq7Uf6PNPVva4VFB4GICDWMRb6T2C+CzIfqJp9XX9eDvbmiZa/dTcnwvGcDpi5A==}
     peerDependencies:
       react: '>=16.8.0 <20'
       react-dom: '>=16.8.0 <20'
@@ -3581,7 +3581,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  swagger-ui-react@5.28.1(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  swagger-ui-react@5.29.0(@types/react@19.1.12)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       '@babel/runtime-corejs3': 7.28.4
       '@scarf/scarf': 1.4.0

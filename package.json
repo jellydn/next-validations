@@ -57,7 +57,7 @@
     "@size-limit/preset-small-lib": "11.2.0",
     "@skypack/package-check": "0.2.2",
     "@testing-library/react": "16.3.0",
-    "@types/react": "19.1.12",
+    "@types/react": "19.1.13",
     "@types/react-dom": "19.1.9",
     "@typeschema/joi": "0.14.0",
     "@typeschema/valibot": "0.14.0",
@@ -86,7 +86,7 @@
   "peerDependencies": {
     "next": "*"
   },
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.16.0",
   "engines": {
     "node": ">=18"
   },

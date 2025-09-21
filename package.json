@@ -80,7 +80,7 @@
     "valibot": "1.1.0",
     "vite": "6.3.6",
     "vitest": "3.2.4",
-    "yup": "1.7.0",
+    "yup": "1.7.1",
     "zod": "3.25.76"
   },
   "peerDependencies": {

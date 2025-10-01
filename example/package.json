@@ -33,10 +33,10 @@
     "zod": "3.25.76"
   },
   "devDependencies": {
-    "@types/react": "19.1.15",
+    "@types/react": "19.1.16",
     "cypress": "14.5.4",
     "npm-run-all2": "8.0.4",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "wait-on": "8.0.5"
   },
   "packageManager": "pnpm@10.17.1"

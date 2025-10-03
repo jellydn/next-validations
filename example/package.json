@@ -17,7 +17,7 @@
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",
     "@typeschema/zod": "0.14.0",
-    "caniuse-lite": "1.0.30001746",
+    "caniuse-lite": "1.0.30001747",
     "fastest-validator": "1.19.1",
     "isarray": "2.0.5",
     "joi": "17.13.3",
@@ -27,7 +27,7 @@
     "qs": "6.14.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "swagger-ui-react": "5.29.1",
+    "swagger-ui-react": "5.29.3",
     "valibot": "1.1.0",
     "yup": "1.7.1",
     "zod": "3.25.76"
@@ -39,5 +39,5 @@
     "typescript": "5.9.3",
     "wait-on": "8.0.5"
   },
-  "packageManager": "pnpm@10.17.1"
+  "packageManager": "pnpm@10.18.0"
 }

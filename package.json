@@ -78,7 +78,7 @@
     "typedoc": "0.28.14",
     "typescript": "5.9.3",
     "valibot": "1.1.0",
-    "vite": "6.3.6",
+    "vite": "6.3.7",
     "vitest": "3.2.4",
     "yup": "1.7.1",
     "zod": "3.25.76"
@@ -86,7 +86,7 @@
   "peerDependencies": {
     "next": "*"
   },
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "pnpm@10.18.3",
   "engines": {
     "node": ">=18"
   },

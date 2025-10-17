@@ -27,7 +27,7 @@
     "qs": "6.14.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "swagger-ui-react": "5.29.4",
+    "swagger-ui-react": "5.29.5",
     "valibot": "1.1.0",
     "yup": "1.7.1",
     "zod": "3.25.76"

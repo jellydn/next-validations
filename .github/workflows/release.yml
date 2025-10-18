@@ -35,7 +35,7 @@ jobs:
           git push origin :stable || true
           git tag -a stable -m "Last Stable Release"
           git push origin stable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 18.20.8
           registry-url: "https://registry.npmjs.org"

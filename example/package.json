@@ -27,7 +27,7 @@
     "qs": "6.14.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "swagger-ui-react": "5.29.5",
+    "swagger-ui-react": "5.30.0",
     "valibot": "1.1.0",
     "yup": "1.7.1",
     "zod": "3.25.76"
@@ -39,5 +39,5 @@
     "typescript": "5.9.3",
     "wait-on": "8.0.5"
   },
-  "packageManager": "pnpm@10.18.3"
+  "packageManager": "pnpm@10.19.0"
 }

@@ -20,7 +20,7 @@
     "caniuse-lite": "1.0.30001751",
     "fastest-validator": "1.19.1",
     "isarray": "2.0.5",
-    "joi": "17.13.3",
+    "joi": "18.0.2",
     "next": "15.5.6",
     "next-connect": "1.0.0",
     "next-validations": "1.1.0",

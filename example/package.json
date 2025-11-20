@@ -17,7 +17,7 @@
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",
     "@typeschema/zod": "0.14.0",
-    "caniuse-lite": "1.0.30001751",
+    "caniuse-lite": "1.0.30001756",
     "fastest-validator": "1.19.1",
     "isarray": "2.0.5",
     "joi": "17.13.3",
@@ -27,17 +27,17 @@
     "qs": "6.14.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "swagger-ui-react": "5.30.0",
+    "swagger-ui-react": "5.30.2",
     "valibot": "1.1.0",
     "yup": "1.7.1",
     "zod": "3.25.76"
   },
   "devDependencies": {
-    "@types/react": "19.2.2",
+    "@types/react": "19.2.6",
     "cypress": "14.5.4",
     "npm-run-all2": "8.0.4",
     "typescript": "5.9.3",
     "wait-on": "8.0.5"
   },
-  "packageManager": "pnpm@10.19.0"
+  "packageManager": "pnpm@10.23.0"
 }

@@ -81,7 +81,7 @@
     "vite": "6.4.1",
     "vitest": "3.2.4",
     "yup": "1.7.1",
-    "zod": "3.25.76"
+    "zod": "4.1.13"
   },
   "peerDependencies": {
     "next": "*"

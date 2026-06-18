@@ -17,12 +17,12 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v4.4.1
         id: release
         with:
           release-type: node
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.3.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: tag stable versions
@@ -35,7 +35,7 @@ jobs:
           git push origin :stable || true
           git tag -a stable -m "Last Stable Release"
           git push origin stable
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.4.0
         with:
           node-version: 18.20.8
           registry-url: "https://registry.npmjs.org"

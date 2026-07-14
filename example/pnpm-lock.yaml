@@ -16,7 +16,7 @@ importers:
         version: 0.14.0(joi@17.13.4)
       '@typeschema/valibot':
         specifier: 0.14.0
-        version: 0.14.0(valibot@1.4.1(typescript@5.9.3))
+        version: 0.14.0(valibot@1.4.2(typescript@5.9.3))
       '@typeschema/yup':
         specifier: 0.14.0
         version: 0.14.0(yup@1.7.1)
@@ -24,8 +24,8 @@ importers:
         specifier: 0.14.0
         version: 0.14.0(zod@3.25.76)
       caniuse-lite:
-        specifier: 1.0.30001799
-        version: 1.0.30001799
+        specifier: 1.0.30001805
+        version: 1.0.30001805
       fastest-validator:
         specifier: 1.19.1
         version: 1.19.1
@@ -36,17 +36,17 @@ importers:
         specifier: 17.13.4
         version: 17.13.4
       next:
-        specifier: 15.5.19
-        version: 15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: 15.5.20
+        version: 15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       next-connect:
         specifier: 1.0.0
         version: 1.0.0
       next-validations:
         specifier: 1.1.0
-        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.1(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       qs:
-        specifier: 6.15.2
-        version: 6.15.2
+        specifier: 6.15.3
+        version: 6.15.3
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -54,11 +54,11 @@ importers:
         specifier: 19.2.7
         version: 19.2.7(react@19.2.7)
       swagger-ui-react:
-        specifier: 5.32.6
-        version: 5.32.6(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        specifier: 5.32.8
+        version: 5.32.8(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       valibot:
-        specifier: 1.4.1
-        version: 1.4.1(typescript@5.9.3)
+        specifier: 1.4.2
+        version: 1.4.2(typescript@5.9.3)
       yup:
         specifier: 1.7.1
         version: 1.7.1
@@ -268,57 +268,57 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@next/env@15.5.19':
-    resolution: {integrity: sha512-sWWluFvcv5v3Fxznmf2ZfjyoVQt/64oCnYqS90inQWGzMPK1VjvekPiz3OPHKmFT30EnHrjlbyaHLt3M0vWabw==}
+  '@next/env@15.5.20':
+    resolution: {integrity: sha512-dXh51Wvddf8daEyBXryZZEe1FdVxEWx9lgaTseLZUtC1XP/W8Wri+Z+VPOElHlByk23CyqHdc2oVByX7wsTWsw==}
 
-  '@next/swc-darwin-arm64@15.5.19':
-    resolution: {integrity: sha512-jx9wWlTKueHKPvVOndyr7WuaevWCkuYqsQ8gC0TMPKAVWG3MhcdMrjfo9tvIZNXd0QOUYXXvAcZ325y8Uq7uzg==}
+  '@next/swc-darwin-arm64@15.5.20':
+    resolution: {integrity: sha512-in0yXG7/pRBVjWeEl7f7ZZETpletSMFKXVS4GJgHENTPVrJFNJKPrYewa9rpZcvdjwFece5fZP0CK34G4PxowA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@15.5.19':
-    resolution: {integrity: sha512-291KFcsIQ3OenRdiUDFOR6W3wezzH4auENXm1gbm1Bjd4ANMMRgxPrWTUztQN43BnVoVuMnHCrLeECIMwgFKbA==}
+  '@next/swc-darwin-x64@15.5.20':
+    resolution: {integrity: sha512-0hsFshdPnTzGJdDTHeHJ+XPUShOpnyp9pUFDwDhqctsA0Cd8NcIVGRPtptYhgYY9DjkKgCDRkXxmgRc+CgT5Wg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@15.5.19':
-    resolution: {integrity: sha512-WeH+nelQyyMeE2f8FxBRZNrGipya5zHZV2vjzfCOAYyiI6am+NbnWAAldOBFQBB2w0DjJcsvrKqoFT2b7+5YoA==}
+  '@next/swc-linux-arm64-gnu@15.5.20':
+    resolution: {integrity: sha512-DMvkoBtAABOzE6pMZRW/xNm7sKqql3wzzzZJ1R/d/rp4BCxv6LykouD3tHjGY8WdQqGpZs11t+R9AtjPxvvljw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-arm64-musl@15.5.19':
-    resolution: {integrity: sha512-5xTOE0lDlDCSSfp+BAif7j17VRRCjWp//ZPZy6NI0QpdrhxtQnsZguSx0xAAZ0c9XZLrLLwCe/XVe5YPrRilKw==}
+  '@next/swc-linux-arm64-musl@15.5.20':
+    resolution: {integrity: sha512-RQmDfeYBtXV2FSId7dfA1hE6M/T6+g7wdbYnFQ47tw/gUBwV+CccLVejNmCGa9yLDitk83foeg8hl/3DjfYQ5g==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-linux-x64-gnu@15.5.19':
-    resolution: {integrity: sha512-LTxRmMgqqMv05Had879W00Fm53quiJd3Zuz8h1JSNJ3nGSlbZ/7Tjs1tKyScgN3Au3t3MyPsjPlq60fMmSHLsg==}
+  '@next/swc-linux-x64-gnu@15.5.20':
+    resolution: {integrity: sha512-DkWLEdKajJwdGt27M3i1VEO2kelTvZrK6Pcb7JvW2BY+nofWm7FBsBNDj7g7Pr1NuQ5PLJvqEqYa20GTsBDnKQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-x64-musl@15.5.19':
-    resolution: {integrity: sha512-eoNQSpA5PQfB9wBO4RA47MTDXWz1fizy9Y3Z6e4DetYIF3dvjuu8sj7aIGn/bFCU6lnFzTK34NtCaffP4NsQ7Q==}
+  '@next/swc-linux-x64-musl@15.5.20':
+    resolution: {integrity: sha512-rAO5b7pKHvX+ExdmJskusDXTNbiNZfptifIPZItbUx+AOXxxTydVBsPt7Oz84DRd5mY8e0DcE8kvLj3AIfjE6w==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-win32-arm64-msvc@15.5.19':
-    resolution: {integrity: sha512-6UNt2dFuCHOe446sm/Kp69nUe8/wIhnh9bm6Xcqw4qEWCOppLMOvhTBVgvM7invVUNr4SPpP6NOQsACtn2IN9Q==}
+  '@next/swc-win32-arm64-msvc@15.5.20':
+    resolution: {integrity: sha512-Hp3zFsN8N8Kj9+vY6L4vnZ9EtA9eXyATu0q4EfGbZTiocgPUNSfz8NWhym6xvaOmHpJ8EuoypuU1WejCPsTFtg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@15.5.19':
-    resolution: {integrity: sha512-PhmojAHyqMne56HBLGu9dhDnHPuFmEjrXSQMM/nW0J6j849lk3ESrVtqNJcCk8CKOV7brpTTbaYAjwKPzKM69w==}
+  '@next/swc-win32-x64-msvc@15.5.20':
+    resolution: {integrity: sha512-T/L7CXpR1M0wij/xbF3rT1+7KvSkfOLr7C+ToHHWZTG2eKmb52C5WvsyGCBNtkVvDEUESWkRUbbqSH4rSbOCYQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -748,8 +748,8 @@ packages:
     resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001799:
-    resolution: {integrity: sha512-hG1bReV+OUU+MOqK4t/ZWI0tZOyz3rqS9XuhOUz1cIcbwBKjOyJEJuw9ER5JuNyqxNk8u/JUVbGibBOL1yrjFw==}
+  caniuse-lite@1.0.30001805:
+    resolution: {integrity: sha512-52noaS3DubycKSXaU30TwPGIp+POyQSUVa5jBEq3vkRkY0kjyb3LQgvhU6WGyCcyXqVLWO0Cw0Q6BSdD0kUfVA==}
 
   caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
@@ -1072,10 +1072,6 @@ packages:
     resolution: {integrity: sha512-Hrp5vIK/xr5SkeN2onO32H0MgNZ0f17HRNH39WfL0SYUNOTZ5Lz1TJ8Pajo/87dYGEFlLMm7mIc/k/s6Bvz9HQ==}
     engines: {node: '>=8'}
 
-  hasown@2.0.2:
-    resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
-    engines: {node: '>= 0.4'}
-
   hasown@2.0.4:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
@@ -1193,10 +1189,6 @@ packages:
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
-  js-yaml@4.1.1:
-    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
-    hasBin: true
 
   js-yaml@4.2.0:
     resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
@@ -1318,8 +1310,8 @@ packages:
     peerDependencies:
       next: '*'
 
-  next@15.5.19:
-    resolution: {integrity: sha512-xNOW6tYshGX1/Oi3F8uuk4gpDeWsSUE/1Z0G5uUMekIxaQ0xc03UXd9II0VQHYMWviMeA0OHpJFAKsHf8bTYVg==}
+  next@15.5.20:
+    resolution: {integrity: sha512-cvyS3/geydan1xLtE3FA8VCgdoQ/Gg/dlOldFkFCbB5VcVYJV7090hQLBnvTW2PwT76Z/dHdzDZCsVhZpoOlUA==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -1468,8 +1460,8 @@ packages:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
     engines: {node: '>=0.6'}
 
-  qs@6.15.2:
-    resolution: {integrity: sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==}
+  qs@6.15.3:
+    resolution: {integrity: sha512-O9gl3zCl5h5blw1KGUzQKhA5oUXSl8rwUIM5o0S3nCXMliSvy5Dzx7/DJcI+SwgICv+IneSZwhBh1oSyEHA71A==}
     engines: {node: '>=0.6'}
 
   querystringify@2.2.0:
@@ -1650,6 +1642,10 @@ packages:
     resolution: {integrity: sha512-FCLHtRD/gnpCiCHEiJLOwdmFP+wzCmDEkc9y7NsYxeF4u7Btsn1ZuwgwJGxImImHicJArLP4R0yX4c2KCrMrTA==}
     engines: {node: '>= 0.4'}
 
+  side-channel-list@1.0.1:
+    resolution: {integrity: sha512-mjn/0bi/oUURjc5Xl7IaWi/OJJJumuoJFQJfDDyO46+hBWsfaVM65TBHq2eoZBhzl9EchxOijpkbRC8SVBQU0w==}
+    engines: {node: '>= 0.4'}
+
   side-channel-map@1.0.1:
     resolution: {integrity: sha512-VCjCNfgMsby3tTdo02nbjtM/ewra6jPHmpThenkTYh8pG9ucZ/1P8So4u4FGBek/BjpOVsDCMoLA/iuBKIFXRA==}
     engines: {node: '>= 0.4'}
@@ -1660,6 +1656,10 @@ packages:
 
   side-channel@1.1.0:
     resolution: {integrity: sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==}
+    engines: {node: '>= 0.4'}
+
+  side-channel@1.1.1:
+    resolution: {integrity: sha512-6x6dK6zJdpTzF4sQeNYxwtvBzf6Eg4GtlesS94HOvTudUeyK2WXAaIfmDgsyslYrRBeFIlsi54AYsFGUuhmvrQ==}
     engines: {node: '>= 0.4'}
 
   signal-exit@3.0.7:
@@ -1725,8 +1725,8 @@ packages:
     resolution: {integrity: sha512-MuABJgD8vIsT5GVBTGj3HjmiEhArf58ng+YP4fo23NOJb/mKXOpKW3Rln90fnoi7ROt6IJsJy9d5kg8Yidn0/Q==}
     engines: {node: '>=22'}
 
-  swagger-ui-react@5.32.6:
-    resolution: {integrity: sha512-2q2kXd6eDR+syyWV5HE2CkWANyr2MHPkNezG4M7fC0FPlBUZEsNgyA/2dcb9dIwgE5xd995dO42h89fNMF5/ng==}
+  swagger-ui-react@5.32.8:
+    resolution: {integrity: sha512-Cstx4Tq8fT5l2TBxHxts8pG+ks0qKSkuO1pwUwgrQQiZ241Mqs+KUODLVIonsYXL/gqX143rkcipUa4d0Rid7w==}
     peerDependencies:
       react: '>=16.8.0 <20'
       react-dom: '>=16.8.0 <20'
@@ -1853,8 +1853,8 @@ packages:
     deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
-  valibot@1.4.1:
-    resolution: {integrity: sha512-klCmFTz2jeDluy9RwX+F884TCiogtdBJ/YaxSx1EOBYXa3NXNWj8kR1jjN8rzluwojJVWWaHJ4r1U5LfICnM3g==}
+  valibot@1.4.2:
+    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -2068,30 +2068,30 @@ snapshots:
   '@img/sharp-win32-x64@0.34.4':
     optional: true
 
-  '@next/env@15.5.19': {}
+  '@next/env@15.5.20': {}
 
-  '@next/swc-darwin-arm64@15.5.19':
+  '@next/swc-darwin-arm64@15.5.20':
     optional: true
 
-  '@next/swc-darwin-x64@15.5.19':
+  '@next/swc-darwin-x64@15.5.20':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@15.5.19':
+  '@next/swc-linux-arm64-gnu@15.5.20':
     optional: true
 
-  '@next/swc-linux-arm64-musl@15.5.19':
+  '@next/swc-linux-arm64-musl@15.5.20':
     optional: true
 
-  '@next/swc-linux-x64-gnu@15.5.19':
+  '@next/swc-linux-x64-gnu@15.5.20':
     optional: true
 
-  '@next/swc-linux-x64-musl@15.5.19':
+  '@next/swc-linux-x64-musl@15.5.20':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@15.5.19':
+  '@next/swc-win32-arm64-msvc@15.5.20':
     optional: true
 
-  '@next/swc-win32-x64-msvc@15.5.19':
+  '@next/swc-win32-x64-msvc@15.5.20':
     optional: true
 
   '@scarf/scarf@1.4.0': {}
@@ -2606,23 +2606,23 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.1(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))':
+  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
       '@typeschema/fastest-validator': 0.2.0(fastest-validator@1.19.1)
       '@typeschema/joi': 0.14.0(joi@17.13.4)
-      '@typeschema/valibot': 0.14.0(valibot@1.4.1(typescript@5.9.3))
+      '@typeschema/valibot': 0.14.0(valibot@1.4.2(typescript@5.9.3))
       '@typeschema/yup': 0.14.0(yup@1.7.1)
       '@typeschema/zod': 0.14.0(zod@3.25.76)
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/valibot@0.14.0(valibot@1.4.1(typescript@5.9.3))':
+  '@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      valibot: 1.4.1(typescript@5.9.3)
+      valibot: 1.4.2(typescript@5.9.3)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -2768,7 +2768,7 @@ snapshots:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
 
-  caniuse-lite@1.0.30001799: {}
+  caniuse-lite@1.0.30001805: {}
 
   caseless@0.12.0: {}
 
@@ -2972,7 +2972,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
       has-tostringtag: 1.0.2
-      hasown: 2.0.2
+      hasown: 2.0.4
 
   escape-string-regexp@1.0.5: {}
 
@@ -3039,7 +3039,7 @@ snapshots:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       es-set-tostringtag: 2.1.0
-      hasown: 2.0.2
+      hasown: 2.0.4
       mime-types: 2.1.35
 
   form-data@4.0.6:
@@ -3071,7 +3071,7 @@ snapshots:
       get-proto: 1.0.1
       gopd: 1.2.0
       has-symbols: 1.1.0
-      hasown: 2.0.2
+      hasown: 2.0.4
       math-intrinsics: 1.1.0
 
   get-proto@1.0.1:
@@ -3115,10 +3115,6 @@ snapshots:
     dependencies:
       is-stream: 2.0.1
       type-fest: 0.8.1
-
-  hasown@2.0.2:
-    dependencies:
-      function-bind: 1.1.2
 
   hasown@2.0.4:
     dependencies:
@@ -3231,10 +3227,6 @@ snapshots:
 
   js-tokens@4.0.0: {}
 
-  js-yaml@4.1.1:
-    dependencies:
-      argparse: 2.0.1
-
   js-yaml@4.2.0:
     dependencies:
       argparse: 2.0.1
@@ -3339,10 +3331,10 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.1(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)):
+  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)):
     dependencies:
-      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.1(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))
-      next: 15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))
+      next: 15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     transitivePeerDependencies:
       - '@types/json-schema'
       - '@typeschema/arktype'
@@ -3365,24 +3357,24 @@ snapshots:
       - '@typeschema/yup'
       - '@typeschema/zod'
 
-  next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
     dependencies:
-      '@next/env': 15.5.19
+      '@next/env': 15.5.20
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001799
+      caniuse-lite: 1.0.30001805
       postcss: 8.4.31
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
       styled-jsx: 5.1.6(react@19.2.7)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 15.5.19
-      '@next/swc-darwin-x64': 15.5.19
-      '@next/swc-linux-arm64-gnu': 15.5.19
-      '@next/swc-linux-arm64-musl': 15.5.19
-      '@next/swc-linux-x64-gnu': 15.5.19
-      '@next/swc-linux-x64-musl': 15.5.19
-      '@next/swc-win32-arm64-msvc': 15.5.19
-      '@next/swc-win32-x64-msvc': 15.5.19
+      '@next/swc-darwin-arm64': 15.5.20
+      '@next/swc-darwin-x64': 15.5.20
+      '@next/swc-linux-arm64-gnu': 15.5.20
+      '@next/swc-linux-arm64-musl': 15.5.20
+      '@next/swc-linux-x64-gnu': 15.5.20
+      '@next/swc-linux-x64-musl': 15.5.20
+      '@next/swc-win32-arm64-msvc': 15.5.20
+      '@next/swc-win32-x64-msvc': 15.5.20
       sharp: 0.34.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -3502,9 +3494,10 @@ snapshots:
     dependencies:
       side-channel: 1.1.0
 
-  qs@6.15.2:
+  qs@6.15.3:
     dependencies:
-      side-channel: 1.1.0
+      es-define-property: 1.0.1
+      side-channel: 1.1.1
 
   querystringify@2.2.0: {}
 
@@ -3698,6 +3691,11 @@ snapshots:
       es-errors: 1.3.0
       object-inspect: 1.13.4
 
+  side-channel-list@1.0.1:
+    dependencies:
+      es-errors: 1.3.0
+      object-inspect: 1.13.4
+
   side-channel-map@1.0.1:
     dependencies:
       call-bound: 1.0.4
@@ -3718,6 +3716,14 @@ snapshots:
       es-errors: 1.3.0
       object-inspect: 1.13.4
       side-channel-list: 1.0.0
+      side-channel-map: 1.0.1
+      side-channel-weakmap: 1.0.2
+
+  side-channel@1.1.1:
+    dependencies:
+      es-errors: 1.3.0
+      object-inspect: 1.13.4
+      side-channel-list: 1.0.1
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
 
@@ -3802,7 +3808,7 @@ snapshots:
       - debug
       - supports-color
 
-  swagger-ui-react@5.32.6(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  swagger-ui-react@5.32.8(@types/react@19.2.17)(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
     dependencies:
       '@babel/runtime-corejs3': 7.28.4
       '@scarf/scarf': 1.4.0
@@ -3815,7 +3821,7 @@ snapshots:
       ieee754: 1.2.1
       immutable: 3.8.2
       js-file-download: 0.4.12
-      js-yaml: 4.1.1
+      js-yaml: 4.2.0
       lodash: 4.18.1
       prop-types: 15.8.1
       randexp: 0.5.3
@@ -3947,7 +3953,7 @@ snapshots:
 
   uuid@8.3.2: {}
 
-  valibot@1.4.1(typescript@5.9.3):
+  valibot@1.4.2(typescript@5.9.3):
     optionalDependencies:
       typescript: 5.9.3
 

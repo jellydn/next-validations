@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@typeschema/main':
         specifier: 0.14.1
-        version: 0.14.1(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))
+        version: 0.14.1(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@4.4.3))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -41,7 +41,7 @@ importers:
         version: 0.14.0(yup@1.7.1)
       '@typeschema/zod':
         specifier: 0.14.0
-        version: 0.14.0(zod@3.25.76)
+        version: 0.14.0(zod@4.4.3)
       '@vitest/ui':
         specifier: 3.2.7
         version: 3.2.7(vitest@3.2.7)
@@ -97,8 +97,8 @@ importers:
         specifier: 1.7.1
         version: 1.7.1
       zod:
-        specifier: 3.25.76
-        version: 3.25.76
+        specifier: 4.4.3
+        version: 4.4.3
 
 packages:
 
@@ -2501,8 +2501,8 @@ packages:
   yup@1.7.1:
     resolution: {integrity: sha512-GKHFX2nXul2/4Dtfxhozv701jLQHdf6J34YDh2cEkpqoo8le5Mg6/LrdseVLrFarmFygZTlfIhHx/QKfb/QWXw==}
 
-  zod@3.25.76:
-    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+  zod@4.4.3:
+    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
 snapshots:
 
@@ -3055,14 +3055,14 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))':
+  '@typeschema/main@0.14.1(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@4.4.3))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
       '@typeschema/joi': 0.14.0(joi@17.13.4)
       '@typeschema/valibot': 0.14.0(valibot@1.4.2(typescript@5.9.3))
       '@typeschema/yup': 0.14.0(yup@1.7.1)
-      '@typeschema/zod': 0.14.0(zod@3.25.76)
+      '@typeschema/zod': 0.14.0(zod@4.4.3)
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -3082,11 +3082,11 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/zod@0.14.0(zod@3.25.76)':
+  '@typeschema/zod@0.14.0(zod@4.4.3)':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      zod: 3.25.76
+      zod: 4.4.3
     transitivePeerDependencies:
       - '@types/json-schema'
 
@@ -4578,4 +4578,4 @@ snapshots:
       toposort: 2.0.2
       type-fest: 2.19.0
 
-  zod@3.25.76: {}
+  zod@4.4.3: {}

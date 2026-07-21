@@ -13,7 +13,7 @@ importers:
         version: 0.2.0(fastest-validator@1.19.1)
       '@typeschema/joi':
         specifier: 0.14.0
-        version: 0.14.0(joi@17.13.4)
+        version: 0.14.0(joi@18.2.3)
       '@typeschema/valibot':
         specifier: 0.14.0
         version: 0.14.0(valibot@1.4.2(typescript@5.9.3))
@@ -33,8 +33,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       joi:
-        specifier: 17.13.4
-        version: 17.13.4
+        specifier: 18.2.3
+        version: 18.2.3
       next:
         specifier: 15.5.20
         version: 15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
@@ -43,7 +43,7 @@ importers:
         version: 1.0.0
       next-validations:
         specifier: 1.1.0
-        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+        version: 1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@18.2.3))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       qs:
         specifier: 6.15.3
         version: 6.15.3
@@ -112,18 +112,12 @@ packages:
   '@hapi/hoek@11.0.7':
     resolution: {integrity: sha512-HV5undWkKzcB4RZUusqOpcgxOaq6VOAH7zhhIr2g3G8NF/MlFO75SjOr2NfuSx0Mh40+1FqCkagKLJRykUWoFQ==}
 
-  '@hapi/hoek@9.3.0':
-    resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
-
   '@hapi/pinpoint@2.0.1':
     resolution: {integrity: sha512-EKQmr16tM8s16vTT3cA5L0kZZcTMU5DUOZTuvpnY738m+jyP3JIUj+Mm1xc1rsLkGBQ/gVnfKYPwOmPg1tUR4Q==}
 
   '@hapi/tlds@1.1.3':
     resolution: {integrity: sha512-QIvUMB5VZ8HMLZF9A2oWr3AFM430QC8oGd0L35y2jHpuW6bIIca6x/xL7zUf4J7L9WJ3qjz+iJII8ncaeMbpSg==}
     engines: {node: '>=14.0.0'}
-
-  '@hapi/topo@5.1.0':
-    resolution: {integrity: sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==}
 
   '@hapi/topo@6.0.2':
     resolution: {integrity: sha512-KR3rD5inZbGMrHmgPxsJ9dbi6zEK+C3ZwUwTa+eMwWLz7oijWUTWD2pMSNNYJAU6Qq+65NkxXjqHr/7LM2Xkqg==}
@@ -326,17 +320,8 @@ packages:
   '@scarf/scarf@1.4.0':
     resolution: {integrity: sha512-xxeapPiUXdZAE3che6f3xogoJPeZgig6omHEy1rIY5WVsB3H2BHNnZH+gHG6x91SCWyQCzWGsuL2Hh3ClO5/qQ==}
 
-  '@sideway/address@4.1.5':
-    resolution: {integrity: sha512-IqO/DUQHUkPeixNQ8n0JA6102hT9CmaljNTPmQ1u8MEhBo/R4Q8eKLN/vGZxuebwOroDB4cbpjheD4+/sKFK4Q==}
-
-  '@sideway/formula@3.0.1':
-    resolution: {integrity: sha512-/poHZJJVjx3L+zVD6g9KgHfYnb443oi7wLu/XKojDviHy6HOEOA6z1Trk5aR1dGcmPenJEgb2sK2I80LeS3MIg==}
-
-  '@sideway/pinpoint@2.0.0':
-    resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
-
-  '@standard-schema/spec@1.0.0':
-    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
+  '@standard-schema/spec@1.1.0':
+    resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
   '@swagger-api/apidom-ast@1.11.2':
     resolution: {integrity: sha512-keG5q/AR0zIizKCcfcUKiDXDQscw27SyILFb0kFmVWlgv3JTP+8pdXjzCEFW+C8RKg/etap270jv2s8B6ghuXA==}
@@ -1177,11 +1162,8 @@ packages:
   isstream@0.1.2:
     resolution: {integrity: sha512-Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==}
 
-  joi@17.13.4:
-    resolution: {integrity: sha512-1RuuER6kmt8K8I3nIWvPZKi5RQCb568ZPyY4Pwjlua+yo+63ZTmIwxLZH0heBmiKN4uxjvCiarDrjaeH84xicQ==}
-
-  joi@18.0.1:
-    resolution: {integrity: sha512-IiQpRyypSnLisQf3PwuN2eIHAsAIGZIrLZkd4zdvIar2bDyhM91ubRjy8a3eYablXsh9BeI/c7dmPYHca5qtoA==}
+  joi@18.2.3:
+    resolution: {integrity: sha512-N5A3KTWQpPWT4ExxxPlUx7WmykGXRzhNidWhV41d6Abu9YfI2NyWCJuxdPnslJCPWtbRpSVOWSnSS6GakLM/Rg==}
     engines: {node: '>= 20'}
 
   js-file-download@0.4.12:
@@ -1965,15 +1947,9 @@ snapshots:
 
   '@hapi/hoek@11.0.7': {}
 
-  '@hapi/hoek@9.3.0': {}
-
   '@hapi/pinpoint@2.0.1': {}
 
   '@hapi/tlds@1.1.3': {}
-
-  '@hapi/topo@5.1.0':
-    dependencies:
-      '@hapi/hoek': 9.3.0
 
   '@hapi/topo@6.0.2':
     dependencies:
@@ -2096,15 +2072,7 @@ snapshots:
 
   '@scarf/scarf@1.4.0': {}
 
-  '@sideway/address@4.1.5':
-    dependencies:
-      '@hapi/hoek': 9.3.0
-
-  '@sideway/formula@3.0.1': {}
-
-  '@sideway/pinpoint@2.0.0': {}
-
-  '@standard-schema/spec@1.0.0': {}
+  '@standard-schema/spec@1.1.0': {}
 
   '@swagger-api/apidom-ast@1.11.2':
     dependencies:
@@ -2598,20 +2566,20 @@ snapshots:
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/joi@0.14.0(joi@17.13.4)':
+  '@typeschema/joi@0.14.0(joi@18.2.3)':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
-      joi: 17.13.4
+      joi: 18.2.3
     transitivePeerDependencies:
       - '@types/json-schema'
 
-  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))':
+  '@typeschema/main@0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@18.2.3))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))':
     dependencies:
       '@typeschema/core': 0.14.0
     optionalDependencies:
       '@typeschema/fastest-validator': 0.2.0(fastest-validator@1.19.1)
-      '@typeschema/joi': 0.14.0(joi@17.13.4)
+      '@typeschema/joi': 0.14.0(joi@18.2.3)
       '@typeschema/valibot': 0.14.0(valibot@1.4.2(typescript@5.9.3))
       '@typeschema/yup': 0.14.0(yup@1.7.1)
       '@typeschema/zod': 0.14.0(zod@3.25.76)
@@ -3205,15 +3173,7 @@ snapshots:
 
   isstream@0.1.2: {}
 
-  joi@17.13.4:
-    dependencies:
-      '@hapi/hoek': 9.3.0
-      '@hapi/topo': 5.1.0
-      '@sideway/address': 4.1.5
-      '@sideway/formula': 3.0.1
-      '@sideway/pinpoint': 2.0.0
-
-  joi@18.0.1:
+  joi@18.2.3:
     dependencies:
       '@hapi/address': 5.1.1
       '@hapi/formula': 3.0.2
@@ -3221,7 +3181,7 @@ snapshots:
       '@hapi/pinpoint': 2.0.1
       '@hapi/tlds': 1.1.3
       '@hapi/topo': 6.0.2
-      '@standard-schema/spec': 1.0.0
+      '@standard-schema/spec': 1.1.0
 
   js-file-download@0.4.12: {}
 
@@ -3331,9 +3291,9 @@ snapshots:
       '@tsconfig/node16': 1.0.4
       regexparam: 2.0.2
 
-  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)):
+  next-validations@1.1.0(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@18.2.3))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))(next@15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)):
     dependencies:
-      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@17.13.4))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))
+      '@typeschema/main': 0.14.1(@typeschema/fastest-validator@0.2.0(fastest-validator@1.19.1))(@typeschema/joi@0.14.0(joi@18.2.3))(@typeschema/valibot@0.14.0(valibot@1.4.2(typescript@5.9.3)))(@typeschema/yup@0.14.0(yup@1.7.1))(@typeschema/zod@0.14.0(zod@3.25.76))
       next: 15.5.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
     transitivePeerDependencies:
       - '@types/json-schema'
@@ -3966,7 +3926,7 @@ snapshots:
   wait-on@8.0.5:
     dependencies:
       axios: 1.12.2
-      joi: 18.0.1
+      joi: 18.2.3
       lodash: 4.17.21
       minimist: 1.2.8
       rxjs: 7.8.2

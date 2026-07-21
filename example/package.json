@@ -17,7 +17,7 @@
     "@typeschema/valibot": "0.14.0",
     "@typeschema/yup": "0.14.0",
     "@typeschema/zod": "0.14.0",
-    "caniuse-lite": "1.0.30001805",
+    "caniuse-lite": "1.0.30001806",
     "fastest-validator": "1.19.1",
     "isarray": "2.0.5",
     "joi": "17.13.4",
@@ -27,7 +27,7 @@
     "qs": "6.15.3",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "swagger-ui-react": "5.32.8",
+    "swagger-ui-react": "5.32.9",
     "valibot": "1.4.2",
     "yup": "1.7.1",
     "zod": "3.25.76"

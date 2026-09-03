@@ -79,8 +79,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       wait-on:
-        specifier: 8.0.5
-        version: 8.0.5
+        specifier: 9.1.0
+        version: 9.1.0
 
 packages:
 
@@ -335,8 +335,8 @@ packages:
   '@sideway/pinpoint@2.0.0':
     resolution: {integrity: sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==}
 
-  '@standard-schema/spec@1.0.0':
-    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
+  '@standard-schema/spec@1.1.0':
+    resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
   '@swagger-api/apidom-ast@1.12.0':
     resolution: {integrity: sha512-C4Px0M/hNIBf2jFphrHlKe8rN5OuUaxNb3FNandzM8++Uyp9TKjdt0+FI6+sX4s8u3axvQ4c4jrjb0LW7r2jPA==}
@@ -706,11 +706,11 @@ packages:
   aws4@1.13.2:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
 
-  axios@1.12.2:
-    resolution: {integrity: sha512-vMJzPewAlRyOgxV2dU0Cuz2O8zzzx9VYtbJOaBgXFeLc4IV/Eg50n4LowmehOOR61S8ZMpc2K5Sa7g6A4jfkUw==}
-
   axios@1.18.0:
     resolution: {integrity: sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==}
+
+  axios@1.20.0:
+    resolution: {integrity: sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg==}
 
   balanced-match@4.0.4:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
@@ -989,15 +989,6 @@ packages:
     resolution: {integrity: sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg==}
     engines: {node: '>=8'}
 
-  follow-redirects@1.15.11:
-    resolution: {integrity: sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-
   follow-redirects@1.16.0:
     resolution: {integrity: sha512-y5rN/uOsadFT/JfYwhxRS5R7Qce+g3zG97+JrtFZlC9klX/W5hD7iiLzScI4nZqUS7DNUdhPgw4xI8W2LuXlUw==}
     engines: {node: '>=4.0'}
@@ -1013,10 +1004,6 @@ packages:
 
   forever-agent@0.6.1:
     resolution: {integrity: sha512-j0KLYPhm6zeac4lz3oJ3o65qvgQCcPubiyotZrXqEaG4hNagNYO8qdlUrX5vwqv9ohqeT/Z3j6+yW067yWWdUw==}
-
-  form-data@4.0.4:
-    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
-    engines: {node: '>= 6'}
 
   form-data@4.0.6:
     resolution: {integrity: sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ==}
@@ -1188,8 +1175,8 @@ packages:
   joi@17.13.6:
     resolution: {integrity: sha512-ImNZaq/LSysofih+xIGYfR0WUXMA9GLUNB//YTCSrZptoRmVgaNAdJyi6K1kXi9pkLEoSkoI8I4UwtNiu/D7nw==}
 
-  joi@18.0.1:
-    resolution: {integrity: sha512-IiQpRyypSnLisQf3PwuN2eIHAsAIGZIrLZkd4zdvIar2bDyhM91ubRjy8a3eYablXsh9BeI/c7dmPYHca5qtoA==}
+  joi@18.2.8:
+    resolution: {integrity: sha512-G2TX62h58ZHuwqetJgP2F4ualakqAmZtBYe3jWen7gxQRw5xApX6crnFtuB91WC0c3ESBnva+kGSnb3+6pIQDQ==}
     engines: {node: '>= 20'}
 
   js-file-download@0.4.12:
@@ -1453,9 +1440,6 @@ packages:
 
   proxy-from-env@1.0.0:
     resolution: {integrity: sha512-F2JHgJQ1iqwnHDcQjVBsq3n/uoaFL+iPW/eAeL7kVxy/2RrWaN4WroKjjvbsoRtv0ftelNyC01bjRhn/bhcf4A==}
-
-  proxy-from-env@1.1.0:
-    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
   proxy-from-env@2.1.0:
     resolution: {integrity: sha512-cJ+oHTW1VAEa8cJslgmUZrc+sjRKgAKl3Zyse6+PV38hZe/V6Z14TbCuXcan9F9ghlz4QrFr2c92TNF82UkYHA==}
@@ -1865,9 +1849,9 @@ packages:
     resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
     engines: {'0': node >=0.6.0}
 
-  wait-on@8.0.5:
-    resolution: {integrity: sha512-J3WlS0txVHkhLRb2FsmRg3dkMTCV1+M6Xra3Ho7HzZDHpE7DCOnoSoCJsZotrmW3uRMhvIJGSKUKrh/MeF4iag==}
-    engines: {node: '>=12.0.0'}
+  wait-on@9.1.0:
+    resolution: {integrity: sha512-PymrLXHLBM1Ju/Xspb2ADUhbPSMvbnuNvy/mN2hWtpbJ3da0h3Ky1LqwKPG5QSVR57liyO0iUpfipYl/s5qNvA==}
+    engines: {node: '>=20.0.0'}
     hasBin: true
 
   web-tree-sitter@0.24.5:
@@ -1932,7 +1916,7 @@ snapshots:
       combined-stream: 1.0.8
       extend: 3.0.2
       forever-agent: 0.6.1
-      form-data: 4.0.4
+      form-data: 4.0.6
       http-signature: 1.4.0
       is-typedarray: 1.0.0
       isstream: 0.1.2
@@ -2104,7 +2088,7 @@ snapshots:
 
   '@sideway/pinpoint@2.0.0': {}
 
-  '@standard-schema/spec@1.0.0': {}
+  '@standard-schema/spec@1.1.0': {}
 
   '@swagger-api/apidom-ast@1.12.0':
     dependencies:
@@ -2738,15 +2722,17 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  axios@1.12.2:
+  axios@1.18.0:
     dependencies:
-      follow-redirects: 1.15.11
-      form-data: 4.0.4
-      proxy-from-env: 1.1.0
+      follow-redirects: 1.16.0
+      form-data: 4.0.6
+      https-proxy-agent: 5.0.1
+      proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
+      - supports-color
 
-  axios@1.18.0:
+  axios@1.20.0:
     dependencies:
       follow-redirects: 1.16.0
       form-data: 4.0.6
@@ -3059,8 +3045,6 @@ snapshots:
     dependencies:
       escape-string-regexp: 1.0.5
 
-  follow-redirects@1.15.11: {}
-
   follow-redirects@1.16.0: {}
 
   for-each@0.3.5:
@@ -3068,14 +3052,6 @@ snapshots:
       is-callable: 1.2.7
 
   forever-agent@0.6.1: {}
-
-  form-data@4.0.4:
-    dependencies:
-      asynckit: 0.4.0
-      combined-stream: 1.0.8
-      es-set-tostringtag: 2.1.0
-      hasown: 2.0.4
-      mime-types: 2.1.35
 
   form-data@4.0.6:
     dependencies:
@@ -3248,7 +3224,7 @@ snapshots:
       '@sideway/formula': 3.0.1
       '@sideway/pinpoint': 2.0.0
 
-  joi@18.0.1:
+  joi@18.2.8:
     dependencies:
       '@hapi/address': 5.1.1
       '@hapi/formula': 3.0.2
@@ -3256,7 +3232,7 @@ snapshots:
       '@hapi/pinpoint': 2.0.1
       '@hapi/tlds': 1.1.3
       '@hapi/topo': 6.0.2
-      '@standard-schema/spec': 1.0.0
+      '@standard-schema/spec': 1.1.0
 
   js-file-download@0.4.12: {}
 
@@ -3515,8 +3491,6 @@ snapshots:
   property-information@7.1.0: {}
 
   proxy-from-env@1.0.0: {}
-
-  proxy-from-env@1.1.0: {}
 
   proxy-from-env@2.1.0: {}
 
@@ -4007,15 +3981,16 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  wait-on@8.0.5:
+  wait-on@9.1.0:
     dependencies:
-      axios: 1.12.2
-      joi: 18.0.1
-      lodash: 4.17.21
+      axios: 1.20.0
+      joi: 18.2.8
+      lodash: 4.18.1
       minimist: 1.2.8
       rxjs: 7.8.2
     transitivePeerDependencies:
       - debug
+      - supports-color
 
   web-tree-sitter@0.24.5:
     optional: true
